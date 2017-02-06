@@ -1,32 +1,46 @@
 import React, { Component } from 'react';
 import Ocean from './Ocean.js';
 import Area from './Area.js';
+import OceanTiles from './OceanTiles.js';
 
 class App extends Component {
 	constructor(props) {
 		super(props);
 		let self = this;
 		this.state = {
-			occupied: [],
+			occupiedOcean: [],
+			occupiedLand: [],
 			hue: 240,
 		}
 	}
 
   toggleOccupiedOcean(tile) {
     let self = this;
-    let index = self.state.occupied.indexOf(tile);
-    let newOccupied = self.state.occupied; 
+    let index = self.state.occupiedOcean.indexOf(tile);
+    let newOccupied = self.state.occupiedOcean; 
     if (index > -1) {
       newOccupied = newOccupied.slice(0, index).concat(newOccupied.slice(index + 1));
     } else {
       newOccupied.push(tile);
     }
-    self.setState({occupied: newOccupied})
+    self.setState({occupiedOcean: newOccupied})
+  }
+
+  toggleOccupiedLand(tile) {
+    let self = this;
+    let index = self.state.occupiedLand.indexOf(tile);
+    let newOccupied = self.state.occupiedLand; 
+    if (index > -1) {
+      newOccupied = newOccupied.slice(0, index).concat(newOccupied.slice(index + 1));
+    } else {
+      newOccupied.push(tile);
+    }
+    self.setState({occupiedLand: newOccupied})
   }
 
   render() {
 	let self = this;
-  console.log('Current occupied ocean tiles are:', self.state.occupied)
+  console.log('Current occupied ocean tiles are:', self.state.occupiedOcean)
 
     return (
 
@@ -43,159 +57,10 @@ class App extends Component {
         {/* Europe Map Background*/}
       	<img src="http://imgur.com/9ec1SWM.png" style={{position: 'absolute', left: '100px', top: '200px'}}/>
 
-        {/* NWAO */}
-        <Ocean
-          src="http://imgur.com/XQQwTt6"
-          class="NWAO"
-          hue={self.state.hue}
-          occupied={self.state.occupied}
-        />
-
-        {/* WAO */}
-        <Ocean
-          src="http://imgur.com/P9EyDW5"
-          class="WAO"
-          hue={self.state.hue}
-          occupied={self.state.occupied}
-        />
-
-        {/* NAO */}
-        <Ocean
-          src="http://imgur.com/a791muj"
-          class="NAO"
-          hue={self.state.hue}
-          occupied={self.state.occupied}
-        />
-
-        {/* Tyrrhenian Sea */}
-        <Ocean
-          src="http://imgur.com/uYy6mMB"
-          class="TyrrhenianSea"
-          hue={self.state.hue}
-          occupied={self.state.occupied}
-        />
-
-        {/* North Sea */}
-        <Ocean
-          src="http://imgur.com/2abMuYM"
-          class="NorthSea"
-          hue={self.state.hue}
-          occupied={self.state.occupied}
-        />
-
-        {/* Ionian Sea */}
-        <Ocean
-          src="http://imgur.com/HGCwUbb"
-          class="IonianSea"
-          hue={self.state.hue}
-          occupied={self.state.occupied}
-        />
-
-        {/* GulfOfGibraltar */}
-        <Ocean
-          src="http://imgur.com/ciY92Vq"
-          class="GulfOfGibraltar"
-          hue={self.state.hue}
-          occupied={self.state.occupied}
-        />
-
-        {/* GulfOfCyprus */}
-        <Ocean
-          src="http://imgur.com/PXBqdZ6"
-          class="GulfOfCyprus"
-          hue={self.state.hue}
-          occupied={self.state.occupied}
-        />
-
-        {/* GulfOfBothnia */}
-        <Ocean
-          src="http://imgur.com/KK3u8lx"
-          class="GulfOfBothnia"
-          hue={self.state.hue}
-          occupied={self.state.occupied}
-        />
-
-        {/* EnglishChannel */}
-        <Ocean
-          src="http://imgur.com/NgYhqtK"
-          class="EnglishChannel"
-          hue={self.state.hue}
-          occupied={self.state.occupied}
-        />
-
-        {/* DutchSea */}
-        <Ocean
-          src="http://imgur.com/jic0Xfj"
-          class="DutchSea"
-          hue={self.state.hue}
-          occupied={self.state.occupied}
-        />        
-
-        {/* DenmarkStrait */}
-        <Ocean
-          src="http://imgur.com/qF7hXmA"
-          class="DenmarkStrait"
-          hue={self.state.hue}
-          occupied={self.state.occupied}
-        />
-
-        {/* CelticSea */}
-        <Ocean
-          src="http://imgur.com/P6x74Cq"
-          class="CelticSea"
-          hue={self.state.hue}
-          occupied={self.state.occupied}
-        />
-
-        {/* BlackSea */}
-        <Ocean
-          src="http://imgur.com/roxuzTa"
-          class="BlackSea"
-          hue={self.state.hue}
-          occupied={self.state.occupied}
-        />        
-
-        {/* BarentsSea */}
-        <Ocean
-          src="http://imgur.com/hGEPqbA"
-          class="BarentsSea"
-          hue={self.state.hue}
-          occupied={self.state.occupied}
-        />
-
-        {/* BalticSea */}
-        <Ocean
-          src="http://imgur.com/3DqQWum"
-          class="BalticSea"
-          hue={self.state.hue}
-          occupied={self.state.occupied}
-        />
-
-        {/* BalearicSea */}
-        <Ocean
-          src="http://imgur.com/IOXCfY5"
-          class="BalearicSea"
-          hue={self.state.hue}
-          occupied={self.state.occupied}
-        />
-
-        {/* AegeanSea */}
-        <Ocean
-          src="http://imgur.com/VuNskgw"
-          class="AegeanSea"
-          hue={self.state.hue}
-          occupied={self.state.occupied}
-        />
-
-        {/* AdriaticSea */}
-        <Ocean
-          src="http://imgur.com/mpdZd9N"
-          class="AdriaticSea"
-          hue={self.state.hue}
-          occupied={self.state.occupied}
-        />        
-
-
+      	<OceanTiles
+      		hue={self.state.hue}
+      		occupiedOcean={self.state.occupiedOcean}
+      	/>
 
 
       {/* Combined Map */}

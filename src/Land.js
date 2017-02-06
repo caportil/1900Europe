@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Ocean extends Component {
+class Land extends Component {
 	constructor(props) {
 		super(props);
 		let self = this;
@@ -33,4 +33,4 @@ class Ocean extends Component {
 	}
 }
 
-export default Ocean;
+export default Land;
