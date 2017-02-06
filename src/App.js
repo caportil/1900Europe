@@ -12,6 +12,8 @@ class App extends Component {
 		this.state = {
 			occupiedOcean: [],
 			occupiedLand: [],
+			england: ['London', 'Wales', 'York', 'Liverpool', 'Edinburgh', 'Clyde'],
+			germany: ['Ireland'],
 			hue: 240,
 			englandHue: 200,
 		}
@@ -29,6 +31,23 @@ class App extends Component {
     self.setState({occupiedOcean: newOccupied})
   }
 
+  transferOwnership(tile, fromm, to) {
+  	let self = this;
+  	// console.log('self.state is:', self.state, 'and self.state[from] is:', self.state[from])
+  	let fromCountry = self.state[fromm];
+  	let toCountry = self.state[to];
+  	// console.log('transferOwnership invoked! fromCountry is:', fromCountry)
+  	let fromIndex = fromCountry.indexOf(tile);
+  	let toIndex = toCountry.indexOf(tile);
+  	let newStateObject = {};
+  	fromCountry = fromCountry.slice(0, fromIndex).concat(fromCountry.slice(fromIndex + 1));
+  	toCountry.push(tile);
+  	newStateObject[fromm] = fromCountry;
+  	newStateObject[to] = toCountry;
+  	console.log('after running transferOwnership, newStateObject is:', newStateObject)
+  	self.setState(newStateObject);
+  }
+
   toggleOccupiedLand(tile) {
     let self = this;
     let index = self.state.occupiedLand.indexOf(tile);
@@ -41,10 +60,41 @@ class App extends Component {
     self.setState({occupiedLand: newOccupied})
   }
 
+  findOwnership(tile) {
+  	let self = this;
+  	console.log('running findOwnership with tile', tile, '...')
+  	if (self.state.england.indexOf(tile) > -1) {
+  		console.log('england found!')
+  		return 'england';
+  	} else if (self.state.germany.indexOf(tile) > -1) {
+  		console.log('germany found!')
+  		return 'germany';
+  	} else if (self.state.france.indexOf(tile) > -1) {
+  		return 'france';
+  	} else if (self.state.italy.indexOf(tile) > -1) {
+  		return 'italy';
+  	} else if (self.state.austria.indexOf(tile) > -1) {
+  		return 'austria';
+  	} else if (self.state.russia.indexOf(tile) > -1) {
+  		return 'russia';
+  	} else if (self.state.ottomans.indexOf(tile) > -1) {
+  		return 'ottomans';
+  	} else {
+  		console.log('Nobody owns this tile!')
+  	}
+  }
+
+  cycleOwnership(tile) {
+  	let self = this;
+  	let owner = self.findOwnership(tile);
+  	console.log('cycleOwnership invoked and owner is currently:', owner);
+  	owner === 'england' ? self.transferOwnership(tile, 'england', 'germany') : self.transferOwnership(tile, 'germany', 'england')
+  }
+
   render() {
 	let self = this;
-  console.log('Current occupied ocean tiles are:', self.state.occupiedOcean)
-
+  // console.log('Current occupied ocean tiles are:', self.state.occupiedOcean)
+  console.log('Right now England has', self.state.england, 'and Germany has', self.state.germany)
     return (
 
     	<div onSubmit={(event) => {
@@ -67,8 +117,7 @@ class App extends Component {
 
 
       	<LandTiles
-	      	hue={self.state.englandHue}
-	      	occupiedLand={self.state.occupiedLand}
+	      	state={self.state}
       	/>
 
 
@@ -229,6 +278,7 @@ class App extends Component {
 	   			<LandArea
 	   			  class="London"
 	   			  toggleOccupiedLand={self.toggleOccupiedLand.bind(self)}
+	   			  cycleOwnership={self.cycleOwnership.bind(self)}
 	   			  coords="304,306,291,322,294,331,311,339,329,339,323,332,328,323,340,314,338,307"
 	   			/>
 

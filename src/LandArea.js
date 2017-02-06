@@ -20,7 +20,8 @@ class LandArea extends Component {
 			shape="poly" 
 			coords={self.props.coords}
 			style={{cursor: 'default'}}
-			onClick={() => self.props.toggleOccupiedLand(self.props.class) }
+			// onClick={() => self.props.toggleOccupiedLand(self.props.class) }
+			onClick={() => self.props.cycleOwnership(self.props.class)}
 		/>
 
 		)
