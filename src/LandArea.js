@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class OceanArea extends Component {
+class LandArea extends Component {
 	constructor(props) {
 		super(props);
 		let self = this;
@@ -20,11 +20,11 @@ class OceanArea extends Component {
 			shape="poly" 
 			coords={self.props.coords}
 			style={{cursor: 'default'}}
-			onClick={() => self.props.toggleOccupiedOcean(self.props.class) }
+			onClick={() => self.props.toggleOccupiedLand(self.props.class) }
 		/>
 
 		)
 	}
 }
 
-export default OceanArea;
+export default LandArea;
