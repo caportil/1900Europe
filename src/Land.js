@@ -10,7 +10,7 @@ class Land extends Component {
 
 	toggleHue() {
 		let self = this;
-		return self.props.occupiedLand.indexOf(self.props.class) > -1 ? 180 : 240;
+		return self.props.occupiedLand.indexOf(self.props.class) > -1 ? 80 : 40;
 	}
 
 	render() {
