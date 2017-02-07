@@ -13,26 +13,26 @@ class OceanTiles extends Component {
   let self = this;
   return (
     <div>
-      {/* NWAO */}
-      <Ocean
-        src="http://imgur.com/XQQwTt6"
-        class="NWAO"
-        hue={self.props.hue}
-        occupiedOcean={self.props.occupiedOcean}
-      />
-
-      {/* WAO */}
-      <Ocean
-        src="http://imgur.com/P9EyDW5"
-        class="WAO"
-        hue={self.props.hue}
-        occupiedOcean={self.props.occupiedOcean}
-      />
-
       {/* NAO */}
       <Ocean
-        src="http://imgur.com/a791muj"
+        src="http://imgur.com/XQQwTt6"
         class="NAO"
+        hue={self.props.hue}
+        occupiedOcean={self.props.occupiedOcean}
+      />
+
+      {/* MAO */}
+      <Ocean
+        src="http://imgur.com/P9EyDW5"
+        class="MAO"
+        hue={self.props.hue}
+        occupiedOcean={self.props.occupiedOcean}
+      />
+
+      {/* NorwegianSea */}
+      <Ocean
+        src="http://imgur.com/a791muj"
+        class="NorwegianSea"
         hue={self.props.hue}
         occupiedOcean={self.props.occupiedOcean}
       />
@@ -61,18 +61,18 @@ class OceanTiles extends Component {
         occupiedOcean={self.props.occupiedOcean}
       />
 
-      {/* GulfOfGibraltar */}
+      {/* WesternMediterranean */}
       <Ocean
         src="http://imgur.com/ciY92Vq"
-        class="GulfOfGibraltar"
+        class="WesternMediterranean"
         hue={self.props.hue}
         occupiedOcean={self.props.occupiedOcean}
       />
 
-      {/* GulfOfCyprus */}
+      {/* EasternMediterranean */}
       <Ocean
         src="http://imgur.com/PXBqdZ6"
-        class="GulfOfCyprus"
+        class="EasternMediterranean"
         hue={self.props.hue}
         occupiedOcean={self.props.occupiedOcean}
       />
@@ -93,26 +93,26 @@ class OceanTiles extends Component {
         occupiedOcean={self.props.occupiedOcean}
       />
 
-      {/* DutchSea */}
+      {/* HelgolandBight */}
       <Ocean
         src="http://imgur.com/jic0Xfj"
-        class="DutchSea"
+        class="HelgolandBight"
         hue={self.props.hue}
         occupiedOcean={self.props.occupiedOcean}
       />        
 
-      {/* DenmarkStrait */}
+      {/* Skagerrak */}
       <Ocean
         src="http://imgur.com/qF7hXmA"
-        class="DenmarkStrait"
+        class="Skagerrak"
         hue={self.props.hue}
         occupiedOcean={self.props.occupiedOcean}
       />
 
-      {/* CelticSea */}
+      {/* IrishSea */}
       <Ocean
         src="http://imgur.com/P6x74Cq"
-        class="CelticSea"
+        class="IrishSea"
         hue={self.props.hue}
         occupiedOcean={self.props.occupiedOcean}
       />
@@ -141,10 +141,10 @@ class OceanTiles extends Component {
         occupiedOcean={self.props.occupiedOcean}
       />
 
-      {/* BalearicSea */}
+      {/* GulfOfLyon */}
       <Ocean
         src="http://imgur.com/IOXCfY5"
-        class="BalearicSea"
+        class="GulfOfLyon"
         hue={self.props.hue}
         occupiedOcean={self.props.occupiedOcean}
       />

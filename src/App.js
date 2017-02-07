@@ -143,23 +143,23 @@ class App extends Component {
 
       {/* Ocean */}
 
-          {/* NWAO */}
-          <OceanArea
-            class="NWAO"
-            toggleOccupiedOcean={self.toggleOccupiedOcean.bind(self)}
-            coords="0,0,0,311,35,305,94,306,144,319,189,293,181,285,180,278,206,268,199,256,206,244,215,243,246,236,266,244,265,265,292,276,287,260,268,257,279,244,274,233,277,218,264,201,286,189,283,203,301,195,309,122,274,67,222,67,192,45,208,39,196,23,232,27,211,16,231,8,226,0"
-          />
-
           {/* NAO */}
           <OceanArea
             class="NAO"
             toggleOccupiedOcean={self.toggleOccupiedOcean.bind(self)}
+            coords="0,0,0,311,35,305,94,306,144,319,189,293,181,285,180,278,206,268,199,256,206,244,215,243,246,236,266,244,265,265,292,276,287,260,268,257,279,244,274,233,277,218,264,201,286,189,283,203,301,195,309,122,274,67,222,67,192,45,208,39,196,23,232,27,211,16,231,8,226,0"
+          />
+
+          {/* NorwegianSea */}
+          <OceanArea
+            class="NorwegianSea"
+            toggleOccupiedOcean={self.toggleOccupiedOcean.bind(self)}
             coords="234,5,239,26,283,33,292,54,280,71,323,128,301,157,308,194,330,191,352,173,372,175,421,169,501,119,555,59,573,50,599,32,616,26,623,5"
           />
 
-          {/* WAO */}
+          {/* MAO */}
           <OceanArea
-            class="WAO"
+            class="MAO"
             toggleOccupiedOcean={self.toggleOccupiedOcean.bind(self)}
             coords="0,315,1,641,13,641,28,615,43,603,87,598,122,572,118,546,75,535,87,512,83,494,112,470,116,434,140,427,235,455,256,419,231,375,226,365,124,318,84,307"
           />
@@ -185,16 +185,16 @@ class App extends Component {
             coords="444,595,417,617,435,642,653,642,652,627,621,615,610,596,581,555,558,556,542,550,533,563,541,571,519,591,506,591,504,613,476,600,449,595"
           />
           
-          {/* GulfOfGibraltar */}
+          {/* WesternMediterranean */}
           <OceanArea
-            class="GulfOfGibraltar"
+            class="WesternMediterranean"
             toggleOccupiedOcean={self.toggleOccupiedOcean.bind(self)}
             coords="132,566,145,586,189,599,214,587,302,589,383,596,394,576,386,546,328,538,294,547,280,542,264,552,245,546,223,556,193,569,165,562,136,566"
           />
           
-          {/* GulfOfCyprus */}
+          {/* EasternMediterranean */}
           <OceanArea
-            class="GulfOfCyprus"
+            class="EasternMediterranean"
             toggleOccupiedOcean={self.toggleOccupiedOcean.bind(self)}
             coords="658,643,882,642,873,606,879,590,851,595,828,608,807,607,789,604,764,614,751,607,708,633,697,637,665,638,660,637"
           />
@@ -213,23 +213,23 @@ class App extends Component {
             coords="190,347,226,362,248,357,271,366,274,353,298,363,316,355,326,344,295,336,282,342,261,331,253,334,242,333,230,339,225,339,191,346,193,342"
           />
           
-          {/* DutchSea */}
+          {/* HelgolandBight */}
           <OceanArea
-            class="DutchSea"
+            class="HelgolandBight"
             toggleOccupiedOcean={self.toggleOccupiedOcean.bind(self)}
             coords="431,268,400,287,398,307,417,313,429,307,436,310,443,300,441,283,435,267"
           />
           
-          {/* DenmarkStrait */}
+          {/* Skagerrak */}
           <OceanArea
-            class="DenmarkStrait"
+            class="Skagerrak"
             toggleOccupiedOcean={self.toggleOccupiedOcean.bind(self)}
             coords="479,216,441,238,441,250,454,250,463,247,475,240,470,256,480,263,480,266,496,270"
           />
           
-          {/* CelticSea */}
+          {/* IrishSea */}
           <OceanArea
-            class="CelticSea"
+            class="IrishSea"
             toggleOccupiedOcean={self.toggleOccupiedOcean.bind(self)}
             coords="255,270,239,293,223,295,202,300,192,297,153,321,188,343,226,335,232,327,241,324,253,316,265,318,249,310,248,301,260,298,263,295,258,288,267,286,273,284,289,286,290,279,268,266,253,264"
           />
@@ -255,9 +255,9 @@ class App extends Component {
             coords="549,244,540,281,517,284,507,291,491,286,479,300,474,310,499,306,518,315,529,311,558,299,577,301,591,310,587,296,598,289,602,262,583,252,574,251,569,263,566,247,550,244"
           />
           
-          {/* BalearicSea */}
+          {/* GulfOfLyon */}
           <OceanArea
-            class="BalearicSea"
+            class="GulfOfLyon"
             toggleOccupiedOcean={self.toggleOccupiedOcean.bind(self)}
             coords="314,476,314,499,292,506,268,511,242,528,252,550,275,539,301,528,316,535,360,531,384,540,387,529,403,524,400,502,419,495,427,487,417,470,392,479,375,484,362,488,343,480,331,474"
           />
