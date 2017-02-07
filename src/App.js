@@ -13,7 +13,12 @@ class App extends Component {
 			occupiedOcean: [],
 			occupiedLand: [],
 			england: ['London', 'Wales', 'York', 'Liverpool', 'Edinburgh', 'Clyde'],
-			germany: ['Ireland'],
+			germany: ['Berlin', 'Kiel', 'Ruhr', 'Silesia', 'Munich', 'Prussia'],
+			france: ['Paris', 'Brest', 'Burgundy', 'Picardy', 'Marseilles', 'Gascony'],
+			italy: ['Rome', 'Venice', 'Tuscany', 'Piemonte', 'Naples', 'Apulia'],
+			austria: ['Vienna', 'Budapest', 'Bohemia', 'Galicia', 'Trieste', 'Tyrolia'],
+			russia: ['Moscow', 'Finland', 'Livonia', 'Ukraine', 'Warsaw', 'StPetersburg', 'Sevastopol'],
+			ottomans: ['Constantinople', 'Syria', 'Smyrna', 'Armenia', 'Ankara'],
 			hue: 240,
 			englandHue: 200,
 		}
@@ -277,7 +282,7 @@ class App extends Component {
    			{/* London */}
 	   			<LandArea
 	   			  class="London"
-	   			  toggleOccupiedLand={self.toggleOccupiedLand.bind(self)}
+	   			  state={self.state}
 	   			  cycleOwnership={self.cycleOwnership.bind(self)}
 	   			  coords="304,306,291,322,294,331,311,339,329,339,323,332,328,323,340,314,338,307"
 	   			/>
@@ -285,42 +290,42 @@ class App extends Component {
    			{/* Wales */}
 	   			<LandArea
 	   			  class="Wales"
-	   			  toggleOccupiedLand={self.toggleOccupiedLand.bind(self)}
+	   			  cycleOwnership={self.cycleOwnership.bind(self)}
 	   			  coords="273,284,267,298,250,304,280,315,258,320,243,324,229,334,259,332,264,330,280,335,292,333,289,320,299,309,292,299,282,298,275,294,284,284"
 	   			/>
 
    			{/* Liverpool */}
 	   			<LandArea
 	   			  class="Liverpool"
-	   			  toggleOccupiedLand={self.toggleOccupiedLand.bind(self)}
+	   			  cycleOwnership={self.cycleOwnership.bind(self)}
 	   			  coords="284,247,271,258,290,261,291,266,294,286,281,291,297,302,302,286,305,269,300,260,290,246"
 	   			/>
 
    			{/* York */}
 	   			<LandArea
 	   			  class="York"
-	   			  toggleOccupiedLand={self.toggleOccupiedLand.bind(self)}
+	   			  cycleOwnership={self.cycleOwnership.bind(self)}
 	   			  coords="305,261,298,280,301,308,327,306,321,292,322,281,318,273,314,262"
 	   			/>
 
    			{/* Clyde */}
 	   			<LandArea
 	   			  class="Clyde"
-	   			  toggleOccupiedLand={self.toggleOccupiedLand.bind(self)}
+	   			  cycleOwnership={self.cycleOwnership.bind(self)}
 	   			  coords="275,191,266,209,267,234,281,249,293,240,297,208,311,202,301,191"
 	   			/>
 
    			{/* Edinburgh */}
 	   			<LandArea
 	   			  class="Edinburgh"
-	   			  toggleOccupiedLand={self.toggleOccupiedLand.bind(self)}
+	   			  cycleOwnership={self.cycleOwnership.bind(self)}
 	   			  coords="318,199,302,207,292,227,291,253,307,260,320,260,312,245,295,240,299,234,316,235,328,223,304,214,309,208"
 	   			/>
 
    			{/* Ireland */}
 	   			<LandArea
 	   			  class="Ireland"
-	   			  toggleOccupiedLand={self.toggleOccupiedLand.bind(self)}
+	   			  cycleOwnership={self.cycleOwnership.bind(self)}
 	   			  coords="208,248,201,260,195,277,187,291,228,295,237,295,248,269,262,261,256,244,244,238"
 	   			/>
 

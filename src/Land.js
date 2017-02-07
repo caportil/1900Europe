@@ -14,9 +14,19 @@ class Land extends Component {
 		if (self.props.state.england.indexOf(self.props.class) > -1) {
 			return 80;
 		} else if (self.props.state.germany.indexOf(self.props.class) > -1) {
-			return 40;
+			return 190;
+		} else if (self.props.state.france.indexOf(self.props.class) > -1) {
+				return 10;
+		} else if (self.props.state.italy.indexOf(self.props.class) > -1) {
+				return 300;
+		} else if (self.props.state.austria.indexOf(self.props.class) > -1) {
+				return 120;
+		} else if (self.props.state.russia.indexOf(self.props.class) > -1) {
+				return 340;
+		} else if (self.props.state.ottomans.indexOf(self.props.class) > -1) {
+				return 220;
 		} else {
-			return 160;
+			return 40;
 		}
 	}
 

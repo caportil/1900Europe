@@ -151,7 +151,7 @@ class OceanTiles extends Component {
 
       {/* AegeanSea */}
       <Ocean
-        src="http://imgur.com/VuNskgw"
+        src="http://imgur.com/MlDkahJ"
         class="AegeanSea"
         hue={self.props.hue}
         occupiedOcean={self.props.occupiedOcean}

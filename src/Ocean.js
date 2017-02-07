@@ -25,7 +25,7 @@ class Ocean extends Component {
 		  	{{position: 'absolute', 
 	    	  left: '100px', 
 	    	  top: '200px', 
-	    	  filter: `hue-rotate(${self.toggleHue()}deg) opacity(75%) brightness(100%) saturate(100%)`
+	    	  filter: `hue-rotate(${self.toggleHue()}deg) opacity(45%) brightness(100%) saturate(100%)`
 			}} 
 		/>
 
