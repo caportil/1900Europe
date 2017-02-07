@@ -11,19 +11,19 @@ class Land extends Component {
 	toggleHue() {
 		let self = this;
 		// return self.props.state.occupiedLand.indexOf(self.props.class) > -1 ? 80 : 40;
-		if (self.props.state.england.indexOf(self.props.class) > -1) {
+		if (self.props.england.indexOf(self.props.class) > -1) {
 			return 80;
-		} else if (self.props.state.germany.indexOf(self.props.class) > -1) {
+		} else if (self.props.germany.indexOf(self.props.class) > -1) {
 			return 190;
-		} else if (self.props.state.france.indexOf(self.props.class) > -1) {
+		} else if (self.props.france.indexOf(self.props.class) > -1) {
 				return 10;
-		} else if (self.props.state.italy.indexOf(self.props.class) > -1) {
+		} else if (self.props.italy.indexOf(self.props.class) > -1) {
 				return 300;
-		} else if (self.props.state.austria.indexOf(self.props.class) > -1) {
+		} else if (self.props.austria.indexOf(self.props.class) > -1) {
 				return 120;
-		} else if (self.props.state.russia.indexOf(self.props.class) > -1) {
+		} else if (self.props.russia.indexOf(self.props.class) > -1) {
 				return 340;
-		} else if (self.props.state.ottomans.indexOf(self.props.class) > -1) {
+		} else if (self.props.ottomans.indexOf(self.props.class) > -1) {
 				return 220;
 		} else {
 			return 40;

@@ -122,7 +122,13 @@ class App extends Component {
 
 
       	<LandTiles
-	      	state={self.state}
+	      	england={self.state.england}
+	      	germany={self.state.germany}
+	      	france={self.state.france}
+	      	italy={self.state.italy}
+	      	austria={self.state.austria}
+	      	russia={self.state.russia}
+	      	ottomans={self.state.ottomans}
       	/>
 
 
