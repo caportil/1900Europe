@@ -18,6 +18,7 @@ class OceanTiles extends Component {
         src="http://imgur.com/XQQwTt6"
         class="NAO"
         occupiedOcean={self.props.occupiedOcean}
+        latestChange={self.props.latestChange}
       />
 
       {/* MAO */}
@@ -25,6 +26,7 @@ class OceanTiles extends Component {
         src="http://imgur.com/P9EyDW5"
         class="MAO"
         occupiedOcean={self.props.occupiedOcean}
+        latestChange={self.props.latestChange}
       />
 
       {/* NorwegianSea */}
@@ -32,6 +34,7 @@ class OceanTiles extends Component {
         src="http://imgur.com/a791muj"
         class="NorwegianSea"
         occupiedOcean={self.props.occupiedOcean}
+        latestChange={self.props.latestChange}
       />
 
       {/* Tyrrhenian Sea */}
@@ -39,6 +42,7 @@ class OceanTiles extends Component {
         src="http://imgur.com/uYy6mMB"
         class="TyrrhenianSea"
         occupiedOcean={self.props.occupiedOcean}
+        latestChange={self.props.latestChange}
       />
 
       {/* North Sea */}
@@ -46,6 +50,7 @@ class OceanTiles extends Component {
         src="http://imgur.com/2abMuYM"
         class="NorthSea"
         occupiedOcean={self.props.occupiedOcean}
+        latestChange={self.props.latestChange}
       />
 
       {/* Ionian Sea */}
@@ -53,6 +58,7 @@ class OceanTiles extends Component {
         src="http://imgur.com/HGCwUbb"
         class="IonianSea"
         occupiedOcean={self.props.occupiedOcean}
+        latestChange={self.props.latestChange}
       />
 
       {/* WesternMediterranean */}
@@ -60,6 +66,7 @@ class OceanTiles extends Component {
         src="http://imgur.com/ciY92Vq"
         class="WesternMediterranean"
         occupiedOcean={self.props.occupiedOcean}
+        latestChange={self.props.latestChange}
       />
 
       {/* EasternMediterranean */}
@@ -67,6 +74,7 @@ class OceanTiles extends Component {
         src="http://imgur.com/PXBqdZ6"
         class="EasternMediterranean"
         occupiedOcean={self.props.occupiedOcean}
+        latestChange={self.props.latestChange}
       />
 
       {/* GulfOfBothnia */}
@@ -74,6 +82,7 @@ class OceanTiles extends Component {
         src="http://imgur.com/KK3u8lx"
         class="GulfOfBothnia"
         occupiedOcean={self.props.occupiedOcean}
+        latestChange={self.props.latestChange}
       />
 
       {/* EnglishChannel */}
@@ -81,6 +90,7 @@ class OceanTiles extends Component {
         src="http://imgur.com/NgYhqtK"
         class="EnglishChannel"
         occupiedOcean={self.props.occupiedOcean}
+        latestChange={self.props.latestChange}
       />
 
       {/* HelgolandBight */}
@@ -88,6 +98,7 @@ class OceanTiles extends Component {
         src="http://imgur.com/jic0Xfj"
         class="HelgolandBight"
         occupiedOcean={self.props.occupiedOcean}
+        latestChange={self.props.latestChange}
       />        
 
       {/* Skagerrak */}
@@ -95,6 +106,7 @@ class OceanTiles extends Component {
         src="http://imgur.com/qF7hXmA"
         class="Skagerrak"
         occupiedOcean={self.props.occupiedOcean}
+        latestChange={self.props.latestChange}
       />
 
       {/* IrishSea */}
@@ -102,6 +114,7 @@ class OceanTiles extends Component {
         src="http://imgur.com/P6x74Cq"
         class="IrishSea"
         occupiedOcean={self.props.occupiedOcean}
+        latestChange={self.props.latestChange}
       />
 
       {/* BlackSea */}
@@ -109,6 +122,7 @@ class OceanTiles extends Component {
         src="http://imgur.com/roxuzTa"
         class="BlackSea"
         occupiedOcean={self.props.occupiedOcean}
+        latestChange={self.props.latestChange}
       />        
 
       {/* BarentsSea */}
@@ -116,6 +130,7 @@ class OceanTiles extends Component {
         src="http://imgur.com/hGEPqbA"
         class="BarentsSea"
         occupiedOcean={self.props.occupiedOcean}
+        latestChange={self.props.latestChange}
       />
 
       {/* BalticSea */}
@@ -123,6 +138,7 @@ class OceanTiles extends Component {
         src="http://imgur.com/3DqQWum"
         class="BalticSea"
         occupiedOcean={self.props.occupiedOcean}
+        latestChange={self.props.latestChange}
       />
 
       {/* GulfOfLyon */}
@@ -130,6 +146,7 @@ class OceanTiles extends Component {
         src="http://imgur.com/IOXCfY5"
         class="GulfOfLyon"
         occupiedOcean={self.props.occupiedOcean}
+        latestChange={self.props.latestChange}
       />
 
       {/* AegeanSea */}
@@ -137,6 +154,7 @@ class OceanTiles extends Component {
         src="http://imgur.com/MlDkahJ"
         class="AegeanSea"
         occupiedOcean={self.props.occupiedOcean}
+        latestChange={self.props.latestChange}
       />
 
       {/* AdriaticSea */}
@@ -144,6 +162,7 @@ class OceanTiles extends Component {
         src="http://imgur.com/mpdZd9N"
         class="AdriaticSea"
         occupiedOcean={self.props.occupiedOcean}
+        latestChange={self.props.latestChange}
       />        
     </div>
     )

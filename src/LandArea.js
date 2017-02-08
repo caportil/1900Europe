@@ -8,8 +8,13 @@ class LandArea extends Component {
 		}
 	}
 
+	shouldComponentUpdate() {
+		return false;
+	}
+
 	render() {
 	let self = this;
+	console.log('Rendering LandArea.js...')
 	return (
 
 		<area 

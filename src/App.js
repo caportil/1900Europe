@@ -35,7 +35,8 @@ class App extends Component {
     } else {
       newOccupied.push(tile);
     }
-    self.setState({occupiedOcean: newOccupied})
+    // console.log('occupiedOcean is:', self.state.occupiedOcean)
+    self.setState({occupiedOcean: newOccupied, latestChange: tile})
   }
 
   transferOwnership(tile, fromm, to) {
@@ -52,7 +53,7 @@ class App extends Component {
   	newStateObject[fromm] = fromCountry;
   	newStateObject[to] = toCountry;
   	newStateObject['latestChange'] = tile;
-  	console.log('after running transferOwnership, newStateObject is:', newStateObject)
+  	// console.log('after running transferOwnership, newStateObject is:', newStateObject)
   	self.setState(newStateObject);
   }
 
@@ -70,7 +71,7 @@ class App extends Component {
 
   findOwnership(tile) {
   	let self = this;
-  	console.log('running findOwnership with tile', tile, '...')
+  	// console.log('running findOwnership with tile', tile, '...')
   	if (self.state.england.indexOf(tile) > -1) {
   		console.log('england found!')
   		return 'england';
@@ -95,7 +96,7 @@ class App extends Component {
   cycleOwnership(tile) {
   	let self = this;
   	let owner = self.findOwnership(tile);
-  	console.log('cycleOwnership invoked and owner is currently:', owner);
+  	// console.log('cycleOwnership invoked and owner is currently:', owner);
   	owner === 'england' ? self.transferOwnership(tile, 'england', 'germany') : self.transferOwnership(tile, 'germany', 'england')
   }
 
@@ -105,12 +106,12 @@ class App extends Component {
 
   componentDidUpdate() {
   	let self = this;
-  	console.log('Finished rendering... self.state is:', self.state)
+  	console.log('Finished rendering...')
   }
 
   render() {
 	let self = this;
-	console.log('Rendering...')
+	console.log('Rendering in App.js... Countries currently are:', self.state)
     return (
 
     	<div onSubmit={(event) => {
@@ -128,6 +129,7 @@ class App extends Component {
 
       	<OceanTiles
       		occupiedOcean={self.state.occupiedOcean}
+      		latestChange={self.state.latestChange}
       	/>
 
 

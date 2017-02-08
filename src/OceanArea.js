@@ -8,8 +8,13 @@ class OceanArea extends Component {
 		}
 	}
 
+	shouldComponentUpdate() {
+		return false;
+	}
+
 	render() {
 	let self = this;
+	console.log('Rendering OceanArea.js...')
 	return (
 
 		<area 
