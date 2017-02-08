@@ -8,6 +8,10 @@ class Ocean extends Component {
 		}
 	}
 
+	shouldComponentUpdate(nextProps) {
+		return (this.props.england !== nextProps.england)
+	}
+	
 	toggleHue() {
 		let self = this;
 		return self.props.occupiedOcean.indexOf(self.props.class) > -1 ? 180 : 240;
@@ -15,6 +19,7 @@ class Ocean extends Component {
 
 	render() {
 	let self = this;
+	console.log('Running a render in ' + self.props.class + '...')
 	return (
 
 		<img src={`${self.props.src}.png`}
@@ -25,7 +30,7 @@ class Ocean extends Component {
 		  	{{position: 'absolute', 
 	    	  left: '100px', 
 	    	  top: '200px', 
-	    	  filter: `hue-rotate(${self.toggleHue()}deg) opacity(45%) brightness(100%) saturate(100%)`
+	    	  filter: `hue-rotate(240deg) opacity(45%) brightness(100%) saturate(100%)`
 			}} 
 		/>
 

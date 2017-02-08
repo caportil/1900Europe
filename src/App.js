@@ -21,8 +21,10 @@ class App extends Component {
 			ottomans: ['Constantinople', 'Syria', 'Smyrna', 'Armenia', 'Ankara'],
 			hue: 240,
 			englandHue: 200,
+			latestChange: "",
 		}
 	}
+
 
   toggleOccupiedOcean(tile) {
     let self = this;
@@ -49,6 +51,7 @@ class App extends Component {
   	toCountry.push(tile);
   	newStateObject[fromm] = fromCountry;
   	newStateObject[to] = toCountry;
+  	newStateObject['latestChange'] = tile;
   	console.log('after running transferOwnership, newStateObject is:', newStateObject)
   	self.setState(newStateObject);
   }
@@ -96,10 +99,18 @@ class App extends Component {
   	owner === 'england' ? self.transferOwnership(tile, 'england', 'germany') : self.transferOwnership(tile, 'germany', 'england')
   }
 
+  componentDidMount() {
+  	console.log('Finished mounting')
+  }
+
+  componentDidUpdate() {
+  	let self = this;
+  	console.log('Finished rendering... self.state is:', self.state)
+  }
+
   render() {
 	let self = this;
-  // console.log('Current occupied ocean tiles are:', self.state.occupiedOcean)
-  console.log('Right now England has', self.state.england, 'and Germany has', self.state.germany)
+	console.log('Rendering...')
     return (
 
     	<div onSubmit={(event) => {
@@ -116,7 +127,6 @@ class App extends Component {
       	<img src="http://imgur.com/9ec1SWM.png" style={{position: 'absolute', left: '100px', top: '200px'}}/>
 
       	<OceanTiles
-      		hue={self.state.hue}
       		occupiedOcean={self.state.occupiedOcean}
       	/>
 
@@ -129,6 +139,7 @@ class App extends Component {
 	      	austria={self.state.austria}
 	      	russia={self.state.russia}
 	      	ottomans={self.state.ottomans}
+	      	latestChange={self.state.latestChange}
       	/>
 
 

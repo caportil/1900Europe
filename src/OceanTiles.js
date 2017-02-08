@@ -17,7 +17,6 @@ class OceanTiles extends Component {
       <Ocean
         src="http://imgur.com/XQQwTt6"
         class="NAO"
-        hue={self.props.hue}
         occupiedOcean={self.props.occupiedOcean}
       />
 
@@ -25,7 +24,6 @@ class OceanTiles extends Component {
       <Ocean
         src="http://imgur.com/P9EyDW5"
         class="MAO"
-        hue={self.props.hue}
         occupiedOcean={self.props.occupiedOcean}
       />
 
@@ -33,7 +31,6 @@ class OceanTiles extends Component {
       <Ocean
         src="http://imgur.com/a791muj"
         class="NorwegianSea"
-        hue={self.props.hue}
         occupiedOcean={self.props.occupiedOcean}
       />
 
@@ -41,7 +38,6 @@ class OceanTiles extends Component {
       <Ocean
         src="http://imgur.com/uYy6mMB"
         class="TyrrhenianSea"
-        hue={self.props.hue}
         occupiedOcean={self.props.occupiedOcean}
       />
 
@@ -49,7 +45,6 @@ class OceanTiles extends Component {
       <Ocean
         src="http://imgur.com/2abMuYM"
         class="NorthSea"
-        hue={self.props.hue}
         occupiedOcean={self.props.occupiedOcean}
       />
 
@@ -57,7 +52,6 @@ class OceanTiles extends Component {
       <Ocean
         src="http://imgur.com/HGCwUbb"
         class="IonianSea"
-        hue={self.props.hue}
         occupiedOcean={self.props.occupiedOcean}
       />
 
@@ -65,7 +59,6 @@ class OceanTiles extends Component {
       <Ocean
         src="http://imgur.com/ciY92Vq"
         class="WesternMediterranean"
-        hue={self.props.hue}
         occupiedOcean={self.props.occupiedOcean}
       />
 
@@ -73,7 +66,6 @@ class OceanTiles extends Component {
       <Ocean
         src="http://imgur.com/PXBqdZ6"
         class="EasternMediterranean"
-        hue={self.props.hue}
         occupiedOcean={self.props.occupiedOcean}
       />
 
@@ -81,7 +73,6 @@ class OceanTiles extends Component {
       <Ocean
         src="http://imgur.com/KK3u8lx"
         class="GulfOfBothnia"
-        hue={self.props.hue}
         occupiedOcean={self.props.occupiedOcean}
       />
 
@@ -89,7 +80,6 @@ class OceanTiles extends Component {
       <Ocean
         src="http://imgur.com/NgYhqtK"
         class="EnglishChannel"
-        hue={self.props.hue}
         occupiedOcean={self.props.occupiedOcean}
       />
 
@@ -97,7 +87,6 @@ class OceanTiles extends Component {
       <Ocean
         src="http://imgur.com/jic0Xfj"
         class="HelgolandBight"
-        hue={self.props.hue}
         occupiedOcean={self.props.occupiedOcean}
       />        
 
@@ -105,7 +94,6 @@ class OceanTiles extends Component {
       <Ocean
         src="http://imgur.com/qF7hXmA"
         class="Skagerrak"
-        hue={self.props.hue}
         occupiedOcean={self.props.occupiedOcean}
       />
 
@@ -113,7 +101,6 @@ class OceanTiles extends Component {
       <Ocean
         src="http://imgur.com/P6x74Cq"
         class="IrishSea"
-        hue={self.props.hue}
         occupiedOcean={self.props.occupiedOcean}
       />
 
@@ -121,7 +108,6 @@ class OceanTiles extends Component {
       <Ocean
         src="http://imgur.com/roxuzTa"
         class="BlackSea"
-        hue={self.props.hue}
         occupiedOcean={self.props.occupiedOcean}
       />        
 
@@ -129,7 +115,6 @@ class OceanTiles extends Component {
       <Ocean
         src="http://imgur.com/hGEPqbA"
         class="BarentsSea"
-        hue={self.props.hue}
         occupiedOcean={self.props.occupiedOcean}
       />
 
@@ -137,7 +122,6 @@ class OceanTiles extends Component {
       <Ocean
         src="http://imgur.com/3DqQWum"
         class="BalticSea"
-        hue={self.props.hue}
         occupiedOcean={self.props.occupiedOcean}
       />
 
@@ -145,7 +129,6 @@ class OceanTiles extends Component {
       <Ocean
         src="http://imgur.com/IOXCfY5"
         class="GulfOfLyon"
-        hue={self.props.hue}
         occupiedOcean={self.props.occupiedOcean}
       />
 
@@ -153,7 +136,6 @@ class OceanTiles extends Component {
       <Ocean
         src="http://imgur.com/MlDkahJ"
         class="AegeanSea"
-        hue={self.props.hue}
         occupiedOcean={self.props.occupiedOcean}
       />
 
@@ -161,7 +143,6 @@ class OceanTiles extends Component {
       <Ocean
         src="http://imgur.com/mpdZd9N"
         class="AdriaticSea"
-        hue={self.props.hue}
         occupiedOcean={self.props.occupiedOcean}
       />        
     </div>

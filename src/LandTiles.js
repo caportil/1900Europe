@@ -25,6 +25,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -37,6 +38,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -49,6 +51,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -61,6 +64,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -73,6 +77,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -85,10 +90,12 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
         src="http://imgur.com/Ubw82Yu"
+        src2="http://imgur.com/8T9Xetf"
         class="Ireland"
         england={self.props.england}
         germany={self.props.germany}
@@ -97,6 +104,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
 {/* Germany */}
@@ -110,6 +118,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -122,6 +131,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -134,6 +144,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -146,6 +157,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -158,6 +170,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -170,6 +183,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
 {/* France */}
@@ -183,6 +197,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -195,6 +210,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -207,6 +223,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -219,6 +236,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -231,6 +249,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -243,6 +262,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
 {/* Italy */}
@@ -256,6 +276,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -268,6 +289,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -280,6 +302,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -292,6 +315,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -304,6 +328,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -316,6 +341,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
 {/* Austria */}
@@ -329,6 +355,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -341,6 +368,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -353,6 +381,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -365,6 +394,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -377,6 +407,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -389,6 +420,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
 {/* Russia */}
@@ -402,6 +434,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -414,6 +447,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -426,6 +460,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -438,6 +473,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -450,6 +486,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -462,6 +499,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -474,6 +512,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
 {/* Ottomans */}
@@ -487,6 +526,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -499,6 +539,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -511,6 +552,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -523,6 +565,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -535,6 +578,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
 {/* Neutral */}
@@ -549,6 +593,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -561,6 +606,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -573,6 +619,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -585,6 +632,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -597,6 +645,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -609,6 +658,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -621,6 +671,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -633,6 +684,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -645,6 +697,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -657,6 +710,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -669,6 +723,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -681,6 +736,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -693,6 +749,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -705,6 +762,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
       <Land
@@ -717,6 +775,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
       />
 
     </div>
