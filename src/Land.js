@@ -63,8 +63,6 @@ class Land extends Component {
 
 	toggleHue() {
 		let self = this;
-		// console.log('running toggleHue... currentOwner:', currentOwner)
-		// return self.props.state.occupiedLand.indexOf(self.props.class) > -1 ? 80 : 40;
 		if (currentOwner === 'england') {
 			return 80;
 		} else if (currentOwner === 'germany') {
@@ -91,7 +89,6 @@ class Land extends Component {
 
 		<img 
 			src={`${self.props.src}.png`}
-			// src={`${self.props.class === 'Ireland' && self.props.england.indexOf(self.props.class) > -1 ? self.props.src : self.props.class === 'Ireland' ? self.props.src2 : self.props.src}.png`}
 		  class={self.props.class}
 		  alt="" 
 		  useMap="#combinedMap"
