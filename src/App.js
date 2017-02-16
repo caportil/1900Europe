@@ -44,7 +44,6 @@ class App extends Component {
   	// console.log('self.state is:', self.state, 'and self.state[from] is:', self.state[from])
   	let fromCountry = self.state[fromm];
   	let toCountry = self.state[to];
-  	// console.log('transferOwnership invoked! fromCountry is:', fromCountry)
   	let fromIndex = fromCountry.indexOf(tile);
   	let toIndex = toCountry.indexOf(tile);
   	let newStateObject = {};

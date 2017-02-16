@@ -17,6 +17,7 @@ class LandTiles extends Component {
 {/* England */}
       <Land
         src="http://imgur.com/HOM3XYY"
+        src2=""
         class="London"
         england={self.props.england}
         germany={self.props.germany}
