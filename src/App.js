@@ -131,7 +131,7 @@ class App extends Component {
       		latestChange={self.state.latestChange}
       	/>
 
-
+      	{/*
       	<LandTiles
 	      	england={self.state.england}
 	      	germany={self.state.germany}
@@ -142,7 +142,7 @@ class App extends Component {
 	      	ottomans={self.state.ottomans}
 	      	latestChange={self.state.latestChange}
       	/>
-
+				*/}
 
 
 

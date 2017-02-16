@@ -30,8 +30,8 @@ class Ocean extends Component {
 		  useMap="#combinedMap"
 		  style=
 		  	{{position: 'absolute', 
-	    	  left: '100px', 
-	    	  top: '200px', 
+	    	  left: self.props.left !== "LEFTLEFTLEFT" ? `${Number(self.props.left) + 100}px`  : 0, 
+	    	  top: self.props.top !== "TOPTOPTOP" ? `${Number(self.props.top) + 200}px`: 0, 
 	    	  filter: `hue-rotate(${self.toggleHue()}deg) opacity(45%) opacity(70%)`
 			}} 
 		/>
