@@ -173,6 +173,10 @@ class App extends Component {
 
 
 
+
+
+
+
     {/* Combined Map */}
         <map name="combinedMap">
 
