@@ -22,6 +22,7 @@ class App extends Component {
 			hue: 240,
 			englandHue: 200,
 			latestChange: "",
+			altSprite: false,
 		}
 	}
 
@@ -110,7 +111,9 @@ class App extends Component {
 
   render() {
 	let self = this;
-	console.log('Rendering in App.js... Countries currently are:', self.state)
+	const stylesheet = {
+	}
+	console.log('Rendering in App.js... Countries currently are:', self.state, 'and self.state.altSprite is:', self.state.altSprite)
     return (
 
     	<div onSubmit={(event) => {
@@ -161,8 +164,6 @@ class App extends Component {
 	      		onMouseLeave={() => self.setState({altSprite: !self.state.altSprite})}
 	      	/>
       	</map>
-
-
 
 
 
