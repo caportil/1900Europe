@@ -22,6 +22,7 @@ class App extends Component {
 			hue: 240,
 			englandHue: 200,
 			latestChange: "",
+			altSprite: false,
 		}
 	}
 
@@ -110,7 +111,9 @@ class App extends Component {
 
   render() {
 	let self = this;
-	console.log('Rendering in App.js... Countries currently are:', self.state)
+	const stylesheet = {
+	}
+	console.log('Rendering in App.js... Countries currently are:', self.state, 'and self.state.altSprite is:', self.state.altSprite)
     return (
 
     	<div onSubmit={(event) => {
@@ -145,47 +148,24 @@ class App extends Component {
       	/>
 				*/}
 
-				<img src="http://imgur.com/nMqsjla.png" 
-				  useMap="#mapWest"
-				  style=
-				  	{{position: 'absolute',
-			    	  left: '100px',
-			    	  top: '1000px',
-			    	}}
-				/>
-				<map name="mapWest">
-					<area 
-						// class={self.props.class} 
-						alt="" 
-						title="" 
-						nohref="nohref" 
-						shape="poly" 
-						coords="3,31,33,54,66,60,84,50,186,52,260,61,265,40,258,11,198,4,156,6,112,10,75,26,55,35,35,29,4,28"
-						// style={{cursor: 'default'}}
-						onClick={() => console.log('WesternMediterranean clicked!') }
-					/>
-				</map>
+      	<img src="" style={{position: 'absolute', left: '100px', top: '1200px', width: '1011px', height: '645px',  background: `url(http://imgur.com/GcuArK8.png) 0px ${self.state.altSprite ? '-645px' : '0px'}`}} useMap="#spriteMap"
+      	/>
+      	<map name="spriteMap">
+	      	<area 
+	      		class="NAO2"
+	      		alt="" 
+	      		title="" 
+	      		nohref="nohref" 
+	      		shape="poly" 
+	      		coords="0,0,0,311,35,305,94,306,144,319,189,293,181,285,180,278,206,268,199,256,206,244,215,243,246,236,266,244,265,265,292,276,287,260,268,257,279,244,274,233,277,218,264,201,286,189,283,203,301,195,309,122,274,67,222,67,192,45,208,39,196,23,232,27,211,16,231,8,226,0"
+	      		style={{cursor: 'default'}}
+	      		// onClick={() => self.props.toggleOccupiedOcean(self.props.class) }
+	      		onMouseEnter={() => self.setState({altSprite: !self.state.altSprite})}
+	      		onMouseLeave={() => self.setState({altSprite: !self.state.altSprite})}
+	      	/>
+      	</map>
 
-				<img src="http://imgur.com/RtePfmD.png" 
-				  useMap="#mapEast"
-				  style=
-				  	{{position: 'absolute',
-			    	  left: '100px',
-			    	  top: '1250px',
-			    	}}
-				/>
-				<map name="mapEast">
-					<area 
-						// class={self.props.class} 
-						alt="" 
-						title="" 
-						nohref="nohref" 
-						shape="poly" 
-						coords="0,50,20,51,43,48,62,39,91,22,113,26,128,13,157,23,186,13,195,5,208,12,219,0,209,12,221,39,220,52,81,52"
-						// style={{cursor: 'default'}}
-						onClick={() => console.log('EasternMediterranean clicked!') }
-					/>
-				</map>
+
 
 
 

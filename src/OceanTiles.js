@@ -15,8 +15,12 @@ class OceanTiles extends Component {
     <div>
       {/* NAO */}
       <Ocean
+<<<<<<< HEAD
         src="http://imgur.com/rc8tfJH"
         src2="http://imgur.com/XQQwTt6"
+=======
+        src="http://imgur.com/VTwVKb7"
+>>>>>>> Complete converting ocean tiles to sprites
         class="NAO"
         left={3}
         top={3}
@@ -29,8 +33,12 @@ class OceanTiles extends Component {
 
       {/* MAO */}
       <Ocean
+<<<<<<< HEAD
         src="http://imgur.com/tlHGD7F"
         src2="http://imgur.com/P9EyDW5"
+=======
+        src="http://imgur.com/MTOmgVG"
+>>>>>>> Complete converting ocean tiles to sprites
         class="MAO"
         left={3}
         top={308}
@@ -43,8 +51,12 @@ class OceanTiles extends Component {
 
       {/* NorwegianSea */}
       <Ocean
+<<<<<<< HEAD
         src="http://imgur.com/v98F6Wg"
         src2="http://imgur.com/a791muj"
+=======
+        src="http://imgur.com/OLfTZsh"
+>>>>>>> Complete converting ocean tiles to sprites
         class="NorwegianSea"
         left={229}
         top={3}
@@ -57,8 +69,12 @@ class OceanTiles extends Component {
 
       {/* Tyrrhenian Sea */}
       <Ocean
+<<<<<<< HEAD
         src="http://imgur.com/boGrbzW"
         src2="http://imgur.com/uYy6mMB"
+=======
+        src="http://imgur.com/UDy1JVC"
+>>>>>>> Complete converting ocean tiles to sprites
         class="TyrrhenianSea"
         left={393}
         top={493}
@@ -71,8 +87,12 @@ class OceanTiles extends Component {
 
       {/* North Sea */}
       <Ocean
+<<<<<<< HEAD
         src="http://imgur.com/kxT8PjX"
         src2="http://imgur.com/2abMuYM"
+=======
+        src="http://imgur.com/dWtWrPl"
+>>>>>>> Complete converting ocean tiles to sprites
         class="NorthSea"
         left={306}
         top={169}
@@ -85,8 +105,12 @@ class OceanTiles extends Component {
 
       {/* Ionian Sea */}
       <Ocean
+<<<<<<< HEAD
         src="http://imgur.com/55REEea"
         src2="http://imgur.com/HGCwUbb"
+=======
+        src="http://imgur.com/PuoblhW"
+>>>>>>> Complete converting ocean tiles to sprites
         class="IonianSea"
         left={417}
         top={546}
@@ -99,8 +123,12 @@ class OceanTiles extends Component {
 
       {/* WesternMediterranean */}
       <Ocean
+<<<<<<< HEAD
         src="http://imgur.com/nMqsjla"
         src2="http://imgur.com/ciY92Vq"
+=======
+        src="http://imgur.com/rgpck1e"
+>>>>>>> Complete converting ocean tiles to sprites
         class="WesternMediterranean"
         left={129}
         top={534}
@@ -113,8 +141,12 @@ class OceanTiles extends Component {
 
       {/* EasternMediterranean */}
       <Ocean
+<<<<<<< HEAD
         src="http://imgur.com/RtePfmD"
         src2="http://imgur.com/PXBqdZ6"
+=======
+        src="http://imgur.com/uDOCMjP"
+>>>>>>> Complete converting ocean tiles to sprites
         class="EasternMediterranean"
         left={659}
         top={589}
@@ -127,8 +159,12 @@ class OceanTiles extends Component {
 
       {/* GulfOfBothnia */}
       <Ocean
+<<<<<<< HEAD
         src="http://imgur.com/WSqJsnI"
         src2="http://imgur.com/KK3u8lx"
+=======
+        src="http://imgur.com/XtJfiDb"
+>>>>>>> Complete converting ocean tiles to sprites
         class="GulfOfBothnia"
         left={551}
         top={109}
@@ -141,8 +177,12 @@ class OceanTiles extends Component {
 
       {/* EnglishChannel */}
       <Ocean
+<<<<<<< HEAD
         src="http://imgur.com/hec7BAX"
         src2="http://imgur.com/NgYhqtK"
+=======
+        src="http://imgur.com/215VfTz"
+>>>>>>> Complete converting ocean tiles to sprites
         class="EnglishChannel"
         left={192}
         top={332}
@@ -155,8 +195,12 @@ class OceanTiles extends Component {
 
       {/* HelgolandBight */}
       <Ocean
+<<<<<<< HEAD
         src="http://imgur.com/40qVi3u"
         src2="http://imgur.com/jic0Xfj"
+=======
+        src="http://imgur.com/Ykm7ZuR"
+>>>>>>> Complete converting ocean tiles to sprites
         class="HelgolandBight"
         left={397}
         top={270}
@@ -169,8 +213,12 @@ class OceanTiles extends Component {
 
       {/* Skagerrak */}
       <Ocean
+<<<<<<< HEAD
         src="http://imgur.com/2xrFZCG"
         src2="http://imgur.com/qF7hXmA"
+=======
+        src="http://imgur.com/C5WfBRZ"
+>>>>>>> Complete converting ocean tiles to sprites
         class="Skagerrak"
         left={439}
         top={210}
@@ -183,8 +231,12 @@ class OceanTiles extends Component {
 
       {/* Celtic Sea */}
       <Ocean
+<<<<<<< HEAD
         src="http://imgur.com/Cruqvnh"
         src2="http://imgur.com/P6x74Cq"
+=======
+        src="http://imgur.com/umxZ1Jf"
+>>>>>>> Complete converting ocean tiles to sprites
         class="IrishSea"
         left={149}
         top={264}
@@ -197,8 +249,12 @@ class OceanTiles extends Component {
 
       {/* BlackSea */}
       <Ocean
+<<<<<<< HEAD
         src="http://imgur.com/ekrDFpD"
         src2="http://imgur.com/roxuzTa"
+=======
+        src="http://imgur.com/nQVQa7y"
+>>>>>>> Complete converting ocean tiles to sprites
         class="BlackSea"
         left={716}
         top={406}
@@ -211,8 +267,12 @@ class OceanTiles extends Component {
 
       {/* BarentsSea */}
       <Ocean
+<<<<<<< HEAD
         src="http://imgur.com/jCx3aWr"
         src2="http://imgur.com/hGEPqbA"
+=======
+        src="http://imgur.com/mUMp8gA"
+>>>>>>> Complete converting ocean tiles to sprites
         class="BarentsSea"
         left={625}
         top={3}
@@ -225,8 +285,12 @@ class OceanTiles extends Component {
 
       {/* BalticSea */}
       <Ocean
+<<<<<<< HEAD
         src="http://imgur.com/wqfAjMw"
         src2="http://imgur.com/3DqQWum"
+=======
+        src="http://imgur.com/ZMFT0By"
+>>>>>>> Complete converting ocean tiles to sprites
         class="BalticSea"
         left={472}
         top={243}
@@ -239,8 +303,12 @@ class OceanTiles extends Component {
 
       {/* GulfOfLyon */}
       <Ocean
+<<<<<<< HEAD
         src="http://imgur.com/frYwXGi"
         src2="http://imgur.com/IOXCfY5"
+=======
+        src="http://imgur.com/jac98qZ"
+>>>>>>> Complete converting ocean tiles to sprites
         class="GulfOfLyon"
         left={237}
         top={470}
@@ -253,8 +321,12 @@ class OceanTiles extends Component {
 
       {/* AegeanSea */}
       <Ocean
+<<<<<<< HEAD
         src="http://imgur.com/efGfcmi"
         src2="http://imgur.com/MlDkahJ"
+=======
+        src="http://imgur.com/ey8WS7t"
+>>>>>>> Complete converting ocean tiles to sprites
         class="AegeanSea"
         left={634}
         top={538}
@@ -267,8 +339,12 @@ class OceanTiles extends Component {
 
       {/* AdriaticSea */}
       <Ocean
+<<<<<<< HEAD
         src="http://imgur.com/1NT7WQK"
         src2="http://imgur.com/mpdZd9N"
+=======
+        src="http://imgur.com/m0dZX8c"
+>>>>>>> Complete converting ocean tiles to sprites
         class="AdriaticSea"
         left={466}
         top={454}

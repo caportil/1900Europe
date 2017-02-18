@@ -25,6 +25,7 @@ class Ocean extends Component {
 	return (
 		<div>
 
+<<<<<<< HEAD
 			<img src={`${self.props.src}.png`}
 			  class={self.props.class}
 			  alt="" 
@@ -38,6 +39,21 @@ class Ocean extends Component {
 		    	  filter: `hue-rotate(${self.toggleHue()}deg) opacity(45%) opacity(70%)`
 				}} 
 			/>
+=======
+		<img src=""
+		  class={self.props.class}
+		  useMap="#combinedMap"
+		  style=
+		  	{{position: 'absolute', 
+	    	  left: '100px', 
+	    	  top: '200px', 
+	    	  width: '1011px', 
+	    	  height: '645px',
+	    	  background: `url(${self.props.src}.png) 0px ${self.props.occupiedOcean.indexOf(self.props.class) > -1 ? '0px' : '-645px'}`,
+	    	  filter: `opacity(50%)`
+			}} 
+		/>
+>>>>>>> Complete converting ocean tiles to sprites
 
 			<map name={`${self.props.class}Map`}>
 				<area 
