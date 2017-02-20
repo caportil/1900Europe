@@ -89,16 +89,16 @@ class Land extends Component {
 
 		<img src=""
 		  class={self.props.class}
-		  //useMap="#combinedMap"
+		  useMap="#combinedMap"
 		  style=
 		  	{{position: 'absolute', 
 	    	  left: '100px', 
 	    	  top: '200px', 
-	    	  width: '1011px', 
-	    	  height: '645px',
+	    	  width: '2022px', 
+	    	  height: '1290px',
 	    	  // background: `url(${self.props.src}.png) 0px ${self.props.occupiedOcean.indexOf(self.props.class) > -1 ? '0px' : '-645px'}`,
-	    	  background: `url(${self.props.src}.png) 0px 0px`,
-	    	  backgroundSize: '50%'
+	    	  background: `url(${self.props.src}.png) 0px ${currentOwner === "england" ? '1290px' : '0px'}`,
+	    	  // backgroundSize: '100%'
 			}} 
 		/>
 

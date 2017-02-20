@@ -128,14 +128,13 @@ class App extends Component {
       	<br />
 
         {/* Europe Map Background*/}
-      	<img src="http://imgur.com/Srmf4yr.png" style={{position: 'absolute', left: '100px', top: '200px'}}/>
+      	<img src="http://imgur.com/9ec1SWM.png" style={{position: 'absolute', left: '100px', top: '200px'}}/>
 {/*
       	<OceanTiles
       		occupiedOcean={self.state.occupiedOcean}
       		latestChange={self.state.latestChange}
       	/>
 */}
-{/*
       	<LandTiles
 	      	england={self.state.england}
 	      	germany={self.state.germany}
@@ -146,7 +145,6 @@ class App extends Component {
 	      	ottomans={self.state.ottomans}
 	      	latestChange={self.state.latestChange}
       	/>
-*/}
 {/*
       	<img src="" style={{position: 'absolute', left: '100px', top: '1200px', width: '1011px', height: '645px',  background: `url(http://imgur.com/GcuArK8.png) 0px ${self.state.altSprite ? '-645px' : '0px'}`}} useMap="#spriteMap"
       	/>
@@ -166,6 +164,7 @@ class App extends Component {
 	      	/>
       	</map>
 */}
+{/*
     		<img src=""
     		  // class={self.props.class}
     		  //useMap="#combinedMap"
@@ -180,7 +179,7 @@ class App extends Component {
     	    	  backgroundSize: '50%'
     			}} 
     		/>
-
+*/}
 
 
 
@@ -336,7 +335,8 @@ class App extends Component {
 	   			  class="London"
 	   			  state={self.state}
 	   			  cycleOwnership={self.cycleOwnership.bind(self)}
-	   			  coords="304,306,291,322,294,331,311,339,329,339,323,332,328,323,340,314,338,307"
+	   			  // coords="304,306,291,322,294,331,311,339,329,339,323,332,328,323,340,314,338,307"
+	   			  coords="657,611,641,618,620,619,607,618,582,645,626,682,658,674,652,651,667,641,686,634,674,618"
 	   			/>
 
    			{/* Wales */}

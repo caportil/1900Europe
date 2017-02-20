@@ -373,7 +373,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/TyuqzCr"
+        src="http://imgur.com/zxmXJJv"
         class="Galicia"
         england={self.props.england}
         germany={self.props.germany}
