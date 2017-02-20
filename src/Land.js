@@ -98,6 +98,7 @@ class Land extends Component {
 	    	  height: '645px',
 	    	  // background: `url(${self.props.src}.png) 0px ${self.props.occupiedOcean.indexOf(self.props.class) > -1 ? '0px' : '-645px'}`,
 	    	  background: `url(${self.props.src}.png) 0px 0px`,
+	    	  backgroundSize: '50%'
 			}} 
 		/>
 

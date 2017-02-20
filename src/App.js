@@ -128,13 +128,13 @@ class App extends Component {
       	<br />
 
         {/* Europe Map Background*/}
-      	<img src="http://imgur.com/9ec1SWM.png" style={{position: 'absolute', left: '100px', top: '200px'}}/>
-
+      	<img src="http://imgur.com/Srmf4yr.png" style={{position: 'absolute', left: '100px', top: '200px'}}/>
+{/*
       	<OceanTiles
       		occupiedOcean={self.state.occupiedOcean}
       		latestChange={self.state.latestChange}
       	/>
-
+*/}
 {/*
       	<LandTiles
 	      	england={self.state.england}
@@ -147,7 +147,7 @@ class App extends Component {
 	      	latestChange={self.state.latestChange}
       	/>
 */}
-
+{/*
       	<img src="" style={{position: 'absolute', left: '100px', top: '1200px', width: '1011px', height: '645px',  background: `url(http://imgur.com/GcuArK8.png) 0px ${self.state.altSprite ? '-645px' : '0px'}`}} useMap="#spriteMap"
       	/>
       	<map name="spriteMap">
@@ -165,7 +165,7 @@ class App extends Component {
 	      		// onMouseLeave={() => self.setState({altSprite: !self.state.altSprite})}
 	      	/>
       	</map>
-
+*/}
     		<img src=""
     		  // class={self.props.class}
     		  //useMap="#combinedMap"
@@ -173,10 +173,11 @@ class App extends Component {
     		  	{{position: 'absolute', 
     	    	  left: '100px', 
     	    	  top: '200px', 
-    	    	  width: '1011px', 
-    	    	  height: '645px',
+    	    	  width: '2022px', 
+    	    	  height: '1290px',
     	    	  // background: `url(${self.props.src}.png) 0px ${self.props.occupiedOcean.indexOf(self.props.class) > -1 ? '0px' : '-645px'}`,
     	    	  background: `url(http://imgur.com/48KLX9k.png) 0px 0px`,
+    	    	  backgroundSize: '50%'
     			}} 
     		/>
 
