@@ -26,6 +26,8 @@ class OceanArea extends Component {
 			coords={self.props.coords}
 			style={{cursor: 'default'}}
 			onClick={() => self.props.toggleOccupiedOcean(self.props.class) }
+			// onMouseEnter={() => self.props.toggleOccupiedOcean(self.props.class)}
+			// onMouseLeave={() => self.props.toggleOccupiedOcean(self.props.class)}
 		/>
 
 		)

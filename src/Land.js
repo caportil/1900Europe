@@ -87,20 +87,22 @@ class Land extends Component {
 	console.log('Land running render in ' + self.props.class + '... current change is: ' + self.props.latestChange)
 	return (
 
-		<img 
-			src={`${self.props.src}.png`}
+		<img src=""
 		  class={self.props.class}
-		  alt="" 
-		  useMap="#combinedMap"
+		  //useMap="#combinedMap"
 		  style=
 		  	{{position: 'absolute', 
 	    	  left: '100px', 
 	    	  top: '200px', 
-	    	  filter: `hue-rotate(${self.toggleHue()}deg) opacity(70%)`
+	    	  width: '1011px', 
+	    	  height: '645px',
+	    	  // background: `url(${self.props.src}.png) 0px ${self.props.occupiedOcean.indexOf(self.props.class) > -1 ? '0px' : '-645px'}`,
+	    	  background: `url(${self.props.src}.png) 0px 0px`,
 			}} 
 		/>
 
 		)
+
 	}
 }
 

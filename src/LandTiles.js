@@ -16,7 +16,7 @@ class LandTiles extends Component {
 
 {/* England */}
       <Land
-        src="http://imgur.com/HOM3XYY"
+        src="http://imgur.com/OBeUzKs"
         src2=""
         class="London"
         england={self.props.england}
@@ -30,7 +30,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/cmtZ64i"
+        src="http://imgur.com/CGsh43M"
         class="Wales"
         england={self.props.england}
         germany={self.props.germany}
@@ -43,7 +43,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/gAneh9I"
+        src="http://imgur.com/nmY1LYV"
         class="York"
         england={self.props.england}
         germany={self.props.germany}
@@ -56,7 +56,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/mBtpoUn"
+        src="http://imgur.com/L2fnXJU"
         class="Edinburgh"
         england={self.props.england}
         germany={self.props.germany}
@@ -69,7 +69,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/ZDCpX2O"
+        src="http://imgur.com/uScgW1m"
         class="Clyde"
         england={self.props.england}
         germany={self.props.germany}
@@ -82,7 +82,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/rikd5cu"
+        src="http://imgur.com/ZpHMv0v"
         class="Liverpool"
         england={self.props.england}
         germany={self.props.germany}
@@ -95,7 +95,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/Ubw82Yu"
+        src="http://imgur.com/ahTes2I"
         src2="http://imgur.com/8T9Xetf"
         class="Ireland"
         england={self.props.england}
@@ -110,7 +110,7 @@ class LandTiles extends Component {
 
 {/* Germany */}
       <Land
-        src="http://imgur.com/pkAGRda"
+        src="http://imgur.com/XUXQRvH"
         class="Berlin"
         england={self.props.england}
         germany={self.props.germany}
@@ -123,7 +123,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/EIK4sK9"
+        src="http://imgur.com/uIR1UWx"
         class="Kiel"
         england={self.props.england}
         germany={self.props.germany}
@@ -136,7 +136,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/fkNBPGk"
+        src="http://imgur.com/Aq0Tord"
         class="Ruhr"
         england={self.props.england}
         germany={self.props.germany}
@@ -149,7 +149,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/G5fJC56"
+        src="http://imgur.com/oO3yThB"
         class="Munich"
         england={self.props.england}
         germany={self.props.germany}
@@ -162,7 +162,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/nZcE2vL"
+        src="http://imgur.com/YWQfp81"
         class="Silesia"
         england={self.props.england}
         germany={self.props.germany}
@@ -175,7 +175,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/EeoFSgh"
+        src="http://imgur.com/UgAnYZm"
         class="Prussia"
         england={self.props.england}
         germany={self.props.germany}
@@ -189,7 +189,7 @@ class LandTiles extends Component {
 
 {/* France */}
       <Land
-        src="http://imgur.com/hfuPaS2"
+        src="http://imgur.com/K0bw81q"
         class="Brest"
         england={self.props.england}
         germany={self.props.germany}
@@ -202,7 +202,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/Yzzw4Pw"
+        src="http://imgur.com/ZwndGBN"
         class="Burgundy"
         england={self.props.england}
         germany={self.props.germany}
@@ -215,7 +215,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/lVObu1M"
+        src="http://imgur.com/lf40HlV"
         class="Gascony"
         england={self.props.england}
         germany={self.props.germany}
@@ -228,7 +228,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/esw58Kg"
+        src="http://imgur.com/sehmWNd"
         class="Marseilles"
         england={self.props.england}
         germany={self.props.germany}
@@ -241,7 +241,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/ju4CZn9"
+        src="http://imgur.com/v60f270"
         class="Paris"
         england={self.props.england}
         germany={self.props.germany}
@@ -254,7 +254,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/VPrnX4e"
+        src="http://imgur.com/aVNfcTX"
         class="Picardy"
         england={self.props.england}
         germany={self.props.germany}
@@ -268,7 +268,7 @@ class LandTiles extends Component {
 
 {/* Italy */}
       <Land
-        src="http://imgur.com/mipwq9s"
+        src="http://imgur.com/nQ1Oghw"
         class="Apulia"
         england={self.props.england}
         germany={self.props.germany}
@@ -281,7 +281,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/rQ1vXCJ"
+        src="http://imgur.com/fN4rlsX"
         class="Naples"
         england={self.props.england}
         germany={self.props.germany}
@@ -294,7 +294,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/BWQQ24b"
+        src="http://imgur.com/Bc9I5u1"
         class="Piemonte"
         england={self.props.england}
         germany={self.props.germany}
@@ -307,7 +307,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/9aVaLZQ"
+        src="http://imgur.com/KYgGnAS"
         class="Rome"
         england={self.props.england}
         germany={self.props.germany}
@@ -320,7 +320,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/mcP2ZAM"
+        src="http://imgur.com/3V0jI8J"
         class="Tuscany"
         england={self.props.england}
         germany={self.props.germany}
@@ -333,7 +333,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/U0Xg6Yl"
+        src="http://imgur.com/aDrBL4G"
         class="Venice"
         england={self.props.england}
         germany={self.props.germany}
@@ -347,7 +347,7 @@ class LandTiles extends Component {
 
 {/* Austria */}
       <Land
-        src="http://imgur.com/qYw5wGi"
+        src="http://imgur.com/4mI5Doh"
         class="Bohemia"
         england={self.props.england}
         germany={self.props.germany}
@@ -360,7 +360,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/7m7iXK3"
+        src="http://imgur.com/tpXo8D2"
         class="Budapest"
         england={self.props.england}
         germany={self.props.germany}
@@ -386,7 +386,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/f9JWHfp"
+        src="http://imgur.com/w3wbvhB"
         class="Trieste"
         england={self.props.england}
         germany={self.props.germany}
@@ -399,7 +399,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/wCVEhVT"
+        src="http://imgur.com/LeC7NuZ"
         class="Tyrolia"
         england={self.props.england}
         germany={self.props.germany}
@@ -412,7 +412,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/7enOk7w"
+        src="http://imgur.com/DKWkPgc"
         class="Vienna"
         england={self.props.england}
         germany={self.props.germany}
@@ -426,7 +426,7 @@ class LandTiles extends Component {
 
 {/* Russia */}
       <Land
-        src="http://imgur.com/e8JPUD9"
+        src="http://imgur.com/44XC7CU"
         class="Finland"
         england={self.props.england}
         germany={self.props.germany}
@@ -439,7 +439,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/QB1Cgqv"
+        src="http://imgur.com/onLjxlG"
         class="Livonia"
         england={self.props.england}
         germany={self.props.germany}
@@ -452,7 +452,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/wOi3tDj"
+        src="http://imgur.com/ru0wVnQ"
         class="Moscow"
         england={self.props.england}
         germany={self.props.germany}
@@ -465,7 +465,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/lMc99NQ"
+        src="http://imgur.com/zUyoYCr"
         class="Ukraine"
         england={self.props.england}
         germany={self.props.germany}
@@ -478,7 +478,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/WXpnqF7"
+        src="http://imgur.com/3ofA6DC"
         class="Warsaw"
         england={self.props.england}
         germany={self.props.germany}
@@ -491,7 +491,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/N0WTz6f"
+        src="http://imgur.com/6H5p24i"
         class="StPetersburg"
         england={self.props.england}
         germany={self.props.germany}
@@ -504,7 +504,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/rLMOhEj"
+        src="http://imgur.com/2WCKUZz"
         class="Sevastopol"
         england={self.props.england}
         germany={self.props.germany}
@@ -518,7 +518,7 @@ class LandTiles extends Component {
 
 {/* Ottomans */}
       <Land
-        src="http://imgur.com/hFgOrwO"
+        src="http://imgur.com/IHWyq5J"
         class="Ankara"
         england={self.props.england}
         germany={self.props.germany}
@@ -531,7 +531,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/Hfpt5Pu"
+        src="http://imgur.com/vsVjtSE"
         class="Armenia"
         england={self.props.england}
         germany={self.props.germany}
@@ -544,7 +544,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/pagAyMp"
+        src="http://imgur.com/aPcnGq6"
         class="Constantinople"
         england={self.props.england}
         germany={self.props.germany}
@@ -557,7 +557,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/yutrrED"
+        src="http://imgur.com/5kaoGIF"
         class="Smyrna"
         england={self.props.england}
         germany={self.props.germany}
@@ -570,7 +570,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/RPWmhOS"
+        src="http://imgur.com/y9DsF6J"
         class="Syria"
         england={self.props.england}
         germany={self.props.germany}
@@ -585,7 +585,7 @@ class LandTiles extends Component {
 {/* Neutral */}
 
       <Land
-        src="http://imgur.com/FkxdHVy"
+        src="http://imgur.com/Jh9q29j"
         class="Albania"
         england={self.props.england}
         germany={self.props.germany}
@@ -598,7 +598,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/HxQZrMp"
+        src="http://imgur.com/5WWzDP4"
         class="Belgium"
         england={self.props.england}
         germany={self.props.germany}
@@ -611,7 +611,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/INrLmUh"
+        src="http://imgur.com/6dLbObB"
         class="Bulgaria"
         england={self.props.england}
         germany={self.props.germany}
@@ -624,7 +624,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/I4hg7CP"
+        src="http://imgur.com/j6vs9dX"
         class="Denmark"
         england={self.props.england}
         germany={self.props.germany}
@@ -637,7 +637,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/zTqYXm2"
+        src="http://imgur.com/eeXGkIr"
         class="Greece"
         england={self.props.england}
         germany={self.props.germany}
@@ -650,7 +650,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/JU8tm5p"
+        src="http://imgur.com/ePgQH3T"
         class="Holland"
         england={self.props.england}
         germany={self.props.germany}
@@ -663,7 +663,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/jX3l2O7"
+        src="http://imgur.com/yp0nb2G"
         class="Iceland"
         england={self.props.england}
         germany={self.props.germany}
@@ -676,7 +676,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/7kQ3itz"
+        src="http://imgur.com/oxRPogI"
         class="NorthAfrica"
         england={self.props.england}
         germany={self.props.germany}
@@ -689,7 +689,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/34f7cdo"
+        src="http://imgur.com/Qz2jpDV"
         class="Norway"
         england={self.props.england}
         germany={self.props.germany}
@@ -702,7 +702,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/D1Y8iJ2"
+        src="http://imgur.com/tKOecRN"
         class="Portugal"
         england={self.props.england}
         germany={self.props.germany}
@@ -715,7 +715,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/qxvFPrU"
+        src="http://imgur.com/zDdQIZC"
         class="Romania"
         england={self.props.england}
         germany={self.props.germany}
@@ -728,7 +728,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/yEgs1L0"
+        src="http://imgur.com/Xu5I7Fb"
         class="Serbia"
         england={self.props.england}
         germany={self.props.germany}
@@ -741,7 +741,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/5cJLvc3"
+        src="http://imgur.com/s08lYEt"
         class="Spain"
         england={self.props.england}
         germany={self.props.germany}
@@ -754,7 +754,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/5QnkPdq"
+        src="http://imgur.com/KOzMr6w"
         class="Sweden"
         england={self.props.england}
         germany={self.props.germany}
@@ -767,7 +767,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/TZPADte"
+        src="http://imgur.com/e4Ctl07"
         class="Tunisia"
         england={self.props.england}
         germany={self.props.germany}
