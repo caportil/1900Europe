@@ -182,6 +182,7 @@ class App extends Component {
 */}
 
 			<img src="http://imgur.com/QvxmqYi.png"
+				useMap="#combinedMap"
     		style={{position: 'absolute', 
     	    	  left: '100px', 
     	    	  top: '200px', 
