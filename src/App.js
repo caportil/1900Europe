@@ -181,8 +181,14 @@ class App extends Component {
     		/>
 */}
 
-
-
+			<img src="http://imgur.com/QvxmqYi.png"
+    		style={{position: 'absolute', 
+    	    	  left: '100px', 
+    	    	  top: '200px', 
+    	    	  height: '645px',
+    	    	  width: '1011px',
+    	    	}}
+    	/>
 
 
 
