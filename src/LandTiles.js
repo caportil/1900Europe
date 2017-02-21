@@ -14,8 +14,810 @@ class LandTiles extends Component {
   return (
     <div>
 
+{/* England */}
       <Land
-        src="http://imgur.com/Jh9q29j"
+        src="http://imgur.com/HOM3XYY"
+        class="London"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/cmtZ64i"
+        class="Wales"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/gAneh9I"
+        class="York"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/mBtpoUn"
+        class="Edinburgh"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/ZDCpX2O"
+        class="Clyde"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/rikd5cu"
+        class="Liverpool"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/Ubw82Yu"
+        class="Ireland"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+{/* Germany */}
+      <Land
+        src="http://imgur.com/pkAGRda"
+        class="Berlin"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/EIK4sK9"
+        class="Kiel"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/fkNBPGk"
+        class="Ruhr"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/G5fJC56"
+        class="Munich"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/nZcE2vL"
+        class="Silesia"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/EeoFSgh"
+        class="Prussia"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+{/* France */}
+      <Land
+        src="http://imgur.com/hfuPaS2"
+        class="Brest"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/Yzzw4Pw"
+        class="Burgundy"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/lVObu1M"
+        class="Gascony"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/esw58Kg"
+        class="Marseilles"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/ju4CZn9"
+        class="Paris"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/VPrnX4e"
+        class="Picardy"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+{/* Italy */}
+      <Land
+        src="http://imgur.com/mipwq9s"
+        class="Apulia"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/rQ1vXCJ"
+        class="Naples"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/BWQQ24b"
+        class="Piemonte"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/9aVaLZQ"
+        class="Rome"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/mcP2ZAM"
+        class="Tuscany"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/U0Xg6Yl"
+        class="Venice"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+{/* Austria */}
+      <Land
+        src="http://imgur.com/qYw5wGi"
+        class="Bohemia"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/7m7iXK3"
+        class="Budapest"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/TyuqzCr"
+        class="Galicia"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/f9JWHfp"
+        class="Trieste"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/wCVEhVT"
+        class="Tyrolia"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/7enOk7w"
+        class="Vienna"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+{/* Russia */}
+      <Land
+        src="http://imgur.com/e8JPUD9"
+        class="Finland"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/QB1Cgqv"
+        class="Livonia"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/wOi3tDj"
+        class="Moscow"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/lMc99NQ"
+        class="Ukraine"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/WXpnqF7"
+        class="Warsaw"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/N0WTz6f"
+        class="StPetersburg"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/rLMOhEj"
+        class="Sevastopol"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+{/* Ottomans */}
+      <Land
+        src="http://imgur.com/hFgOrwO"
+        class="Ankara"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/Hfpt5Pu"
+        class="Armenia"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/pagAyMp"
+        class="Constantinople"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/yutrrED"
+        class="Smyrna"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/RPWmhOS"
+        class="Syria"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+{/* Neutral */}
+
+      <Land
+        src="http://imgur.com/FkxdHVy"
+        class="Albania"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/HxQZrMp"
+        class="Belgium"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/INrLmUh"
+        class="Bulgaria"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/I4hg7CP"
+        class="Denmark"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/zTqYXm2"
+        class="Greece"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/JU8tm5p"
+        class="Holland"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/jX3l2O7"
+        class="Iceland"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/7kQ3itz"
+        class="NorthAfrica"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/34f7cdo"
+        class="Norway"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/D1Y8iJ2"
+        class="Portugal"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/qxvFPrU"
+        class="Romania"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/yEgs1L0"
+        class="Serbia"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/5cJLvc3"
+        class="Spain"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/5QnkPdq"
+        class="Sweden"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+      <Land
+        src="http://imgur.com/TZPADte"
+        class="Tunisia"
+        england={self.props.england}
+        germany={self.props.germany}
+        france={self.props.france}
+        italy={self.props.italy}
+        austria={self.props.austria}
+        russia={self.props.russia}
+        ottomans={self.props.ottomans}
+        latestChange={self.props.latestChange}
+      />
+
+{/*Alphabetical Order with old halfsize src files
+
+          <Land
+            src="http://imgur.com/5cJLvc3"
+            class="Spain"
+            england={self.props.england}
+            germany={self.props.germany}
+            france={self.props.france}
+            italy={self.props.italy}
+            austria={self.props.austria}
+            russia={self.props.russia}
+            ottomans={self.props.ottomans}
+          />
+
+          <Land
+            src="http://imgur.com/5QnkPdq"
+            class="Sweden"
+            england={self.props.england}
+            germany={self.props.germany}
+            france={self.props.france}
+            italy={self.props.italy}
+            austria={self.props.austria}
+            russia={self.props.russia}
+            ottomans={self.props.ottomans}
+          />
+
+          <Land
+            src="http://imgur.com/TZPADte"
+            class="Tunisia"
+            england={self.props.england}
+            germany={self.props.germany}
+            france={self.props.france}
+            italy={self.props.italy}
+            austria={self.props.austria}
+            russia={self.props.russia}
+            ottomans={self.props.ottomans}
+          />
+
+
+      <Land
+        src="http://imgur.com/UD2uk7t"
         class="Albania"
         england={self.props.england}
         germany={self.props.germany}
@@ -30,7 +832,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/IHWyq5J"
+        src="http://imgur.com/PhYYycc"
         class="Ankara"
         england={self.props.england}
         germany={self.props.germany}
@@ -45,7 +847,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/nQ1Oghw"
+        src="http://imgur.com/82Jx00C"
         class="Apulia"
         england={self.props.england}
         germany={self.props.germany}
@@ -60,7 +862,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/vsVjtSE"
+        src="http://imgur.com/O6QSZSp"
         class="Armenia"
         england={self.props.england}
         germany={self.props.germany}
@@ -75,7 +877,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/5WWzDP4"
+        src="http://imgur.com/N4tVFt7"
         class="Belgium"
         england={self.props.england}
         germany={self.props.germany}
@@ -90,7 +892,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/XUXQRvH"
+        src="http://imgur.com/3fVNa5x"
         class="Berlin"
         england={self.props.england}
         germany={self.props.germany}
@@ -105,7 +907,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/4mI5Doh"
+        src="http://imgur.com/Z21VnQv"
         class="Bohemia"
         england={self.props.england}
         germany={self.props.germany}
@@ -120,7 +922,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/K0bw81q"
+        src="http://imgur.com/stQHfGR"
         class="Brest"
         england={self.props.england}
         germany={self.props.germany}
@@ -135,7 +937,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/tpXo8D2"
+        src="http://imgur.com/yKHFBz3"
         class="Budapest"
         england={self.props.england}
         germany={self.props.germany}
@@ -150,7 +952,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/6dLbObB"
+        src="http://imgur.com/uiWBbB1"
         class="Bulgaria"
         england={self.props.england}
         germany={self.props.germany}
@@ -165,7 +967,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/ZwndGBN"
+        src="http://imgur.com/2v3Gxan"
         class="Burgundy"
         england={self.props.england}
         germany={self.props.germany}
@@ -181,7 +983,7 @@ class LandTiles extends Component {
 
 
       <Land
-        src="http://imgur.com/uScgW1m"
+        src="http://imgur.com/xDXflF0"
         class="Clyde"
         england={self.props.england}
         germany={self.props.germany}
@@ -197,7 +999,7 @@ class LandTiles extends Component {
 
 
       <Land
-        src="http://imgur.com/aPcnGq6"
+        src="http://imgur.com/Sp7FvbL"
         class="Constantinople"
         england={self.props.england}
         germany={self.props.germany}
@@ -213,7 +1015,7 @@ class LandTiles extends Component {
 
 
       <Land
-        src="http://imgur.com/j6vs9dX"
+        src="http://imgur.com/jQ9CPbS"
         class="Denmark"
         england={self.props.england}
         germany={self.props.germany}
@@ -228,7 +1030,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/L2fnXJU"
+        src="http://imgur.com/QI38Xvv"
         class="Edinburgh"
         england={self.props.england}
         germany={self.props.germany}
@@ -243,7 +1045,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/44XC7CU"
+        src="http://imgur.com/Olq31Ea"
         class="Finland"
         england={self.props.england}
         germany={self.props.germany}
@@ -259,7 +1061,7 @@ class LandTiles extends Component {
 
 
       <Land
-        src="http://imgur.com/zxmXJJv"
+        src="http://imgur.com/YwGIydO"
         class="Galicia"
         england={self.props.england}
         germany={self.props.germany}
@@ -274,7 +1076,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/lf40HlV"
+        src="http://imgur.com/eWcglBh"
         class="Gascony"
         england={self.props.england}
         germany={self.props.germany}
@@ -290,7 +1092,7 @@ class LandTiles extends Component {
 
 
       <Land
-        src="http://imgur.com/eeXGkIr"
+        src="http://imgur.com/shoFfVl"
         class="Greece"
         england={self.props.england}
         germany={self.props.germany}
@@ -306,7 +1108,7 @@ class LandTiles extends Component {
 
 
       <Land
-        src="http://imgur.com/ePgQH3T"
+        src="http://imgur.com/drUHzO0"
         class="Holland"
         england={self.props.england}
         germany={self.props.germany}
@@ -322,7 +1124,7 @@ class LandTiles extends Component {
 
 
       <Land
-        src="http://imgur.com/yp0nb2G"
+        src="http://imgur.com/mixad5l"
         class="Iceland"
         england={self.props.england}
         germany={self.props.germany}
@@ -338,7 +1140,7 @@ class LandTiles extends Component {
 
 
       <Land
-        src="http://imgur.com/ahTes2I"
+        src="http://imgur.com/X1GD7xn"
         src2="http://imgur.com/8T9Xetf"
         class="Ireland"
         england={self.props.england}
@@ -354,7 +1156,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/uIR1UWx"
+        src="http://imgur.com/dPGH421"
         class="Kiel"
         england={self.props.england}
         germany={self.props.germany}
@@ -369,7 +1171,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/ZpHMv0v"
+        src="http://imgur.com/mfWVmK7"
         class="Liverpool"
         england={self.props.england}
         germany={self.props.germany}
@@ -384,7 +1186,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/onLjxlG"
+        src="http://imgur.com/2o3JRdK"
         class="Livonia"
         england={self.props.england}
         germany={self.props.germany}
@@ -399,7 +1201,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/OBeUzKs"
+        src="http://imgur.com/MxgSNJJ"
         src2=""
         class="London"
         england={self.props.england}
@@ -415,7 +1217,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/sehmWNd"
+        src="http://imgur.com/zBKWCiB"
         class="Marseilles"
         england={self.props.england}
         germany={self.props.germany}
@@ -430,7 +1232,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/ru0wVnQ"
+        src="http://imgur.com/QCVzYjn"
         class="Moscow"
         england={self.props.england}
         germany={self.props.germany}
@@ -445,7 +1247,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/oO3yThB"
+        src="http://imgur.com/y4kAnDj"
         class="Munich"
         england={self.props.england}
         germany={self.props.germany}
@@ -459,44 +1261,8 @@ class LandTiles extends Component {
         spritePosition={28}
       />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       <Land
-        src="http://imgur.com/fN4rlsX"
+        src="http://imgur.com/X0tHOAH"
         class="Naples"
         england={self.props.england}
         germany={self.props.germany}
@@ -511,7 +1277,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/oxRPogI"
+        src="http://imgur.com/eGEXqYD"
         class="NorthAfrica"
         england={self.props.england}
         germany={self.props.germany}
@@ -526,7 +1292,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/Qz2jpDV"
+        src="http://imgur.com/bXcSIjR"
         class="Norway"
         england={self.props.england}
         germany={self.props.germany}
@@ -541,7 +1307,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/v60f270"
+        src="http://imgur.com/9Zy7fez"
         class="Paris"
         england={self.props.england}
         germany={self.props.germany}
@@ -556,7 +1322,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/aVNfcTX"
+        src="http://imgur.com/pgwLtCE"
         class="Picardy"
         england={self.props.england}
         germany={self.props.germany}
@@ -571,7 +1337,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/Bc9I5u1"
+        src="http://imgur.com/7SY9rqt"
         class="Piemonte"
         england={self.props.england}
         germany={self.props.germany}
@@ -586,7 +1352,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/tKOecRN"
+        src="http://imgur.com/nBngNdr"
         class="Portugal"
         england={self.props.england}
         germany={self.props.germany}
@@ -601,7 +1367,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/UgAnYZm"
+        src="http://imgur.com/anq2Uht"
         class="Prussia"
         england={self.props.england}
         germany={self.props.germany}
@@ -616,7 +1382,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/zDdQIZC"
+        src="http://imgur.com/VN5YFgk"
         class="Romania"
         england={self.props.england}
         germany={self.props.germany}
@@ -631,7 +1397,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/KYgGnAS"
+        src="http://imgur.com/K8gkoAp"
         class="Rome"
         england={self.props.england}
         germany={self.props.germany}
@@ -646,7 +1412,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/Aq0Tord"
+        src="http://imgur.com/JgyYUZZ"
         class="Ruhr"
         england={self.props.england}
         germany={self.props.germany}
@@ -661,7 +1427,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/Xu5I7Fb"
+        src="http://imgur.com/FSzuJ4g"
         class="Serbia"
         england={self.props.england}
         germany={self.props.germany}
@@ -676,7 +1442,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/YWQfp81"
+        src="http://imgur.com/McgL8CK"
         class="Silesia"
         england={self.props.england}
         germany={self.props.germany}
@@ -691,7 +1457,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/5kaoGIF"
+        src="http://imgur.com/Nl9M0xU"
         class="Smyrna"
         england={self.props.england}
         germany={self.props.germany}
@@ -706,7 +1472,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/s08lYEt"
+        src="http://imgur.com/BzXmdpw"
         class="Spain"
         england={self.props.england}
         germany={self.props.germany}
@@ -721,7 +1487,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/2WCKUZz"
+        src="http://imgur.com/lXrhaez"
         class="Sevastopol"
         england={self.props.england}
         germany={self.props.germany}
@@ -736,7 +1502,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/6H5p24i"
+        src="http://imgur.com/dcBQ6tk"
         class="StPetersburg"
         england={self.props.england}
         germany={self.props.germany}
@@ -751,7 +1517,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/KOzMr6w"
+        src="http://imgur.com/6JajKTB"
         class="Sweden"
         england={self.props.england}
         germany={self.props.germany}
@@ -766,7 +1532,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/y9DsF6J"
+        src="http://imgur.com/4RQ8B1z"
         class="Syria"
         england={self.props.england}
         germany={self.props.germany}
@@ -781,7 +1547,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/w3wbvhB"
+        src="http://imgur.com/q6i9yXJ"
         class="Trieste"
         england={self.props.england}
         germany={self.props.germany}
@@ -796,7 +1562,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/e4Ctl07"
+        src="http://imgur.com/Shmmiv8"
         class="Tunisia"
         england={self.props.england}
         germany={self.props.germany}
@@ -811,7 +1577,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/3V0jI8J"
+        src="http://imgur.com/mBRxIBj"
         class="Tuscany"
         england={self.props.england}
         germany={self.props.germany}
@@ -826,7 +1592,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/LeC7NuZ"
+        src="http://imgur.com/RJVzxFu"
         class="Tyrolia"
         england={self.props.england}
         germany={self.props.germany}
@@ -841,7 +1607,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/zUyoYCr"
+        src="http://imgur.com/ElSapqD"
         class="Ukraine"
         england={self.props.england}
         germany={self.props.germany}
@@ -856,7 +1622,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/aDrBL4G"
+        src="http://imgur.com/xQP0ch3"
         class="Venice"
         england={self.props.england}
         germany={self.props.germany}
@@ -871,7 +1637,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/DKWkPgc"
+        src="http://imgur.com/C5GKfXY"
         class="Vienna"
         england={self.props.england}
         germany={self.props.germany}
@@ -886,7 +1652,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/CGsh43M"
+        src="http://imgur.com/4Xwt3bH"
         class="Wales"
         england={self.props.england}
         germany={self.props.germany}
@@ -901,7 +1667,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/3ofA6DC"
+        src="http://imgur.com/r81lB9Y"
         class="Warsaw"
         england={self.props.england}
         germany={self.props.germany}
@@ -916,7 +1682,7 @@ class LandTiles extends Component {
       />
 
       <Land
-        src="http://imgur.com/nmY1LYV"
+        src="http://imgur.com/7scBlPF"
         class="York"
         england={self.props.england}
         germany={self.props.germany}
@@ -929,8 +1695,7 @@ class LandTiles extends Component {
         spriteSheet={2}
         spritePosition={28}
       />
-
-
+*/}
 
     </div>
     )

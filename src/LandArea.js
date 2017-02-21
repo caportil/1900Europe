@@ -24,7 +24,7 @@ class LandArea extends Component {
 			nohref="nohref" 
 			shape="poly" 
 			coords={self.props.coords}
-			style={{cursor: 'default'}}
+			// style={{cursor: 'default'}}
 			onClick={() => self.props.cycleOwnership(self.props.class)}
 		/>
 
