@@ -93,11 +93,11 @@ class Land extends Component {
 		  style=
 		  	{{position: 'absolute', 
 	    	  left: '100px', 
-	    	  top: '200px', 
-	    	  width: '2022px', 
-	    	  height: '1290px',
+	    	  top: '1200px', 
+	    	  width: '1011px', 
+	    	  height: '645px',
 	    	  // background: `url(${self.props.src}.png) 0px ${self.props.occupiedOcean.indexOf(self.props.class) > -1 ? '0px' : '-645px'}`,
-	    	  background: `url(${self.props.src}.png) 0px ${currentOwner === "england" ? '1290px' : '0px'}`,
+	    	  background: `url(${self.props.spriteSheet === 1 ? 'http://imgur.com/Ay9LEF8' : 'http://imgur.com/nRZvdAz'}.png) ${currentOwner === "england" ? '0px' : '1011px'} ${self.props.spritePosition * 645}px`,
 	    	  // backgroundSize: '100%'
 			}} 
 		/>
