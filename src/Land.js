@@ -95,6 +95,10 @@ class Land extends Component {
 		  	{{position: 'absolute', 
 	    	  left: '100px', 
 	    	  top: '200px',
+	    	  height: '645px',
+	    	  width: '1011px',
+	    	  // height: '968px',
+	    	  // width: '1517px',
 	    	  filter: `hue-rotate(${self.toggleHue()}deg) opacity(75%) brightness(100%) saturate(100%)`
 			}} 
 		/>

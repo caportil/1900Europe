@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import imageMapResize from 'image-map-resizer';
 import Ocean from './Ocean.js';
 import OceanArea from './OceanArea.js';
 import LandArea from './LandArea.js';
@@ -101,6 +102,11 @@ class App extends Component {
   	owner === 'england' ? self.transferOwnership(tile, 'england', 'germany') : self.transferOwnership(tile, 'germany', 'england')
   }
 
+  componentWillMount() {
+  	console.log('Running componentWillMount');
+  	imageMapResize();
+  }
+
   componentDidMount() {
   	console.log('Finished mounting')
   }
@@ -128,7 +134,17 @@ class App extends Component {
       	<br />
 
         {/* Europe Map Background*/}
-      	<img src="http://imgur.com/9ec1SWM.png" style={{position: 'absolute', left: '100px', top: '200px'}}/>
+      	<img 
+	      	src="http://imgur.com/9ec1SWM.png" 
+	      	style={{position: 'absolute', 
+      			left: '100px', 
+      			top: '200px',
+      			height: '645px',
+      			width: '1011px',
+		    	  // height: '968px',
+		    	  // width: '1517px',
+    			}}
+      	/>
 {/*
       	<OceanTiles
       		occupiedOcean={self.state.occupiedOcean}
@@ -145,6 +161,21 @@ class App extends Component {
 	      	ottomans={self.state.ottomans}
 	      	latestChange={self.state.latestChange}
       	/>
+
+
+		{/* City Overlay */}
+				<img src="http://imgur.com/QvxmqYi.png"
+					useMap="#combinedMap"
+	    		style={{position: 'absolute', 
+		    	  left: '100px', 
+		    	  top: '200px', 
+		    	  height: '645px',
+		    	  width: '1011px',
+		    	  // height: '968px',
+		    	  // width: '1517px',
+		    	}}
+	    	/>
+
 {/*
       	<img src="" style={{position: 'absolute', left: '100px', top: '1200px', width: '1011px', height: '645px',  background: `url(http://imgur.com/GcuArK8.png) 0px ${self.state.altSprite ? '-645px' : '0px'}`}} useMap="#spriteMap"
       	/>
@@ -181,15 +212,6 @@ class App extends Component {
     		/>
 */}
 
-			<img src="http://imgur.com/QvxmqYi.png"
-				useMap="#combinedMap"
-    		style={{position: 'absolute', 
-    	    	  left: '100px', 
-    	    	  top: '200px', 
-    	    	  height: '645px',
-    	    	  width: '1011px',
-    	    	}}
-    	/>
 
 
 
