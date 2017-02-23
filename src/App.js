@@ -23,7 +23,6 @@ class App extends Component {
 			hue: 240,
 			englandHue: 200,
 			latestChange: "",
-			altSprite: false,
 		}
 	}
 
@@ -364,8 +363,8 @@ class App extends Component {
 	   			  class="London"
 	   			  state={self.state}
 	   			  cycleOwnership={self.cycleOwnership.bind(self)}
-	   			  // coords="304,306,291,322,294,331,311,339,329,339,323,332,328,323,340,314,338,307"
-	   			  coords="657,611,641,618,620,619,607,618,582,645,626,682,658,674,652,651,667,641,686,634,674,618"
+	   			  coords="304,306,291,322,294,331,311,339,329,339,323,332,328,323,340,314,338,307"
+	   			  // coords="657,611,641,618,620,619,607,618,582,645,626,682,658,674,652,651,667,641,686,634,674,618"
 	   			/>
 
    			{/* Wales */}
