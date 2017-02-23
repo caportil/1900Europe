@@ -175,42 +175,6 @@ class App extends Component {
 		    	}}
 	    	/>
 
-{/*
-      	<img src="" style={{position: 'absolute', left: '100px', top: '1200px', width: '1011px', height: '645px',  background: `url(http://imgur.com/GcuArK8.png) 0px ${self.state.altSprite ? '-645px' : '0px'}`}} useMap="#spriteMap"
-      	/>
-      	<map name="spriteMap">
-	      	<area 
-	      		class="NAO2"
-	      		alt="" 
-	      		title="" 
-	      		nohref="nohref" 
-	      		shape="poly" 
-	      		coords="0,0,0,311,35,305,94,306,144,319,189,293,181,285,180,278,206,268,199,256,206,244,215,243,246,236,266,244,265,265,292,276,287,260,268,257,279,244,274,233,277,218,264,201,286,189,283,203,301,195,309,122,274,67,222,67,192,45,208,39,196,23,232,27,211,16,231,8,226,0"
-	      		style={{cursor: 'default'}}
-	      		// onClick={() => self.props.toggleOccupiedOcean(self.props.class) }
-	      		onClick={() => self.setState({altSprite: !self.state.altSprite})}
-	      		// onMouseEnter={() => self.setState({altSprite: !self.state.altSprite})}
-	      		// onMouseLeave={() => self.setState({altSprite: !self.state.altSprite})}
-	      	/>
-      	</map>
-*/}
-{/*
-    		<img src=""
-    		  // class={self.props.class}
-    		  //useMap="#combinedMap"
-    		  style=
-    		  	{{position: 'absolute', 
-    	    	  left: '100px', 
-    	    	  top: '200px', 
-    	    	  width: '2022px', 
-    	    	  height: '1290px',
-    	    	  // background: `url(${self.props.src}.png) 0px ${self.props.occupiedOcean.indexOf(self.props.class) > -1 ? '0px' : '-645px'}`,
-    	    	  background: `url(http://imgur.com/48KLX9k.png) 0px 0px`,
-    	    	  backgroundSize: '50%'
-    			}} 
-    		/>
-*/}
-
 
 
 
