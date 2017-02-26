@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import imageMapResize from 'image-map-resizer';
 import Ocean from './Ocean.js';
-import OceanArea from './OceanArea.js';
-import LandArea from './LandArea.js';
 import OceanTiles from './OceanTiles.js';
 import LandTiles from './LandTiles.js';
 import CombinedMap from './CombinedMap.js';
@@ -176,7 +174,10 @@ class App extends Component {
 		    	}}
 	    	/>
 
-	    	<CombinedMap />
+	    	<CombinedMap 
+	    		toggleOccupiedOcean={self.toggleOccupiedOcean.bind(self)}
+	    		cycleOwnership={self.cycleOwnership.bind(self)}
+	    	/>
 
       </div>
     );
