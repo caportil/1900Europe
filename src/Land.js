@@ -13,27 +13,21 @@ class Land extends Component {
 	componentWillMount() {
 		let self = this;
 		self.determineOwner(self.props);
-		// currentOwner = owner;
-		// console.log('After running componentWillMount, currentOwner is:', currentOwner)
 	}
 
 	componentWillUpdate(nextProps) {
 		let self = this;
-		// console.log('componentWillUpdate running... current props are:', self.props, 'and nextProps are:', nextProps)
 		self.determineOwner(nextProps);
-		// currentOwner = owner;
 		// console.log('After running componentWillUpdate, currentOwner is:', currentOwner)
 	}
 
 	shouldComponentUpdate(nextProps) {
 		let self = this;
-		// console.log('running shouldComponentUpdate... self.props.class is:', self.props.class, 'and nextProps is:', nextProps)
 		return self.props.class === nextProps.latestChange;
 	}
 
 	determineOwner(nextProps) {
 		let self = this;
-		// console.log('Within determineOwner, nextProps are:', nextProps)
 		if (nextProps.england.indexOf(self.props.class) > -1) {
 			// console.log('currentOwner will now be:', 'england')
 			currentOwner = 'england'
@@ -97,8 +91,6 @@ class Land extends Component {
 	    	  top: '200px',
 	    	  height: '645px',
 	    	  width: '1011px',
-	    	  // height: '968px',
-	    	  // width: '1517px',
 	    	  filter: `hue-rotate(${self.toggleHue()}deg) opacity(75%) brightness(100%) saturate(100%)`
 			}} 
 		/>
