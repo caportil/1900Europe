@@ -26,8 +26,8 @@ class LandArea extends Component {
 			coords={self.props.coords}
 			// style={{cursor: 'default'}}
 			onClick={() => self.props.cycleOwnership(self.props.class)}
-			// onMouseEnter={() => self.props.cycleOwnership(self.props.class)}
-			// onMouseLeave={() => self.props.cycleOwnership(self.props.class)}
+			onMouseEnter={() => self.props.cycleOwnership(self.props.class)}
+			onMouseLeave={() => self.props.cycleOwnership(self.props.class)}
 		/>
 
 		)
