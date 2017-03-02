@@ -224,9 +224,14 @@ class App extends Component {
 	    		cycleOwnership={self.cycleOwnership.bind(self)}
 	    	/>
 
-        <svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+        <svg id="tetranome" width="500" height="500" 
+          style={{
+            position: 'absolute', 
+            left: '10px',
+            fill: ``,
+          }}>
           <path d="M 500 500 l 0 -50 l -50 0 l 0 -50 l -50 0 l 0 50 l -50 0 l 0 50 z" />
-        </svg>1
+        </svg>
 
       </div>
     );
