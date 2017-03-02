@@ -4,6 +4,9 @@ import Ocean from './Ocean.js';
 import OceanTiles from './OceanTiles.js';
 import LandTiles from './LandTiles.js';
 import CombinedMap from './CombinedMap.js';
+import Raphael from '../../raphael/raphael.js'
+
+let paper = new Raphael(100, 1000, 500, 500);
 
 class App extends Component {
 	constructor(props) {
@@ -116,8 +119,11 @@ class App extends Component {
 
   render() {
 	let self = this;
+	let circle = paper.circle(100, 100, 100);
+	// let rectangle = paper.rect(200, 1200, 250, 100);
 	const stylesheet = {
 	}
+
 	console.log('Rendering in App.js... Countries currently are:', self.state, 'and self.state.altSprite is:', self.state.altSprite)
     return (
 
@@ -143,6 +149,7 @@ class App extends Component {
 		    	  // width: '1517px',
     			}}
       	/>
+
 {/*
       	<OceanTiles
       		occupiedOcean={self.state.occupiedOcean}
