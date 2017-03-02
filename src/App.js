@@ -4,7 +4,7 @@ import Ocean from './Ocean.js';
 import OceanTiles from './OceanTiles.js';
 import LandTiles from './LandTiles.js';
 import CombinedMap from './CombinedMap.js';
-import Raphael from '../../raphael/raphael.js'
+import Raphael from './../raphael/raphael.js'
 
 let paper = new Raphael(100, 1000, 500, 500);
 
@@ -120,7 +120,18 @@ class App extends Component {
   render() {
 	let self = this;
 	let circle = paper.circle(100, 100, 100);
-	// let rectangle = paper.rect(200, 1200, 250, 100);
+	let tetronimo = paper.path("M 250 250 l 0 -50 l -50 0 l 0 -50 l -50 0 l 0 50 l -50 0 l 0 50 z");
+	// tetronimo.attr({fill: '#8cf', stroke: '#ddd', 'stroke-width': 5});
+	tetronimo.attr(
+	    {
+	        gradient: '90-#526c7a-#64a0c1',
+	        stroke: '#3b4449',
+	        'stroke-width': 10,
+	        'stroke-linejoin': 'round',
+	        rotation: -90
+	    }
+	);
+	tetronimo.animate({rotation: 360}, 2000, 'bounce');
 	const stylesheet = {
 	}
 
