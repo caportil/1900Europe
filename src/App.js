@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import imageMapResize from 'image-map-resizer';
 import Ocean from './Ocean.js';
 import OceanTiles from './OceanTiles.js';
 import LandTiles from './LandTiles.js';
@@ -107,7 +106,7 @@ class App extends Component {
 
   componentWillMount() {
   	console.log('Running componentWillMount');
-  	imageMapResize();
+  	// imageMapResize();
   }
 
   componentDidMount() {
@@ -179,13 +178,15 @@ class App extends Component {
 	      	src="http://imgur.com/9ec1SWM.png" 
 	      	style={{position: 'absolute', 
       			left: '100px', 
-      			top: '200px',
+      			top: '1200px',
       			height: '645px',
       			width: '1011px',
 		    	  // height: '968px',
 		    	  // width: '1517px',
     			}}
       	/>
+
+
 
 {/*
       	<OceanTiles
@@ -210,7 +211,7 @@ class App extends Component {
 					useMap="#combinedMap"
 	    		style={{position: 'absolute', 
 		    	  left: '100px', 
-		    	  top: '200px', 
+		    	  top: '1200px', 
 		    	  height: '645px',
 		    	  width: '1011px',
 		    	  // height: '968px',
@@ -223,7 +224,9 @@ class App extends Component {
 	    		cycleOwnership={self.cycleOwnership.bind(self)}
 	    	/>
 
-
+        <svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+          <path d="M 500 500 l 0 -50 l -50 0 l 0 -50 l -50 0 l 0 50 l -50 0 l 0 50 z" />
+        </svg>1
 
       </div>
     );
