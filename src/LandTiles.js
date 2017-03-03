@@ -14,807 +14,7 @@ class LandTiles extends Component {
   return (
     <div>
 
-{/* England */}
-      <Land
-        src="http://imgur.com/HOM3XYY"
-        class="London"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/cmtZ64i"
-        class="Wales"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/gAneh9I"
-        class="York"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/mBtpoUn"
-        class="Edinburgh"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/ZDCpX2O"
-        class="Clyde"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/rikd5cu"
-        class="Liverpool"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/Ubw82Yu"
-        class="Ireland"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-{/* Germany */}
-      <Land
-        src="http://imgur.com/pkAGRda"
-        class="Berlin"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/EIK4sK9"
-        class="Kiel"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/fkNBPGk"
-        class="Ruhr"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/G5fJC56"
-        class="Munich"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/nZcE2vL"
-        class="Silesia"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/EeoFSgh"
-        class="Prussia"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-{/* France */}
-      <Land
-        src="http://imgur.com/hfuPaS2"
-        class="Brest"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/Yzzw4Pw"
-        class="Burgundy"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/lVObu1M"
-        class="Gascony"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/esw58Kg"
-        class="Marseilles"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/ju4CZn9"
-        class="Paris"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/VPrnX4e"
-        class="Picardy"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-{/* Italy */}
-      <Land
-        src="http://imgur.com/mipwq9s"
-        class="Apulia"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/rQ1vXCJ"
-        class="Naples"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/BWQQ24b"
-        class="Piemonte"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/9aVaLZQ"
-        class="Rome"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/mcP2ZAM"
-        class="Tuscany"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/U0Xg6Yl"
-        class="Venice"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-{/* Austria */}
-      <Land
-        src="http://imgur.com/qYw5wGi"
-        class="Bohemia"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/7m7iXK3"
-        class="Budapest"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/TyuqzCr"
-        class="Galicia"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/f9JWHfp"
-        class="Trieste"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/wCVEhVT"
-        class="Tyrolia"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/7enOk7w"
-        class="Vienna"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-{/* Russia */}
-      <Land
-        src="http://imgur.com/e8JPUD9"
-        class="Finland"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/QB1Cgqv"
-        class="Livonia"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/wOi3tDj"
-        class="Moscow"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/lMc99NQ"
-        class="Ukraine"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/WXpnqF7"
-        class="Warsaw"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/N0WTz6f"
-        class="StPetersburg"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/rLMOhEj"
-        class="Sevastopol"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-{/* Ottomans */}
-      <Land
-        src="http://imgur.com/hFgOrwO"
-        class="Ankara"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/Hfpt5Pu"
-        class="Armenia"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/pagAyMp"
-        class="Constantinople"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/yutrrED"
-        class="Smyrna"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/RPWmhOS"
-        class="Syria"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-{/* Neutral */}
-
-      <Land
-        src="http://imgur.com/FkxdHVy"
-        class="Albania"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/HxQZrMp"
-        class="Belgium"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/INrLmUh"
-        class="Bulgaria"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/I4hg7CP"
-        class="Denmark"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/zTqYXm2"
-        class="Greece"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/JU8tm5p"
-        class="Holland"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/jX3l2O7"
-        class="Iceland"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/7kQ3itz"
-        class="NorthAfrica"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/34f7cdo"
-        class="Norway"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/D1Y8iJ2"
-        class="Portugal"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/qxvFPrU"
-        class="Romania"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/yEgs1L0"
-        class="Serbia"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/5cJLvc3"
-        class="Spain"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/5QnkPdq"
-        class="Sweden"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-      <Land
-        src="http://imgur.com/TZPADte"
-        class="Tunisia"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
-        latestChange={self.props.latestChange}
-      />
-
-{/*Alphabetical Order with old halfsize src files
-
-          <Land
-            src="http://imgur.com/5cJLvc3"
-            class="Spain"
-            england={self.props.england}
-            germany={self.props.germany}
-            france={self.props.france}
-            italy={self.props.italy}
-            austria={self.props.austria}
-            russia={self.props.russia}
-            ottomans={self.props.ottomans}
-          />
-
-          <Land
-            src="http://imgur.com/5QnkPdq"
-            class="Sweden"
-            england={self.props.england}
-            germany={self.props.germany}
-            france={self.props.france}
-            italy={self.props.italy}
-            austria={self.props.austria}
-            russia={self.props.russia}
-            ottomans={self.props.ottomans}
-          />
-
-          <Land
-            src="http://imgur.com/TZPADte"
-            class="Tunisia"
-            england={self.props.england}
-            germany={self.props.germany}
-            france={self.props.france}
-            italy={self.props.italy}
-            austria={self.props.austria}
-            russia={self.props.russia}
-            ottomans={self.props.ottomans}
-          />
-
+{/*Alphabetical Order with SVG paths*/}
 
       <Land
         src="http://imgur.com/UD2uk7t"
@@ -827,8 +27,7 @@ class LandTiles extends Component {
         russia={self.props.russia}
         ottomans={self.props.ottomans}
         latestChange={self.props.latestChange}
-        spriteSheet={1}
-        spritePosition={0}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 591,557.98722 v -1.08315 l -2.75,-2.42043 -2.75,-2.42044 -1.09501,-0.0316 L 583.30998,552 581.5,550 579.69002,548 H 580.84501 582 v -5.8 -5.8 l 1.09264,-1.09264 1.09264,-1.09264 -1.09616,-2.04819 -1.09616,-2.04819 2.11193,-1.47925 2.11193,-1.47926 -0.66743,-1.07991 L 584.88197,525 h -1.07369 -1.07369 l -1.63164,-1.88129 -1.63163,-1.88129 -1.98566,-0.38659 -1.98566,-0.38659 -0.0673,-2.48212 -0.0673,-2.48212 0.42425,-1.25 0.42426,-1.25 h 2.27056 2.27057 l 1.20421,1.45099 1.20422,1.45099 4.46777,0.66998 4.46778,0.66999 1.45045,1.45045 1.45046,1.45046 0.0153,7.67857 0.0153,7.67857 0.73468,1.09171 0.73469,1.0917 4.90959,1.8551 4.90958,1.8551 -1.15958,0.38653 -1.15959,0.38653 v 2.1996 2.1996 l -2.25,2.91198 -2.25,2.91197 -2.5,2.40278 -2.5,2.40278 -1.75,0.9375 -1.75,0.93749 v -1.08315 z"
       />
 
       <Land
@@ -842,8 +41,7 @@ class LandTiles extends Component {
         russia={self.props.russia}
         ottomans={self.props.ottomans}
         latestChange={self.props.latestChange}
-        spriteSheet={1}
-        spritePosition={1}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z m 278.16267,-80.8601 -0.0889,-0.8899 0.17599,-4.99483 0.176,-4.99484 1.11296,-0.68785 1.11296,-0.68785 -0.10486,-3.69944 -0.10487,-3.69944 -0.88716,-0.61788 -0.88717,-0.61787 -1.36813,-4.25 -1.36812,-4.25 h -0.74211 -0.74212 l -1.09782,-3.14922 -1.09783,-3.14923 V 526.85078 526 h 1.46104 1.46105 l 1.78895,-1.84649 1.78896,-1.84649 3.26174,-1.40282 3.26174,-1.40282 0.55565,-1.75069 L 791.13474,516 h 0.93261 0.93261 v -1.48658 -1.48658 l 3.46175,-1.44641 3.46175,-1.44641 4.55055,-0.6824 4.55054,-0.6824 0.54672,-0.88461 L 810.11799,507 h 9.53326 9.53325 l 2.53511,-1.99412 2.53511,-1.99412 3.12262,3.07357 3.12262,3.07357 3.5,-0.67352 3.5,-0.67351 2.75,-0.51943 2.75,-0.51944 v 1.75326 1.75325 l 1.6463,1.20381 1.6463,1.20381 4.6037,-0.87445 4.6037,-0.87445 2.5,0.64975 2.5,0.64975 12.85315,0.34884 12.85314,0.34883 4.00709,-2.04426 4.00708,-2.04426 7.32355,-0.45645 7.32354,-0.45646 0.52297,4.28302 0.52297,4.28301 0.52852,5 0.52853,5 -0.73772,1.15848 -0.73772,1.15847 -6.49755,1.71207 -6.49755,1.71206 -10.7462,-0.16182 -10.7462,-0.16182 -4.10789,1.23075 -4.1079,1.23076 -0.50289,1.31052 -0.5029,1.31053 -2.14301,0.0434 -2.14301,0.0434 -3.62702,2.20663 -3.62703,2.20663 -3.87297,3 -3.87298,3 -0.33041,0.74124 -0.33042,0.74124 -3.41958,1.50876 L 849,552 l -3.56298,1.5768 -3.56297,1.5768 -7.43703,-0.5768 L 827,554 l -7.58953,-0.58214 -7.58953,-0.58213 -5.66047,3.8019 -5.66047,3.8019 -0.5,0.11403 -0.5,0.11403 -3,1.25124 -3,1.25125 -5.25,0.55486 -5.25,0.55487 -0.0889,-0.88991 z"
       />
 
       <Land
@@ -857,8 +55,7 @@ class LandTiles extends Component {
         russia={self.props.russia}
         ottomans={self.props.ottomans}
         latestChange={self.props.latestChange}
-        spriteSheet={1}
-        spritePosition={2}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z m 53.13701,-90.5 -1.18489,-2.25 -1.10029,-0.73469 -1.1003,-0.73468 -3.5,-0.029 -3.5,-0.029 -2.25,-0.60298 -2.25,-0.60297 v -1.81598 -1.81598 l -2.14012,-0.67925 -2.14012,-0.67925 -3.10988,3.47029 -3.10988,3.4703 -1.47076,2.14156 -1.47076,2.14157 h -1.63969 -1.6397 l -3.88954,-2.62686 -3.88955,-2.62685 -0.64424,-1.01104 -0.64425,-1.01105 -0.63342,-3.96119 -0.63342,-3.96119 -1.4009,-1.40091 -1.40091,-1.40091 h -0.89712 -0.89711 l -2.42432,-2.61883 -2.42431,-2.61883 -6.17664,-2.97245 -6.17663,-2.97244 -3.98233,-3.40873 -3.98233,-3.40872 H 485.09104 484 v -1 -1 h 0.95455 0.95454 l 2.5,-2.5 2.5,-2.5 h 2.01978 2.01977 l 1.44789,2.7999 1.44788,2.7999 4.3278,0.24214 4.32779,0.24214 1.5,1.95047 1.5,1.95048 3.5,0.3957 3.5,0.3957 2.28518,0.11179 2.28519,0.11178 -1.06086,1.98223 -1.06086,1.98224 2.83885,2.97059 2.83886,2.97059 3.34188,0.58875 3.34188,0.58876 2.92166,2.45842 2.92167,2.45842 h 2.28842 2.28841 l 2.38486,1.86968 2.38486,1.86968 3.16646,0.69143 3.16646,0.69142 0.56948,1.48405 0.56948,1.48405 3.51406,1.46826 3.51406,1.46827 v 2.98658 2.98658 h -0.96482 -0.96481 l -1.18489,-2.25 z"
       />
 
       <Land
@@ -874,6 +71,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={3}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 958.5,553.94091 l -4,-0.90206 -6.71784,0.57884 -6.71783,0.57883 -5.03217,-0.6921 L 931,552.81232 v -2.1973 -2.19731 l -4.03036,-3.7057 -4.03037,-3.70569 -2.55981,-1.67726 -2.55982,-1.67726 0.56899,-2.84497 0.569,-2.84498 1.99488,-2.14125 1.99488,-2.14125 -0.67264,-7.58967 -0.67265,-7.58968 -0.051,-2.4142 -0.0511,-2.4142 2.85154,-0.77647 2.85153,-0.77647 3.36083,-2.30288 3.36083,-2.30288 0.28763,-2.00645 L 934.5,497.5 l 2.31115,-0.32756 2.31115,-0.32757 0.52504,-1.36825 0.52505,-1.36825 3.48095,3.1676 3.48096,3.16759 3.21459,1.52822 3.2146,1.52822 2.27012,2.30187 2.27013,2.30187 2.94813,-0.46463 L 964,507.17447 v 1.84092 1.84091 l 5.75,2.17226 5.75,2.17226 2.5,-1.39671 2.5,-1.39671 13.75,0.41213 13.75,0.41213 v 20.93383 20.93382 l -5.75,-0.59047 -5.75,-0.59048 -10,-0.0384 -10,-0.0384 -7,0.50072 -7,0.50073 -4,-0.90206 z"
       />
 
       <Land
@@ -889,6 +87,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={4}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 384,377.02288 l -1.5,-0.85951 -5.08615,-2.50563 -5.08615,-2.50564 -3.91385,-0.70014 -3.91385,-0.70015 -3.18328,-2.3759 L 358.13344,365 h -0.5644 -0.56441 l -4.87175,-3.5 -4.87174,-3.5 h -1.02358 -1.02358 l -0.51595,-1.34455 -0.51596,-1.34455 -4.61679,-1.29262 -4.6168,-1.29263 -0.53326,-0.86282 L 333.88197,351 H 331.94098 330 v -1.9433 -1.94329 l 1.81585,-1.30671 1.81586,-1.3067 0.60937,-1.63692 0.60937,-1.63693 7.32477,-0.59062 7.32478,-0.59063 4.15411,-0.61834 4.15411,-0.61834 2.03096,2.03096 2.03095,2.03095 3.81494,1.08674 3.81493,1.08673 4.5,0.61635 4.5,0.61635 1.25,0.98429 1.25,0.9843 v 1.91089 1.91089 l 3.68306,3.68305 3.68305,3.68306 0.27655,2.53361 0.27655,2.53361 0.0546,4.9175 0.0546,4.9175 -0.58161,1.8325 -0.58162,1.8325 -1.18261,-0.0588 -1.18261,-0.0588 -1.5,-0.85951 z"
       />
 
       <Land
@@ -904,6 +103,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={5}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z m -35.24949,-295.5 -0.6602,-6.25 1.18323,-3 1.18324,-3 0.44741,-7.48825 0.44742,-7.48825 1.52001,-0.85064 1.52001,-0.85064 -0.28873,-3.99898 -0.28874,-3.99897 1.96869,-1.07667 1.96868,-1.07667 0.5,-0.63304 0.5,-0.63304 6.75713,-1.31238 6.75713,-1.31238 3.39104,0.63617 3.39104,0.63616 0.58911,2.3472 0.58911,2.3472 3.01272,1.24791 L 507,314.24264 V 315.62132 317 h 2.59362 2.59362 l 0.52301,2 0.52301,2 H 514.61663 516 l 0.0439,3.25 0.0439,3.25 1.36102,3.8162 1.36103,3.81619 1.66338,1.83801 1.66337,1.83802 -1.15831,1.84579 -1.15832,1.84579 -4.92818,2.36487 -4.92819,2.36486 -6.3982,0.13514 -6.3982,0.13513 0.40773,0.40799 0.40773,0.40799 -1.11377,1.34201 L 495.75512,351 h -6.721 -6.72101 l -5.8131,2 -5.8131,2 h -0.26386 -0.26385 l -0.66021,-6.25 z"
       />
 
       <Land
@@ -919,6 +119,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={6}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 510,404 l -2.5,-0.80064 -5.20031,-0.0997 -5.20031,-0.0997 -0.79969,-1.25971 -0.79969,-1.25972 -4,-2.56029 -4,-2.56029 -1.5,-0.68679 -1.5,-0.68679 -3.58273,-2.2432 -3.58274,-2.24321 -1.91726,-1.5 -1.91727,-1.5 -2.75,-4.05375 -2.75,-4.05375 v -1.57493 -1.57493 l 2.75,-1.05487 2.75,-1.05488 8.67691,-0.38334 8.67692,-0.38335 1.46223,-1.21354 1.46223,-1.21355 6.18092,-1.08874 6.18092,-1.08875 0.90519,-2.38081 0.90518,-2.38081 h 1.91776 1.91776 l 0.57561,1.5 0.5756,1.5 H 514.96862 517 v -1.11658 -1.11657 l 2.25,0.55322 2.25,0.55323 5,1.84543 5,1.84542 2.89602,2.71793 2.89603,2.71792 h 1.33492 1.33493 l 0.61716,2.45898 0.61717,2.45898 1.2183,1.0111 1.2183,1.01111 3.60103,-0.9943 3.60102,-0.99429 5.61445,2.56811 5.61445,2.5681 -0.47621,0.77052 -0.4762,0.77051 -0.24255,4.68559 -0.24254,4.68559 h -3.09064 -3.09063 l -2.20509,-1.5445 -2.20509,-1.54451 -1.91874,1.02688 -1.91875,1.02688 -3.24533,-1.13133 -3.24534,-1.13133 -2.00562,1.25253 -2.00562,1.25253 -0.94905,-1.69585 -0.94905,-1.69586 -3.48089,0.65302 -3.4809,0.65302 -4.91777,3.53306 L 517,399.18757 v 1.7062 1.70619 l -1.2,1.2 -1.2,1.2 -1.05,-0.0997 -1.05,-0.0997 z"
       />
 
       <Land
@@ -934,6 +135,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={7}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 286.91667,413.60907 286.5,413.21814 l -4.5,-0.58348 -4.5,-0.58349 -7.65363,-0.66637 -7.65363,-0.66637 -1.07493,-2.35922 L 260.04288,406 h -1.50239 -1.50239 l -0.60408,-2.40686 -0.60408,-2.40686 1.12021,-2.09314 L 258.07037,397 257.03518,395.06574 256,393.13148 V 391.06574 389 h -1.525 -1.525 l -0.6,-3 -0.6,-3 h -0.67161 -0.67161 l -2.32211,-1.75 -2.32212,-1.75 -1.88128,-1.75 L 242,376 h -1.41667 -1.41666 l -0.37354,-1.12061 -0.37354,-1.12062 -4.23609,-0.23901 -4.23609,-0.23902 -0.71538,-0.71537 -0.71537,-0.71538 1.7627,-0.98645 1.7627,-0.98646 -0.59536,-0.96332 -0.59536,-0.96331 1.15475,0.27477 1.15475,0.27478 1.52275,-2.22168 1.52275,-2.22169 -4.25534,-0.68046 -4.25535,-0.68045 1.56136,-1.1417 1.56135,-1.14169 4.34082,0.19641 4.34082,0.19641 2.8151,1.09742 2.8151,1.09743 h 0.81245 0.81246 L 248,361.5 249.24489,360 h 0.89373 0.89374 l 1.70732,3.5803 1.70733,3.5803 2.67187,-0.53438 2.67188,-0.53437 0.511,1.95407 0.511,1.95408 h 4.0346 4.03461 l 0.61803,1 0.61803,1 H 272.05902 274 v -3.39301 -3.39301 l 1.5,-0.57561 1.5,-0.5756 v -1.90894 -1.90894 L 275.5,359 274,357.75511 V 356.37756 355 h -1.00847 -1.00848 l 1.24902,-2 1.24902,-2 H 276.24055 278 v 1.60699 1.60699 l 1.25,-0.46861 1.25,-0.4686 2,0.79133 2,0.79133 -1.75,0.0703 L 281,355 v 2.5 2.5 h 1.5 1.5 v 1.10841 1.10841 l 2.4306,-0.61005 2.4306,-0.61004 2.5694,0.97688 2.5694,0.97689 -0.0239,3.27475 -0.0238,3.27475 -0.94004,3.5 -0.94004,3.5 -1.37657,4.92047 -1.37658,4.92047 1.30534,6.07953 1.30534,6.07953 0.0296,4 0.0296,4 -1.04143,3.75 -1.04143,3.75 h -1.28633 -1.28633 l -0.41666,-0.39093 z"
       />
 
       <Land
@@ -949,6 +151,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={8}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 614.5,471.762 l -2,-1.17719 -9.5,-0.2957 -9.5,-0.29569 -1,0.0426 -1,0.0426 -3.5,0.3324 -3.5,0.3324 -1.20904,-0.96012 -1.20904,-0.96011 -2.94358,0.64652 -2.94359,0.64652 -1.35249,-1.80807 -1.35249,-1.80807 -2.99489,-1.68512 -2.99488,-1.68512 -1.5,-2.95879 -1.5,-2.9588 -3.06188,-2.10609 -3.06188,-2.10608 h -2.91747 -2.91747 l -4.76872,-3.25 -4.76871,-3.25 -0.002,-4.31574 -0.002,-4.31574 -0.98475,-1.84003 -0.98475,-1.84002 7.23475,-5.49229 7.23475,-5.4923 3.22297,-0.67546 3.22297,-0.67546 2.45793,-2.92108 2.45793,-2.92109 0.56759,-1.75539 0.5676,-1.7554 3.5015,-2.3789 3.50151,-2.3789 v -1.3711 -1.3711 h 4.8 4.8 l 1.2,-1.2 1.2,-1.2 v -1.67756 -1.67755 l 1.3926,-1.15576 1.39261,-1.15576 12.74032,-0.51611 12.74033,-0.51612 2.16716,2.03593 2.16715,2.03594 4.94992,-0.10228 4.94991,-0.10227 4.34064,1.17872 4.34063,1.17872 4.2712,3.93705 4.27119,3.93705 h 0.98453 0.98453 l 3.15912,1.57597 3.15911,1.57598 0.90862,1.67402 0.90862,1.67403 3.83591,1.97609 3.8359,1.97609 4,3.02391 4,3.02391 0.15045,3.27758 0.15045,3.27759 1.20003,1.44595 1.20004,1.44596 3.14951,0.59738 3.14952,0.59739 1.58666,1.17907 1.58665,1.17908 1.16335,2.18426 1.16334,2.18426 v 2.56574 2.56574 h 1 1 v 1.57143 1.57143 l -1.25,1.19153 -1.25,1.19154 -2.92226,1.87296 -2.92226,1.87295 -9.82774,-0.54154 -9.82774,-0.54153 v 0.89872 0.89872 l -8.80499,-0.12239 -8.80499,-0.12238 -2.44501,0.70879 -2.44501,0.7088 -3.08712,1.39011 -3.08711,1.39011 -1.91289,2.70443 -1.91288,2.70444 -2.39602,2.32594 -2.39603,2.32594 -3.60397,-0.0304 -3.60398,-0.0304 -2,-1.17718 z"
       />
 
       <Land
@@ -964,6 +167,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={9}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z m 164.72682,-109.32786 -0.72233,-2.27585 -2.24608,-2.4223 -2.24608,-2.4223 -3.3804,0.51606 -3.3804,0.51606 -5.5,1.10309 -5.5,1.1031 -5.65015,1.58376 -5.65015,1.58376 -3.19254,-2.35376 -3.19253,-2.35376 3.57099,-1.01402 3.57098,-1.01401 1.69297,-1.69297 1.69297,-1.69297 -1.82314,-4.04302 L 635.69625,516 h -0.7268 -0.72681 l -1.3126,-3.25 -1.31259,-3.25 -1.30873,-0.79969 L 629,507.90062 V 506.45031 505 h 4.03138 4.03139 l 0.64852,-1.69003 0.64853,-1.69003 -1.25695,-0.41898 -1.25695,-0.41899 -2.67296,-2.64098 L 630.5,495.5 l -1.28092,-2.86491 -1.28091,-2.86491 0.5983,-1.88509 L 629.13478,486 h 1.32562 1.32562 l 0.68174,-1.75 0.68173,-1.75 1.37698,3.25 1.37698,3.25 h 2.92583 2.92583 l 1.2265,-1.47785 1.22651,-1.47784 1.82413,0.27838 1.82414,0.27839 1.8218,2.15865 1.82181,2.15865 13.5,0.40206 13.5,0.40206 3.5,-1.55729 3.5,-1.5573 0.77719,-1.26374 0.77718,-1.26374 3.47282,-0.65151 3.47281,-0.6515 v -0.82132 -0.82132 l 1.97415,-0.62658 1.97415,-0.62657 3.77585,1.8004 3.77585,1.80039 6,-0.26276 6,-0.26276 2.80748,0.61363 2.80749,0.61363 -0.30749,2.15792 L 722.5,490.5 l -3.25,0.9568 -3.25,0.95679 V 493.2068 494 h 1 1 v 2.5 2.5 h -1 -1 v 1.53518 1.53519 l -1.58293,2.41585 -1.58293,2.41585 0.63408,1.99781 0.63408,1.99782 2.19885,0.68593 2.19885,0.68593 0.73469,1.11522 0.73468,1.11522 0.0153,0.75 0.0153,0.75 h -4.93795 -4.93794 l -6.81206,1.57668 -6.81205,1.57668 -1.63233,1.47181 -1.63232,1.47182 1.5727,5.86966 1.5727,5.86965 -1.30667,1.57443 -1.30666,1.57443 -5.38371,-0.12411 -5.38371,-0.12412 v -0.97787 -0.97787 l -3.25,0.56195 -3.25,0.56195 -3.15119,0.64645 -3.15119,0.64645 -0.72233,-2.27585 z"
       />
 
       <Land
@@ -979,6 +183,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={10}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 324,450 l -2,-2 v -1.41667 -1.41666 l -0.86782,-0.33334 -0.86781,-0.33333 -0.68024,-2.1891 -0.68025,-2.18909 2.04806,-1.09609 L 323,437.92963 v -1.83304 -1.83304 l -5.99118,-1.68104 -5.99118,-1.68104 -0.9318,-1.74108 -0.9318,-1.74108 4.91766,-2.76435 4.91765,-2.76434 0.61373,-2.44531 L 320.21682,417 h 0.8031 0.80311 l -0.25786,-1.25 -0.25786,-1.25 -1.15365,-2.8151 L 319,408.8698 v -0.69435 -0.69436 l 1.87689,-1.17213 1.87689,-1.17214 3.8528,-0.72279 3.8528,-0.72279 3.02031,-1.84188 3.02031,-1.84188 2.01265,-0.004 2.01265,-0.004 1.92173,-2.559 1.92173,-2.559 4.3061,-1.96166 4.3061,-1.96166 1.73552,-2.72934 1.73551,-2.72934 1.274,-0.79969 L 359,383.9001 v -1.26997 -1.26998 l 2.5,-2.17372 2.5,-2.17372 v -3.00662 -3.00661 h 0.89639 0.89638 l 7.12716,2.90042 7.12717,2.90042 2.47645,1.62263 2.47645,1.62264 v 3.00217 3.00217 l 6,6.44955 6,6.44955 v 1.4538 1.45379 l -1.34906,1.34906 -1.34906,1.34906 -1.26775,3.84132 -1.26775,3.84133 -5.25363,5.38104 -5.25362,5.38105 h -1.05836 -1.05837 l -3.71108,3.5 -3.71108,3.5 h -1.29273 -1.29273 l -0.63255,1.99297 -0.63254,1.99297 -6.18485,-0.70284 -6.18484,-0.70283 -6,-0.0401 -6,-0.0401 v 8.16208 8.16208 l -0.5,0.33792 -0.5,0.33792 -2.23643,1.25 -2.23643,1.25 H 332.01357 326 l -2,-2 z"
       />
 
 
@@ -995,6 +200,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={11}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 285.18498,244.36663 285,243.23326 l -2.25,-0.66769 -2.25,-0.66769 2.25,-0.91672 2.25,-0.91671 v -3.41559 -3.4156 l -2.16167,-0.56529 -2.16168,-0.56529 -1.89899,1.01631 -1.89899,1.01631 1.55154,-3.00035 1.55154,-3.00034 2.75913,-0.31731 L 285.5,227.5 v -2.5 -2.5 l -2.64601,0.0314 -2.646,0.0313 -1.11247,-1.78134 -1.11247,-1.78135 h 2.97329 2.97329 l 1.0316,-1.92756 1.0316,-1.92756 -0.57398,-1.49575 -0.57397,-1.49575 2.07756,-1.11187 L 289,209.92964 v -1.46481 -1.46482 l -1.25,-0.0703 -1.25,-0.0703 2,-0.85732 2,-0.85731 3.25,0.53889 3.25,0.53889 v -1.75105 -1.75104 l -1.75,-1.359 -1.75,-1.359 4.25,0.62656 4.25,0.62657 v -0.56271 -0.56271 l -0.97525,-2.5651 -0.97525,-2.5651 h 0.51706 0.51707 l 1.99114,1.85503 1.99114,1.85503 2.61567,-0.50002 2.61567,-0.50002 -0.70644,1.14305 -0.70644,1.14304 -5.19219,2.51231 -5.19218,2.51231 -1.8407,1.4162 -1.84069,1.41619 0.60643,1.9107 0.60643,1.91071 -2.51573,3.70714 L 291,219.0888 v 2.67216 2.67215 l -1.69866,4.53344 -1.69866,4.53343 -0.74117,0.52183 -0.74116,0.52183 -0.37519,5.47817 -0.3752,5.47817 -0.18498,-1.13337 z m -11.75798,-4.8881 1.927,-1.45787 0.54404,0.54405 0.54404,0.54404 -1.47104,0.93031 -1.47104,0.93031 -1,-0.0165 -1,-0.0165 1.927,-1.45786 z M 272,211.81955 v -0.68045 l 2.25,-0.31955 2.25,-0.31955 v -2.40013 -2.40014 l 1.75,-0.26138 1.75,-0.26138 V 206.08848 207 h -1 -1 v 2.75 2.75 h -3 -3 z M 265,208 v -1 h 1 1 v 1 1 h -1 -1 z m 11.42857,-11.24809 V 195 l 2.03572,-0.0318 2.03571,-0.0318 1.94113,-1.46819 1.94113,-1.4682 h 0.81734 0.81735 l -1.24902,2 -1.24902,2 H 282.25945 281 v 1.39421 1.39422 l -2.28571,-0.14231 -2.28572,-0.1423 v -1.75191 z"
       />
 
 
@@ -1011,6 +217,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={12}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 727,565.16015 725.5,564.5 l -2.78201,-1.88599 -2.78202,-1.88598 -5.96798,0.54116 L 708,561.81034 v -0.84615 -0.84616 l 1,-0.61803 1,-0.61803 v -0.8736 -0.87359 l -2.25,-0.73547 -2.25,-0.73546 -3.34593,0.20586 -3.34593,0.20586 0.4249,-1.28778 0.4249,-1.28779 2.42103,-1.21525 2.42103,-1.21526 0.5432,-2.27675 0.54319,-2.27675 2.33166,-1.16245 2.33165,-1.16246 2.90026,1.01104 2.90027,1.01104 3.47488,-0.65189 L 723,544.90937 V 543.25469 541.6 l 1.2,1.2 1.2,1.2 h 2.74098 2.74099 l 0.61803,-1 0.61803,-1 h 3.12654 3.12653 l 2.37773,-2.23376 2.37773,-2.23377 7.43672,-0.37553 L 758,536.7814 v -1.91545 -1.91545 l -2.5651,-0.97525 -2.5651,-0.97525 -4.6849,-0.0816 -4.6849,-0.0816 3,-1.31513 3,-1.31513 13.25041,-0.3533 13.25041,-0.35329 -4.1e-4,1.81574 -4.1e-4,1.81574 1.15794,2.16363 1.15793,2.16362 1.24465,1.24465 1.24466,1.24465 0.69125,5.02599 0.69125,5.02598 1.15616,0.0153 1.15616,0.0153 -1.43019,0.90506 -1.43019,0.90507 -0.56981,7.17207 -0.56981,7.17208 -8,0.21416 -8,0.21417 -2.12874,0.61261 -2.12874,0.61261 -2.73557,-1.41923 -2.73556,-1.41923 h -3.66319 -3.66319 l -2.03328,1.42417 -2.03329,1.42417 -7.43922,-0.014 -7.43922,-0.014 -1.5,-0.66014 z M 703.07895,540.67353 703,538.84706 l -3.75,0.17336 -3.75,0.17336 -0.78896,-0.0969 -0.78895,-0.0969 2.03895,-2.18856 L 698,534.62286 v -2.37718 -2.37718 l -0.89772,-1.68426 -0.89772,-1.68426 -0.35228,-2.3887 -0.35228,-2.38869 5.5,-1.83315 5.5,-1.83314 8.01287,-0.0282 8.01287,-0.0282 0.98713,2.25 0.98713,2.25 2.25,-0.31286 2.25,-0.31286 v 0.90235 0.90234 l 2.5,1.13908 2.5,1.13907 v 1.899 1.89899 l -1.25,0.99214 -1.25,0.99214 -6.5,0.69172 -6.5,0.69171 -4,2.68859 -4,2.68859 -0.33333,0.75 -0.33334,0.75 H 707 704.16667 l -0.50439,1.25 -0.50439,1.25 -0.0789,-1.82647 z"
       />
 
 
@@ -1027,6 +234,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={13}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z m -56.85308,-336.5 -4.56102,-4.25 -0.61616,-1.69881 -0.61615,-1.69881 1.94897,-0.61858 L 446,298.86522 v -1.32562 -1.32562 l -1.37485,-0.52758 -1.37484,-0.52758 -0.4841,-3.29835 -0.48409,-3.29835 0.90594,-3.28106 L 444.09401,282 H 445.047 446 v -1.13976 -1.13975 l -1.75,-1.32844 -1.75,-1.32844 -1.75,-0.0318 L 439,277 v -3.34699 -3.34699 l 2.05429,-2.36862 2.0543,-2.36862 -0.53152,-2.11772 -0.53151,-2.11773 1.72722,-0.20586 1.72722,-0.20586 6.25,0.0614 6.25,0.0614 v -1.41521 -1.41521 l 1.58179,-0.60699 1.58178,-0.60699 h 1.88683 1.88683 l -0.5765,1.50234 -0.57651,1.50235 2.35789,1.96439 2.35789,1.96438 3.25,0.0333 3.25,0.0333 v 2.92668 2.92667 l -1.75,0.38367 -1.75,0.38366 -2.37187,-1.02638 -2.37187,-1.02638 -2.37316,2.96604 -2.37317,2.96604 -0.005,1.64301 -0.005,1.64301 -1.37155,0.52631 -1.37154,0.52632 -1.24169,6.58067 -1.24168,6.58068 h -0.79315 -0.79315 l 0.54828,2.09662 0.54828,2.09662 3.1081,-0.57896 3.1081,-0.57896 -1.65631,1.27407 -1.6563,1.27407 0.98702,1.76371 0.98702,1.76371 2.44491,0.92955 2.44491,0.92955 0.60285,1.57099 0.60284,1.57099 -2.02202,1.88381 -2.02202,1.8838 -0.51352,-0.51352 -0.51352,-0.51352 -3.04327,1.57373 -3.04327,1.57374 h -1.82146 -1.82145 l -4.56102,-4.25 z m 26.25373,-12.35382 -1.35088,-1.52775 0.61614,-0.61615 0.61615,-0.61614 4.23473,2.16806 4.23474,2.16806 -3.5,-0.0242 -3.5,-0.0242 -1.35088,-1.52775 z M 480.25,289.33772 479,288.83333 v -2.54937 -2.54937 l -2.2005,-1.90848 -2.2005,-1.90849 2.2005,-0.57544 2.2005,-0.57544 v -0.78555 -0.78554 l 3,-1.04581 3,-1.0458 v 1.38059 1.38059 l 2.00099,0.63509 2.00099,0.63509 -0.63751,4.1823 -0.63751,4.1823 -0.98592,1.25 -0.98593,1.25 -2.12755,-0.079 -2.12756,-0.0789 -1.25,-0.50439 z m -15,-1 -1.25,-0.50439 v -3.27314 -3.27315 l 2.99772,0.10648 2.99772,0.10648 0.002,3.14301 0.002,3.14301 -1.58179,0.60699 -1.58178,0.60699 -0.16822,-0.079 -0.16821,-0.0789 -1.25,-0.50439 z m -21.68342,-32.22999 -0.63197,-1.02255 2.78269,-1.40671 2.7827,-1.40671 6.5,-0.55537 6.5,-0.55537 -2.59418,1.36979 -2.59419,1.36978 -4.40581,0.21055 -4.40582,0.21054 -1.65072,1.4043 -1.65073,1.40431 z M 468,254.40638 v -1.59362 l -2,-0.52301 -2,-0.52301 v -0.47308 -0.47307 l 2.25,-1.87703 2.25,-1.87702 1.70031,-0.0333 1.70031,-0.0333 0.91131,-1.62842 0.9113,-1.62841 0.64758,1.04779 0.64757,1.0478 -1.50919,1.50919 L 472,248.85708 v 1.07143 1.07143 h 1 1 v 1 1 h -1.53138 -1.53139 l -0.5756,1.5 -0.57561,1.5 H 468.89301 468 v -1.59362 z"
       />
 
       <Land
@@ -1042,6 +250,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={14}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 299.79058,256.23181 295.61566,252.5 l -2.74696,-2.83462 -2.74696,-2.83462 -0.66312,-3.01918 -0.66313,-3.01918 0.68285,-5.6462 0.68285,-5.6462 1.41941,-2.21482 1.4194,-2.21481 v -2.19733 -2.19732 l 2.59365,-4.42574 2.59365,-4.42573 -0.49041,-1.87536 -0.49042,-1.87535 1.15236,-0.95638 1.15236,-0.95637 2.67205,-0.67064 2.67204,-0.67064 0.54098,-1.40976 L 305.93723,202 h 1.47468 1.47468 l 1.30671,-1.80217 1.3067,-1.80218 3,0.0525 3,0.0525 2.27801,1.29988 2.27801,1.29988 -0.58703,0.94982 -0.58702,0.94983 h -3.81854 -3.81854 l -1.24489,1.5 -1.24489,1.5 h -4.31854 -4.31854 l -0.65697,1.06301 -0.65698,1.06302 1.75295,1.93698 1.75295,1.93699 h -2.72454 -2.72454 l 0.34329,2.25 0.34329,2.25 1.39293,-0.30556 1.39292,-0.30555 h 7.11195 7.11194 l 2.97139,1.54939 2.97139,1.5494 3.12353,0.006 3.12353,0.006 -1.62353,3.46743 -1.62353,3.46744 -0.88533,0.0326 -0.88533,0.0326 -2.30862,2.25 -2.30861,2.25 -2.02452,1.89175 -2.02452,1.89175 -6.03496,-0.54723 -6.03497,-0.54724 -1.99657,0.52212 L 299,234.23307 v 1.80004 1.80003 l 1.25,0.50439 1.25,0.50439 -3.31955,0.0789 -3.31955,0.0789 0.31955,2.23654 0.31955,2.23653 3.53397,0.57093 3.53396,0.57093 1.25538,0.77587 1.25538,0.77587 H 309.53934 314 v 1.86697 1.86698 l 1.47173,0.82362 1.47174,0.82363 0.18671,1.97606 0.18671,1.97607 -0.15845,1.85504 -0.15844,1.85503 -4.25,-0.44275 -4.25,-0.44276 -2.26725,0.81953 -2.26726,0.81953 -4.17491,-3.73181 z M 326.66667,193.33333 326,192.66667 V 191.83333 191 h 1.5 1.5 v 1.5 1.5 h -0.83333 -0.83334 z m 26.82995,-14.91929 0.8365,-1.91404 -0.1225,-2.70148 -0.12249,-2.70147 1.89627,0.70147 1.89627,0.70148 0.0597,0.75 0.0597,0.75 v 1 1 h -1.5 -1.5 v 1.44098 1.44099 l -1.16994,0.72306 -1.16994,0.72306 0.8365,-1.91405 z"
       />
 
       <Land
@@ -1057,6 +266,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={15}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z m 118.5376,-436.78885 -1.15703,-1.2386 0.54893,-2.09912 0.54894,-2.09913 -1.74938,-0.6713 -1.74938,-0.67129 -1.54964,0.97748 -1.54964,0.97749 -2.31594,-1.06834 -2.31594,-1.06834 -0.5973,-1.849 -0.59731,-1.84899 -2.90119,0.4258 L 605,197.65361 V 196.82681 196 h 1 1 v -1.13976 -1.13975 l -1.73672,-1.26993 -1.73673,-1.26992 1.73673,-1.91906 L 607,187.34252 v -2.70644 -2.70645 l -1.58108,-2.41303 -1.58108,-2.41303 0.1824,-3.30179 0.18239,-3.30178 -0.10131,-1.75 L 604,167 h -1.2872 -1.28719 l -0.15066,-2 -0.15065,-2 H 602.06215 603 l 2,-2 2,-2 v -2.02475 -2.02475 l 2.56714,-0.97603 2.56714,-0.97602 -0.63453,-1.99923 L 610.86522,149 H 612.93261 615 v -1.5 -1.5 h 1.96482 1.96481 l 1.1923,-2.25 1.1923,-2.25 2.59289,-2.24878 2.59288,-2.24878 0.75,-0.001 0.75,-0.001 2.11135,-2.11135 2.11136,-2.11136 0.88949,-3.22146 0.88949,-3.22147 2.24915,0.18429 2.24916,0.18429 1.25,-0.45846 1.25,-0.45846 v -1.82158 -1.82158 l -1.5,-1.5 -1.5,-1.5 v -2.52438 -2.52437 l -1.17733,-2.58395 -1.17732,-2.58396 -4.42538,0.22908 -4.42537,0.22908 -1.1473,-1.94218 L 624.5,105.5 623.86831,103 623.23663,100.5 623.11831,93.570998 623,86.641996 621.9096,83.070998 620.8192,79.5 619.80471,76.138924 618.79021,72.777849 617.17287,70.888924 615.55552,69 h -1.08234 -1.08235 l -3.89113,-3.564144 -3.89114,-3.564145 -2.81807,-0.563613 -2.81806,-0.563612 -3.73622,-3.434108 L 592.5,53.87627 594.25,52.888445 596,51.90062 V 50.45031 49 l 1.25,0.07416 1.25,0.07416 3.78401,1.675837 3.78401,1.675836 1.24315,2.5 1.24315,2.5 10.47284,0.300837 10.47284,0.300838 3.23785,-0.593871 3.23784,-0.59387 1.03321,-1.930555 1.0332,-1.930556 -1.15612,-4.591346 -1.15611,-4.591346 1.10744,-1.107439 1.10744,-1.107439 2.27762,-0.312768 2.27763,-0.312769 4.25974,-0.620822 4.25973,-0.620822 2.30685,0.57898 2.30684,0.578981 1.43182,2.776983 1.43183,2.776984 0.74,0.551853 0.74001,0.551854 0.12497,7.948146 0.12497,7.948147 0.94652,2.5 0.94651,2.5 4.94011,3.823058 L 672,76.14611 v 2.243282 2.243282 l -1.02928,5.567889 -1.02928,5.567888 2.05496,5.492369 2.05496,5.49237 1.94463,2.24218 1.94463,2.24218 0.59708,1.88122 0.59708,1.88122 h 0.79541 0.79541 l 1.20988,7.5 1.20988,7.5 h 0.85993 0.85993 l 0.68161,2.14755 0.68161,2.14755 3.379,3.37901 3.37901,3.37901 1.87812,3.72344 1.87811,3.72344 1.12866,6.58191 1.12866,6.58192 v 3.65373 3.65374 l -1.12341,4.76435 -1.12341,4.76435 -0.90068,2.34992 -0.90067,2.34992 -1.85402,0.48483 -1.85401,0.48484 -1.10046,2.41524 -1.10046,2.41525 h -1.45405 -1.45405 l -0.63478,2 -0.63478,2 h -0.74596 -0.74597 l -1.37329,3.5 -1.37329,3.5 -1.06336,0.0503 -1.06335,0.0503 -4.47828,0.38456 -4.47828,0.38456 -0.35505,1.06517 -0.35506,1.06516 h -5.03539 -5.0354 l -6.63127,2.12082 -6.63127,2.12082 -4.00968,1.82931 -4.00968,1.82931 -5.07359,-0.54543 -5.07359,-0.54543 -1.44518,1.44518 -1.44518,1.44518 -1.15703,-1.23861 z"
       />
 
 
@@ -1073,6 +283,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={16}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 668.75341,421.53886 c -2.33937,-1.78571 -5.25417,-3.56407 -6.47732,-3.95191 -1.22316,-0.38784 -3.06097,-1.76931 -4.08404,-3.06992 C 656.14075,411.90921 649.74293,408 647.52629,408 c -0.77709,0 -2.0009,-0.80591 -2.71959,-1.79092 -3.71122,-5.08647 -14.72823,-9.66121 -20.63952,-8.57042 -2.50003,0.46132 -4.04448,0.0888 -6.1809,-1.49068 -1.56645,-1.15813 -4.11668,-2.16018 -5.66718,-2.22679 -4.59957,-0.19759 -18.13919,1.03002 -22.74529,2.06227 -4.77848,1.07088 -9.36155,0.73569 -12.43561,-0.9095 -1.12531,-0.60224 -4.76675,-1.37936 -8.0921,-1.72693 L 563,392.71509 v -3.83255 c 0,-3.71316 0.0922,-3.81411 2.9587,-3.2408 2.3132,0.46264 3.78585,-0.0567 6.75,-2.38031 7.46422,-5.85129 11.85628,-6.73056 16.2913,-3.26143 3.13024,2.44851 6.04443,2.54611 6.65199,0.22278 0.30636,-1.17153 2.17045,-2.18239 5.46967,-2.96609 2.75271,-0.65389 6.70267,-2.53352 8.77769,-4.17697 3.72079,-2.94692 3.81512,-2.96461 6.84778,-1.2839 10.44527,5.78879 13.36674,7.20418 14.86995,7.20418 2.19247,0 11.96059,-4.7862 13.46319,-6.59671 1.65835,-1.9982 3.91973,-1.73585 3.91973,0.45474 0,1.80903 8.54697,7.14197 11.44626,7.14197 0.69393,0 2.45389,1.10489 3.91101,2.45531 1.45713,1.35041 4.22284,2.75049 6.14603,3.11129 1.92318,0.36079 3.4967,1.21205 3.4967,1.89168 0,0.67964 0.91225,2.28754 2.02723,3.57312 1.11498,1.28558 2.28876,3.37943 2.60841,4.65301 C 678.95529,396.95798 679.56925,398 680,398 c 0.43075,0 1.04471,1.04202 1.36436,2.31559 0.31965,1.27358 1.42801,3.292 2.46302,4.48538 1.50423,1.73439 1.78045,3.22505 1.37653,7.42874 -0.63644,6.62353 -3.27355,10.29086 -8.32129,11.57212 -3.56636,0.90523 -4.21538,0.72456 -8.12921,-2.26297 z"
       />
 
       <Land
@@ -1088,6 +299,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={17}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 263.5,474.8617 l -5,-2.07307 -2,-0.83146 -2,-0.83147 -2.14853,-0.59803 -2.14853,-0.59803 -4.13892,-2.99822 -4.13892,-2.99822 -0.98807,-2.59883 -0.98807,-2.59882 4.02552,-3.4457 4.02552,-3.4457 v -2.4136 -2.4136 l 2,-1.24902 2,-1.24902 v -1.19547 -1.19547 l 4,-2.24813 4,-2.24812 V 436.31586 435 l -1.75,-0.11842 -1.75,-0.11842 -0.8204,0.14188 -0.8204,0.14189 1.8204,-3.25515 1.8204,-3.25515 1.20813,-1.29788 1.20813,-1.29787 2.54187,0.63797 2.54187,0.63797 v -2.05872 -2.05872 l -1.75,-1.01928 -1.75,-1.01928 1.36663,-0.0304 1.36663,-0.0304 -0.52275,-1.999 -0.52275,-1.99901 0.90612,-0.56001 L 266,415.88199 v -1.91261 -1.91261 l 5.75,0.57889 5.75,0.5789 1.5,0.77759 1.5,0.7776 5.25998,0.71035 5.25999,0.71034 1.42036,2.02785 1.42036,2.02785 2.31965,1.31698 2.31966,1.31698 3,1.41011 3,1.41011 3.6938,3.81283 3.69379,3.81283 1.80621,0.16713 1.8062,0.16714 3.25,0.74934 3.25,0.74934 v 0.63298 0.63298 l -2.56682,2.04671 -2.56682,2.04671 1.0707,2.81617 1.0707,2.81616 1.49612,1.49612 1.49612,1.49612 v 1.89338 1.89339 l -2.00573,1.07344 -2.00573,1.07343 -5.93333,-0.27157 -5.93333,-0.27158 -2.31094,2.11165 -2.31094,2.11165 -3.5,4.20683 -3.5,4.20683 -0.81374,1.66484 -0.81375,1.66485 -4.51072,3.42396 -4.51073,3.42396 -3.24653,-1.17396 L 277.358,475 h -2.11998 -2.11999 l -0.61803,1 -0.61803,1 -1.69099,-0.0326 -1.69098,-0.0326 -5,-2.07307 z"
       />
 
 
@@ -1104,6 +316,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={18}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 633,612.62415 v -2.31307 l -2.25,-2.53318 -2.25,-2.53317 -2.18426,-1.12237 L 624.13148,603 H 623.56574 623 v 3 3 h -2 -2 v -3.3 -3.3 l -0.91532,-0.95 -0.91533,-0.95 -0.33467,-2.47297 -0.33468,-2.47297 -3.59152,-2.02703 -3.59152,-2.02703 1.59152,-1.52845 1.59152,-1.52845 2.625,-1.32363 2.625,-1.32363 2.05926,1.10208 2.05926,1.10208 h 2.88424 2.88424 l 5.22813,1.55259 5.22813,1.55259 1.95337,-0.61998 L 642,589.86522 v -1.71037 -1.71037 l -1.8609,-1.59335 -1.8609,-1.59335 -4.63996,0.12111 -4.63996,0.12111 -0.24914,-0.64766 -0.24914,-0.64765 -9.43672,-0.99746 -9.43673,-0.99747 -1.17352,-1.60488 -1.17352,-1.60488 -2.88975,-0.0697 -2.88976,-0.0697 4.75,-1.46061 4.75,-1.46061 v -0.95069 -0.95069 l -2.75,-0.61199 -2.75,-0.612 -2,-0.55051 -2,-0.55052 -1.3067,-1.85654 -1.30671,-1.85654 -1.19329,-0.0173 -1.1933,-0.0173 -2.25,-2.37367 -2.25,-2.37367 v -0.60906 -0.60905 h 0.9596 0.9596 l 4.0808,-4 4.0808,-4 h 0.74036 0.74036 l 1.36482,-3.25 1.36481,-3.25 0.3034,-2.36564 0.3034,-2.36564 0.31743,-0.31743 0.31742,-0.31742 11.97985,-1.6567 11.97985,-1.6567 4.00375,-1.39568 4.00375,-1.39568 2.23565,-0.0146 2.23565,-0.0145 4.76435,-1.13561 4.76435,-1.13561 4.42814,-1.36439 4.42814,-1.36439 h 1.2424 1.24241 l 0.65891,3 0.65891,3 h 0.81356 0.81355 l 0.57839,1.50724 0.57838,1.50725 -3.8458,-0.61497 -3.8458,-0.61497 -0.68461,1.10773 -0.68461,1.10772 -1.69099,0.0153 -1.69098,0.0153 -1.42093,0.89934 -1.42093,0.89934 1.57371,2.40179 1.57371,2.40178 -1.65278,1.07999 -1.65278,1.07999 1.25,1.30357 1.25,1.30357 v 0.7407 0.74069 l -2.75,-1.43453 -2.75,-1.43454 -1.25,-0.006 L 648,549 v 1.2 1.2 l -1.2,-1.2 -1.2,-1.2 h -2.3 -2.3 v -1.96482 -1.96481 l -2.03777,-1.09059 -2.03778,-1.09058 -1.96222,0.62279 L 633,544.13478 V 547.06739 550 h 0.88871 0.88871 l 0.68955,3.75 0.68956,3.75 2.60883,2.75 2.60882,2.75 h 1.88624 1.88623 l -0.32333,1.66713 -0.32332,1.66714 -1.25,0.4162 -1.25,0.4162 v -1.46089 -1.46089 L 640.5,563 l -1.5,-1.24489 -1.5862,1.31643 -1.58621,1.31643 0.54028,2.70139 0.54028,2.7014 -1.95407,0.511 -1.95408,0.511 v 1.55844 1.55843 l 1.75,0.91687 1.75,0.91688 3.45039,0.74178 3.45039,0.74178 2.60757,2.62653 2.60756,2.62653 0.64837,1.71797 0.64837,1.71798 -1.20632,0.76671 -1.20633,0.76671 -0.97592,0.0153 -0.97592,0.0153 -0.98783,2.80888 -0.98783,2.80888 1.12851,0.69745 1.1285,0.69746 -1.29833,1.77558 -1.29834,1.77558 -0.63547,-2.53191 L 641.9619,593 l -0.73095,0.0153 -0.73095,0.0153 -1.32271,0.83864 -1.32271,0.83864 0.68796,3.66717 0.68797,3.66718 2.86655,4.22887 2.86655,4.22887 0.0182,0.75 0.0182,0.75 h -1.5 -1.5 v -1.03222 -1.03223 l -2.25,-0.85261 -2.25,-0.85261 -1.27258,1.02602 -1.27258,1.02602 0.55238,1.74039 0.55238,1.74039 -1.5298,0.58704 -1.5298,0.58704 v -2.31308 z M 658.17107,590.25 656.92963,588 H 655.46482 654 v -2 -2 h 0.81966 0.81967 l 2.23916,2.57527 2.23917,2.57526 -0.35258,1.67474 -0.35257,1.67473 z m 5.4956,-5.91667 L 663,583.66667 v -0.80195 -0.80195 l 1.5,0.5756 1.5,0.57561 V 584.10699 585 h -0.83333 -0.83334 z M 657.5,578 656.88197,577 H 658.94098 661 v 1 1 h -1.44098 -1.44099 z m -7,-3 -0.61803,-1 h 1.5 1.5 l 0.61803,1 0.61803,1 h -1.5 -1.5 z M 659.55887,548.4682 657.61774,547 H 659.80887 662 v 1.5 1.5 l -0.25,-0.0318 -0.25,-0.0318 -1.94113,-1.46819 z M 668,545 l -1.5,-0.96937 1.75,-0.0153 L 670,544 v 1 1 l -0.25,-0.0153 -0.25,-0.0153 z"
       />
 
 
@@ -1120,6 +333,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={19}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 385.00291,353.50766 384,350.8698 v -1.06855 -1.06855 l -2.75,-2.36513 -2.75,-2.36513 -3,-0.113 -3,-0.11301 -3.32848,-0.38244 -3.32847,-0.38244 -1.67153,-1.05353 -1.67152,-1.05352 2.16496,0.58815 2.16496,0.58814 2.55536,-0.64135 2.55536,-0.64136 -0.22032,-2.14904 L 371.5,336.5 h 4 4 l 0.33579,-2.95069 0.33579,-2.95068 -1.81371,-1.32622 -1.8137,-1.32621 1.07876,-1.7231 1.07877,-1.7231 3.05309,-0.30619 3.05308,-0.3062 1.56556,2.23515 1.56556,2.23515 5.49,-2.77769 5.49,-2.77769 1.14959,-1.38517 1.14959,-1.38517 -3.10276,-1.76609 -3.10276,-1.7661 -0.006,-1.69098 -0.006,-1.69099 1.25,-0.80901 1.25,-0.80902 5.5,-0.0652 5.5,-0.0652 1.75,-0.79176 1.75,-0.79176 v 1.952 1.952 l 2,1.80998 2,1.80998 v 1.34501 1.34501 h -1 -1 v 2 2 l -2,2 -2,2 v 2.06574 2.06574 l -1.03518,1.93426 -1.03519,1.93426 h -2.51447 -2.51448 l -2.93585,1.51819 -2.93586,1.51819 -0.66846,2.73181 -0.66845,2.73181 -0.59603,0.5 -0.59603,0.5 -2.5,4.99605 -2.5,4.99605 -1.74709,0.32671 -1.74708,0.32672 -1.00292,-2.63787 z m -10.54403,-23.57419 -0.65915,-1.06653 0.4766,-0.4766 0.47659,-0.4766 0.59216,1.54313 0.59215,1.54313 h -0.4096 -0.4096 z m 10.0705,-10.43142 0.63319,-2.99795 0.41871,-0.41872 0.41872,-0.41871 0.57826,0.57826 0.57826,0.57825 -1.63017,2.83841 -1.63017,2.83841 z"
       />
 
 
@@ -1136,6 +350,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={20}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 224,68.096387 V 67.192773 L 220.816,63.596387 217.632,60 H 216.316 215 V 57.680335 55.360671 L 212.49239,53.180335 209.98479,51 h -1.08467 -1.08466 l -2.45327,-1.92974 -2.45326,-1.92974 -3.62012,0.587465 -3.62012,0.587465 1.91565,-2.6263 1.91566,-2.6263 0.78138,-0.03142 0.78139,-0.03142 0.5756,1.5 0.57561,1.5 h 6.28602 6.28602 l 0.59078,-1.539533 0.59077,-1.539532 -1.23378,-2.210468 L 213.5,38.5 l -0.99513,-0.710515 -0.99513,-0.710515 1.89791,-1.387781 1.8979,-1.387781 -0.71179,-1.151704 L 213.88197,32 H 212.44098 211 v -0.883369 -0.883368 l -2.25,-0.743581 -2.25,-0.743581 2.36508,-0.457681 2.36507,-0.457682 3.31301,3.21109 3.313,3.21109 2.49906,-0.627224 2.49906,-0.627225 1.51071,-3.028292 1.51071,-3.028292 -0.99426,-2.852155 -0.99427,-2.852156 -4.19359,-0.725718 -4.19358,-0.725718 1.25,-0.476402 1.25,-0.476403 v -1.699688 -1.699688 l 2.75,0.115794 2.75,0.115794 0.30847,2.082676 0.30847,2.082676 1.56276,0.599687 1.56276,0.599686 2.46733,-2.467332 2.46733,-2.467332 -0.64758,-1.047803 L 230.88197,14 l 0.62277,-1.007671 0.62278,-1.007671 1.43624,1.436243 L 235,14.857143 V 17.928571 21 h -1.35497 -1.35496 L 229.64503,24.192778 227,27.385557 V 29.692778 32 l 2.25,-0.0318 2.25,-0.0318 1.87199,-1.417638 1.87198,-1.417638 1.58838,1.588378 1.58838,1.588378 3.28964,-3.805546 L 245,24.66678 v 3.559621 3.559621 l 1.72362,0.661415 1.72362,0.661415 1.13662,-1.554426 L 250.72049,30 h 3.24816 3.24817 l -0.74947,2.75 -0.74948,2.75 -0.10893,2 -0.10894,2 2.74951,0.316376 2.74952,0.316375 0.99861,-2.62655 0.99861,-2.62655 1.25188,0.783744 1.25187,0.783744 1.5,0.04222 1.5,0.04222 1.17164,-0.8232 1.17164,-0.823199 2.05709,1.284676 2.0571,1.284676 3.02126,-1.140401 L 281,35.173728 V 36.086864 37 h 1.5 1.5 v 2.5 2.5 h 1 1 v 1.916667 1.916666 l 1.25,0.504386 1.25,0.504386 -1.25,0.07895 L 286,47 v 2 2 l 0.75,0.0078 0.75,0.0078 1.14051,2.45956 1.14051,2.459561 -1.89051,0.600025 L 286,57.134771 v 2.25942 2.259419 l -2.75,-0.355467 -2.75,-0.355467 -1.5,1.104791 -1.5,1.104791 1.25,0.507202 1.25,0.507203 v 0.853796 0.853796 l -3.36815,-0.546575 -3.36815,-0.546575 -2.40847,1.578095 -2.40848,1.578096 -4.47338,-0.145362 -4.47337,-0.145363 -4.89908,0.833071 -4.89909,0.83307 -1.37572,-1.881413 -1.37572,-1.881413 -1.7252,1.010005 -1.72519,1.010004 -7.7729,-0.152409 -7.77289,-0.15241 -0.53612,0.86746 L 226.88197,69 H 225.44098 224 Z"
       />
 
 
@@ -1153,6 +368,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={21}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 200,293.9885 V 292.75 l -2.7971,0.55942 -2.79709,0.55942 -1.45291,-0.93442 L 191.5,292 l 1.5,-1.07613 1.5,-1.07613 -1.15433,-0.47531 -1.15433,-0.47532 -2.84567,-2.46294 -2.84567,-2.46295 3.35122,0.65963 3.35122,0.65964 0.84158,-1.36171 0.84158,-1.3617 -1.05611,-1.27253 -1.0561,-1.27253 -0.8176,0.5053 -0.81759,0.5053 -0.56336,-0.91152 -0.56335,-0.91153 1.5845,-0.60803 1.58449,-0.60803 0.83361,0.5152 0.8336,0.51519 9.61424,0.47059 9.61424,0.47058 0.6244,-1.62714 0.62439,-1.62715 -1.85361,-1.35539 -1.85361,-1.35539 -7.05887,-0.086 -7.05887,-0.086 2.81393,-0.84466 2.81394,-0.84466 1.52441,-1.26515 1.52441,-1.26515 4.414,0.27144 4.414,0.27144 0.60953,-1.58841 0.60953,-1.58841 -1.22518,-1.47625 -1.22518,-1.47626 -0.8176,0.5053 -0.81759,0.5053 -0.62812,-1.01631 -0.62811,-1.01631 h -2.48148 -2.48148 l -2.9595,-2.18806 L 200,258.62379 v -0.69844 -0.69844 l 2.96417,-0.43505 2.96416,-0.43505 1.45829,1.4583 1.4583,1.45829 1.57754,-0.60536 L 212,258.06268 v -2.05614 -2.05613 l -2.56017,-0.97338 -2.56018,-0.97337 0.61919,-1.00188 0.61919,-1.00187 H 209.55902 211 v -1 -1 h -2 -2 v -0.875 -0.875 l 3.05849,-0.6117 3.05848,-0.61169 2.86933,2.12138 2.86933,2.12139 1.52099,-0.58366 1.521,-0.58366 0.58522,1.84389 0.58523,1.84389 6.12878,-0.0577 6.12877,-0.0577 1.65014,-1.65014 1.65014,-1.65014 -1.27074,-1.18705 -1.27075,-1.18705 h -2.96042 -2.96042 L 228.58179,245.39298 227,244.78599 v -0.8232 -0.82321 l 2.75922,0.79134 2.75923,0.79133 2.24077,-0.82891 L 237,243.06442 v -1.78223 -1.78222 l 5.25,-0.10224 5.25,-0.10224 2.25,-0.76439 2.25,-0.76439 v 1.00822 1.00822 l -2.43007,0.60991 -2.43008,0.60991 -1.52743,1.52744 -1.52744,1.52744 0.52987,1.38081 0.52987,1.38082 2.38317,0.59813 2.38318,0.59814 3.57488,-2.00789 3.57488,-2.00789 H 259.03042 261 v 2.5 2.5 h 1 1 v 1.5 1.5 h -0.89301 -0.89301 l -0.5862,1.52759 -0.58619,1.5276 1.97921,1.69464 1.9792,1.69465 v 0.80251 0.80251 l -2.51768,0.95722 -2.51768,0.95722 -4.61988,0.43158 -4.61987,0.43159 -0.90549,1.33644 -0.90548,1.33645 0.51849,4.21049 0.5185,4.21049 -1.86383,1.30547 -1.86383,1.30548 -1.01397,3.67227 -1.01396,3.67227 -3.09766,3.02806 L 237,289.93256 v 2.03371 2.0337 h -1.51357 -1.51357 l -1.73643,-0.87724 -1.73643,-0.87725 -3.62938,-1.14386 -3.62937,-1.14387 -2.53853,0.96515 -2.53852,0.96514 -1.8321,-0.0731 -1.8321,-0.0731 -4.5,1.21073 -4.5,1.21073 -2.75,0.5318 -2.75,0.53181 v -1.2385 z"
       />
 
       <Land
@@ -1168,6 +384,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={22}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 440.97076,364.95385 439.5,362.90769 l -3.5,-2.14464 -3.5,-2.14465 -4.47637,-2.338 -4.47636,-2.338 -0.82333,-1.4712 L 421.90062,351 h -1.18596 -1.18595 l -5.01436,-2.39972 -5.01435,-2.39972 -5.75,-1.172 -5.75,-1.17199 v -0.88933 -0.88933 l 2.18856,-2.03895 L 402.37712,338 h 2.63713 2.63712 l 2.17432,-2.31445 L 412,333.3711 v -2.51124 -2.51123 l 2.30391,-2.16441 2.30391,-2.16441 0.24907,-4.22128 0.24907,-4.22128 1.02964,-1.24064 1.02964,-1.24063 -0.61127,-1.92594 -0.61127,-1.92593 2.70905,-0.51787 2.70905,-0.51787 1.8196,1.13636 1.8196,1.13636 v 2.7404 2.74041 l 2.44316,0.61319 2.44317,0.6132 1.05683,-0.65316 L 434,315.88197 v -1.82598 -1.82597 l 2.6725,-1.75109 2.67249,-1.75108 1.57751,1.16511 1.5775,1.1651 1.82672,0.60767 1.82672,0.60766 0.89853,2.3633 L 447.9505,317 H 450.97525 454 l 0.0304,-2.25 0.0304,-2.25 0.96723,1.657 0.96724,1.65699 2.00235,-0.52362 2.00236,-0.52363 0.0153,-1.63337 0.0153,-1.63337 0.98468,1.5 0.98469,1.5 0.75,-1 0.75,-1 2,-0.27374 2,-0.27374 2.25,-0.33875 2.25,-0.33874 V 312.63751 314 h 1 1 v 2 2 h -0.83948 -0.83949 l -1.16051,2.54705 -1.16052,2.54706 v 6.86961 6.86961 l -1.25,0.42018 -1.25,0.42017 v 9.25042 9.25042 l -2.5,1.25008 -2.5,1.25007 -5.67615,1.21785 -5.67614,1.21786 -4.0652,2.94481 L 443.01727,367 h -0.2879 -0.2879 l -1.47076,-2.04615 z"
       />
 
       <Land
@@ -1183,6 +400,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={23}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 296.25,301.20633 293,300.87328 v -0.83881 -0.83882 l -3.25,-1.24654 -3.25,-1.24655 -0.57143,-0.10128 L 285.35714,296.5 283.67857,294.82143 282,293.14286 v -1.63045 -1.63044 l 0.93854,0.58005 0.93854,0.58004 0.90135,-1.61063 0.90136,-1.61063 0.9101,-0.0377 0.91011,-0.0377 1.25,-0.47967 1.25,-0.47967 v -1.35783 -1.35782 l 1.93771,-1.03703 1.93771,-1.03704 0.0323,-1.74815 0.0323,-1.74815 0.62024,-3.09131 0.62024,-3.09132 -3.14282,-1.3018 -3.14283,-1.3018 0.30262,-2.58037 0.30261,-2.58038 3.94125,-1.10028 3.94126,-1.10027 0.39003,-1.17008 0.39002,-1.17008 -2.83128,-1.13652 -2.83128,-1.13653 -7.97147,-0.30827 -7.97148,-0.30827 -1.27852,1.06109 -1.27853,1.06108 0.0318,-2.37245 0.0318,-2.37244 1.40112,-1.8494 1.40112,-1.8494 5.54593,-2.75734 5.54593,-2.75734 1.67676,2.60674 1.67675,2.60674 3.59439,3.79258 3.59439,3.79259 3.37309,2.11505 3.37309,2.11505 -0.50463,7.05288 -0.50463,7.05288 -1.11846,0.37282 -1.11846,0.37282 v 1.69442 1.69443 l -2.00731,1.71871 -2.00731,1.71871 0.65859,7.25353 0.65859,7.25353 1.09036,0.70836 1.09036,0.70836 -0.99164,0.81133 -0.99164,0.81133 -3.25,-0.33305 z"
       />
 
       <Land
@@ -1198,6 +416,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={24}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 639.2403,324.63678 632.9806,321.5 l -0.51393,-1.61212 -0.51392,-1.61211 -3.22637,-0.94758 -3.22638,-0.94758 0.34995,-1.94031 0.34995,-1.9403 0.98645,-0.61242 0.98646,-0.61241 -0.29567,-4.09499 -0.29567,-4.09498 0.69106,-0.69106 0.69105,-0.69106 -0.64743,-2.60154 -0.64744,-2.60154 -1.5288,-1.12876 -1.52879,-1.12877 -3.7395,0.50157 -3.73949,0.50158 -2.56606,-2.76883 L 612,289.70795 v -0.78254 -0.78255 l -1.25,-1.35712 -1.25,-1.35711 -1.53154,-2.96432 L 606.43691,279.5 603.71846,279.18358 601,278.86716 v -6.78402 -6.78401 l 2.94463,-2.2567 2.94463,-2.2567 0.30537,-3.09423 0.30537,-3.09424 3,-1.69372 3,-1.69372 2.15746,-0.64292 2.15746,-0.64293 2.59254,2.40268 2.59254,2.40269 v 1.45146 1.45146 l 6.01106,2.87302 6.01105,2.87303 2.66737,-0.93916 2.66736,-0.93915 0.84845,-3 0.84844,-3 0.19991,-6.5 0.19991,-6.5 1.27322,-1.32143 L 645,239.85714 v -1.30612 -1.30613 l -1.5812,-1.31228 -1.5812,-1.31228 -1.7384,1.08565 -1.7384,1.08565 -2.61322,-0.49955 -2.61322,-0.49955 -0.54034,-1.40811 -0.54034,-1.40812 1.1872,-2.60562 1.1872,-2.60563 -2.21404,-1.79282 L 630,224.17941 V 223.08971 222 h 0.87756 0.87755 l 1.2902,1.5546 1.2902,1.55459 2.06725,1.10636 2.06724,1.10636 7.015,1.33786 7.015,1.33787 7.7609,0.001 7.7609,0.001 4.49534,2.11306 4.49534,2.11306 2.56313,3.13694 2.56313,3.13694 1.52509,1.87176 1.5251,1.87175 1.0809,3.12825 1.0809,3.12824 1.19678,1 1.19679,1 1.12785,3.39922 1.12785,3.39923 v 1.89623 1.89623 l -2.75,2.70454 -2.75,2.70455 -0.64403,10 -0.64404,10 -0.10596,11.0141 -0.10597,11.0141 -4.09374,1.77354 -4.09373,1.77353 -1.76998,-0.56177 -1.76999,-0.56177 -4.58905,4.52414 -4.58906,4.52413 h -1.68896 -1.68896 l -2.86696,3 -2.86697,3 -4.7413,-0.11322 -4.7413,-0.11322 -6.2597,-3.13678 z"
       />
 
       <Land
@@ -1214,6 +433,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={25}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 310.5,338.08113 l -2,-0.89205 -6.75,-1.70559 -6.75,-1.70558 -10e-4,-1.13896 -0.001,-1.13895 -2.49878,-2.90554 -2.49878,-2.90554 v -1.62222 -1.62222 l 1.76412,-1.47224 1.76413,-1.47224 3.69666,-2.49246 3.69666,-2.49247 1.20819,-2.25753 L 303.3384,310 h 5.17209 5.17209 l 4.90893,-1.52996 4.90893,-1.52996 7.24384,-0.53061 7.24384,-0.53062 1.16668,2.56058 1.16667,2.56057 h 0.83949 0.83948 v 1.39301 1.39301 l -1.5,0.57561 -1.5,0.5756 v 1.34333 1.34332 l -3.02781,2.23856 -3.02781,2.23855 0.58683,0.94951 0.58682,0.9495 h -1.05901 -1.05902 v -1 -1 h -2.52144 -2.52144 l -1.10046,2.41525 -1.10046,2.41524 -1.8781,0.49114 -1.8781,0.49113 v 1.02219 1.02219 l 1.58062,1.58062 1.58062,1.58062 0.91938,-0.56821 0.91938,-0.5682 v 0.94238 0.94239 l 2.23275,0.58388 2.23276,0.58387 -0.99358,0.99358 -0.99357,0.99357 -3.48918,0.47833 -3.48918,0.47833 -4.5,0.54744 -4.5,0.54745 -2,-0.89206 z"
       />
 
       <Land
@@ -1229,6 +449,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={26}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 302,487.42152 l -3.5,-1.42633 -1.75,-0.61423 -1.75,-0.61422 v -0.83658 -0.83657 l -4.5,-1.99057 -4.5,-1.99056 v -0.92023 -0.92023 l 3.85696,-2.67287 3.85696,-2.67288 3.05158,-4.21313 3.05158,-4.21312 3.49902,-3.89855 3.49902,-3.89854 5.61097,0.65946 5.61097,0.65946 2.53799,-1.66296 2.538,-1.66296 7.39012,0.21578 7.39012,0.21578 2.30336,-1.1887 2.30335,-1.1887 2.25,-2.04935 2.25,-2.04935 V 445.32569 443 h -1 -1 l -10e-4,-4.75 -0.001,-4.75 5.40009,0.18063 5.40008,0.18063 5.85109,1.08049 5.85109,1.08048 0.33333,0.98888 0.33334,0.98889 1.66666,-0.0222 L 371.5,437.95553 374,436 l 2.5,-1.95553 4.25,-0.0222 L 385,434 v 1.41821 1.41822 l 0.59807,1.55854 0.59807,1.55854 -2.59807,1.18376 L 381,442.32103 V 443.66052 445 h 0.81479 0.81479 l 1.72807,3.62381 1.72807,3.6238 -0.6189,0.6189 -0.61889,0.6189 -4.17397,1.00729 L 376.5,455.5 v 1.95492 1.95491 l 2.49273,0.58845 2.49272,0.58846 -0.33197,3.85317 -0.33197,3.85317 4.08925,3.73794 L 389,475.76895 V 476.38448 477 l -3.25,0.007 -3.25,0.007 -3,1.98682 -3,1.98682 -2.27475,0.007 -2.27475,0.007 -0.90232,2.37329 -0.90233,2.37329 -2.71757,0.68206 -2.71757,0.68207 L 363.65536,486.057 362.6,485 h -1.8 -1.8 l -0.125,-1.5 -0.125,-1.5 -0.14031,-0.75 -0.14032,-0.75 -0.83651,-1.31927 -0.83651,-1.31926 -4.39705,0.27039 -4.39704,0.2704 -1.20113,-1.20113 L 345.6,476 h -2.39227 -2.39227 l -2.50849,-1.97318 -2.50849,-1.97318 -8.0756,0.35413 -8.0756,0.35412 -1.18388,1.61906 L 317.27951,476 h -0.96544 -0.96544 l -2.30066,2.44893 -2.30065,2.44894 0.52334,2.73768 0.52335,2.73769 -0.504,1.31338 L 310.78602,489 308.14301,488.9239 305.5,488.8478 302,487.42148 Z"
       />
 
       <Land
@@ -1244,6 +465,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={27}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 998.5,391.60705 l -3,-1.31466 -3.29326,-3.08781 -3.29325,-3.08781 -5.70675,-1.58435 -5.70674,-1.58435 -4,-1.58591 -4,-1.58592 -4,-1.43281 -4,-1.43281 -3.04574,-1.4053 -3.04573,-1.4053 -4.46273,-1.00011 -4.46273,-1.00012 -3.74153,-1.56332 L 939,366.97316 v -3.41515 -3.41515 l -1.37808,-1.37808 -1.37808,-1.37808 -0.69837,-3.1797 -0.69838,-3.1797 -2.78643,-1.9841 -2.78642,-1.98411 -0.61447,0.61447 -0.61447,0.61447 -5.64511,-1.77561 -5.64511,-1.7756 -1.62754,-1.98 -1.62754,-1.98 -1.17568,-1.24267 -1.17569,-1.24266 -1.45313,-3.47785 -1.45314,-3.47784 -2.4865,-1.95588 -2.4865,-1.95588 -0.66878,-2.10713 -0.66877,-2.10712 -3.21591,-0.5407 -3.2159,-0.5407 -7.5,0.25119 -7.5,0.2512 -3.21719,1.39146 -3.21719,1.39147 -6.28202,-1.29753 -6.28203,-1.29754 -2.50078,-1.31044 -2.50079,-1.31044 -8.35559,-4.1585 -8.35558,-4.1585 -4.67675,-0.55389 -4.67675,-0.55389 -4.46766,5.2269 -4.46767,5.2269 -1.30578,1.37096 -1.30578,1.37096 -0.24571,3.76565 -0.24572,3.76565 -6.94851,-0.35985 -6.9485,-0.35984 -1.68426,-0.89016 L 801.13148,329 h -3.8543 -3.8543 l -3.92288,2 -3.92288,2 H 779.98856 774.4 l -1.16637,-1.16637 -1.16637,-1.16637 -8.28363,1.14322 -8.28363,1.14323 -6,0.55987 -6,0.55986 -8.5,1.5385 -8.5,1.53851 -4,1.00669 -4,1.00668 -5,0.85722 -5,0.85722 -7,1.54351 -7,1.5435 -4.07567,0.0174 -4.07567,0.0174 -7.15555,2.5 -7.15555,2.5 h -2.06709 -2.06708 l -3.94944,1.90816 -3.94944,1.90816 -0.34808,-0.65816 -0.34809,-0.65816 -1.28413,-4.75 -1.28413,-4.75 H 655.87004 655 v -2.56574 -2.56574 l -1.05017,-1.96227 -1.05018,-1.96227 -0.83613,0.51676 -0.83614,0.51677 -0.49671,-1.89941 -0.4967,-1.89941 3.13301,-0.61672 3.13302,-0.61672 2.86176,-2.91772 2.86175,-2.91771 2.7565,-0.60543 2.7565,-0.60543 2.76831,-3.32015 2.7683,-3.32015 2.00269,0.52372 2.00269,0.52371 4.30788,-2.35328 4.30788,-2.35327 0.5401,-13.04977 0.5401,-13.04977 0.41474,-7.81808 0.41474,-7.81807 1.418,-1.18193 1.418,-1.18192 1.68003,-2.71482 1.68003,-2.71481 -0.002,-1.78519 -0.002,-1.78518 13.00175,0.30559 13.00175,0.3056 v -1.0556 -1.05559 h 1.39301 1.39301 l 0.57561,-1.5 0.5756,-1.5 1.28139,-0.004 1.28138,-0.004 4,-4.24728 4,-4.24729 2.97477,-3.99872 2.97478,-3.99872 2.02522,-1.74431 2.02523,-1.74431 4,0.61678 4,0.61677 0.51002,0.79825 0.51001,0.79825 2.74944,0.69007 2.74943,0.69006 0.54957,0.88922 0.54956,0.88922 h 1.5966 1.59659 l 3.20532,-2.44482 3.20533,-2.44482 1.79231,-8.54065 1.79231,-8.54066 1.59675,-2.17473 1.59676,-2.17473 3.18527,-2.96649 3.18527,-2.96648 5.81473,-2.53197 5.81473,-2.53197 15.5,-0.14552 15.5,-0.14551 4.5,-2.15821 4.5,-2.15821 4.41948,-2.50282 4.41948,-2.50282 0.75667,-1.22432 0.75667,-1.22432 2.79893,-0.37483 2.79892,-0.37482 1.24658,-1.03457 1.24657,-1.03456 3.77835,-0.90231 3.77835,-0.90231 9.31387,-0.92934 9.31386,-0.92933 1.18614,-0.93865 1.18613,-0.93864 4.75,-0.6308 L 891,181 l 4.75,-0.58931 4.75,-0.58931 5.5,-2.6242 5.5,-2.6242 1,-0.21733 1,-0.21734 10,-1.6385 10,-1.63849 8.39526,-0.93123 8.39526,-0.93123 3.77155,-1.01557 3.77155,-1.01558 2.83319,-1.47769 2.83319,-1.4777 1.13499,-0.006 1.13499,-0.006 1.53755,-2.34659 1.53754,-2.3466 3.32747,-1.34663 3.32746,-1.34663 0.5,-0.55837 0.5,-0.55837 2.5,-1.17693 2.5,-1.17693 6,-1.96323 6,-1.96323 7.25,-0.70974 7.25,-0.70973 v 122.60149 122.60149 l -3.25,-0.0391 -3.25,-0.0391 -3,-1.31467 z"
       />
 
       <Land
@@ -1259,6 +481,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={28}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 440,417.0656 v -1.16765 l -3.5,-1.4624 -3.5,-1.46239 V 411.98658 411 h -1.53138 -1.53139 l -0.55215,-1.43889 -0.55216,-1.4389 -2.938,-0.64529 -2.938,-0.64529 -1.72846,2.03408 -1.72846,2.03409 -11.1973,0.39169 -11.1973,0.39168 -1.30198,-0.80466 -1.30198,-0.80467 2.44099,-4.46845 2.44099,-4.46845 -1.27199,-2.79171 -1.27198,-2.79171 1.15731,-0.38577 1.15732,-0.38578 2.88471,-2.81989 2.8847,-2.81988 1.3431,-0.8211 1.34309,-0.8211 2.13276,-3.51706 2.13275,-3.51706 2.36044,-2.21752 2.36045,-2.21752 5.95196,-2.12085 5.95196,-2.12084 6,-0.68112 6,-0.68113 2.28519,-1.26746 2.28518,-1.26747 3.46913,-2.35421 3.46913,-2.35422 6.66409,-2.09177 6.6641,-2.09177 h 0.80425 0.80426 l 5.27733,-2.40779 5.27734,-2.40779 2.62419,-0.57968 2.6242,-0.57969 0.62628,3.91652 0.62627,3.91651 1.34605,1.34605 1.34604,1.34604 0.70354,3.75019 0.70354,3.75019 -7.80005,-0.12021 -7.80006,-0.12022 -2.72207,1.05957 -2.72207,1.05957 -0.61822,2.4632 -0.61823,2.4632 0.61998,1.95339 0.61999,1.95339 1.9855,2.36878 1.9855,2.36878 2.13877,2.30091 2.13876,2.3009 3.54222,1.48004 3.54222,1.48003 3.48781,2.71906 3.48781,2.71906 3.06602,1.70808 3.06601,1.70809 -1.78138,0.0419 -1.78139,0.0419 -0.5756,1.5 -0.57561,1.5 h -2.45875 -2.45875 l -2.16363,1.15794 -2.16362,1.15793 -1.10992,1.10992 -1.10992,1.10992 -0.51713,1.48215 -0.51714,1.48214 0.87818,2.37232 0.87817,2.37232 -2.27175,-0.79314 -2.27176,-0.79314 -5.5,0.0671 -5.5,0.0671 -6.5,-0.024 -6.5,-0.024 -3.5,-0.023 -3.5,-0.023 -2.25,0.76733 -2.25,0.76732 v -1.16766 z"
       />
 
       <Land
@@ -1274,6 +497,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={0}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z m 11.26067,-55.73899 -1.23575,-1.48899 -0.8867,0.54801 -0.88669,0.548 v -1.0904 -1.0904 l 1.38779,-0.53254 1.38778,-0.53255 0.58943,-2.94712 0.58942,-2.94713 2.39836,-1.09276 2.39835,-1.09277 -0.31173,-3.14618 -0.31173,-3.14618 -0.0638,-3.09699 L 521,564.30602 519,562 l -2,-2.30602 v -1.32131 -1.32131 l -2.75,-1.46925 -2.75,-1.46925 -3,-2.86957 -3,-2.86957 -2,-1.15645 -2,-1.15645 1.25,-0.0304 L 504,546 v -1.25589 -1.25589 l -3.25,-1.32567 -3.25,-1.32567 -5.25,-2.53767 -5.25,-2.53766 v -0.71341 -0.71341 l 3.93388,-3.16135 3.93388,-3.16136 1.81612,0.68686 1.81612,0.68685 4.37394,2.76157 4.37393,2.76158 1.43277,2.04556 L 510.11341,539 H 511.5567 513 l 0.0318,1.75 0.0318,1.75 1.46819,1.94113 1.4682,1.94113 v 1.62178 1.62178 l 2.77147,2.65523 2.77147,2.65524 3.97853,0.83676 3.97853,0.83675 -0.2958,2.0944 -0.2958,2.09439 2.95017,2.10071 2.95017,2.1007 h 0.97319 0.97318 l 1.03731,1.25 1.03731,1.25 -1.33591,3.17703 -1.33591,3.17703 -2.11184,-0.55226 -2.11183,-0.55226 -1.96712,1.78022 -1.96712,1.78022 v 2.27762 2.27762 l -2,0.63478 -2,0.63478 v 0.85568 0.85569 l -3.07692,3.07693 L 517.84614,590 h -0.30063 -0.30063 l -1.23575,-1.48899 z"
       />
 
       <Land
@@ -1289,6 +513,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={1}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z m -487.943217,-4.5 -0.33385,-2.25 0.582659,-4.09776 0.582659,-4.09776 1.431639,-1.76962 1.43164,-1.76961 4.273843,-4.36849 4.273843,-4.3685 4.226157,-1.99988 4.226157,-1.99987 1.546607,-1.26426 1.546607,-1.26425 1.267048,-3.11078 1.267048,-3.11079 3.802365,-1.13921 L 50.732039,602 h 1.726251 1.726251 l 2.477432,-1.94875 2.477432,-1.94875 2.562379,0.97422 2.56238,0.97421 2.116162,-0.67164 2.116162,-0.67164 5.178498,0.16922 5.178497,0.16922 0.522254,-0.84503 0.522253,-0.84502 5.683041,-0.14952 5.683042,-0.14953 2.508231,-1.77849 2.508231,-1.7785 1.556708,-1 1.556708,-1 2.553029,-2.27681 2.55302,-2.27682 3.77834,-1.67814 3.77834,-1.67813 -0.46402,-1.20922 -0.46402,-1.20921 4.49523,-3.83584 4.49523,-3.83583 3.6812,-1.281 3.68119,-1.281 1.1195,1.531 1.1195,1.531 h 1.0603 1.0603 l 0.60919,2.77365 0.6092,2.77364 3.72026,2.92044 3.72026,2.92043 0.79969,1.30592 0.79969,1.30592 h 5.89129 5.8913 l 0.54201,0.877 0.54202,0.87701 4.69222,1.18151 4.69221,1.18151 2.78429,-2.05851 L 169.91901,588 h 1.0405 H 172 l 3e-5,1.75 3e-5,1.75 3.24997,2.59256 3.24997,2.59256 8.55825,0.69405 8.55826,0.69405 4.94174,-3.74096 4.94175,-3.74095 0.33333,-0.79566 L 206.16667,589 H 208.58333 211 v 0.98095 0.98095 l 2.44566,0.61382 2.44565,0.61382 2.27685,-1.59477 L 220.44501,589 h 0.66086 0.66087 l 0.52301,2 0.52301,2 h 2.0346 2.03461 l 0.48879,-0.79088 0.48879,-0.79089 3.42818,-0.23087 3.42817,-0.23088 5.21793,-2.51721 5.21793,-2.51721 10.63323,0.15569 10.63323,0.15568 2.54089,1.0078 2.54089,1.00779 2.14104,0.98616 2.14104,0.98615 1.74261,-0.97521 1.74261,-0.97521 3.61635,0.84069 3.61635,0.84069 6,0.0177 6,0.0177 2.92629,-1.526 2.9263,-1.526 7.33255,2.53216 7.33256,2.53216 h 1.26891 1.26891 l 1.79111,2.09187 1.79112,2.09187 5.18112,-0.62144 5.18113,-0.62143 3.86573,0.0153 3.86573,0.0153 3.02475,-2.15382 3.02475,-2.15381 1.35952,1.85925 1.35952,1.85926 v 0.80887 0.80887 h 3.4349 3.4349 l 2.6716,-1.01574 2.6716,-1.01574 3.1435,1.91001 3.1435,1.91 4.25,0.69363 4.25,0.69364 v 1.71107 1.71107 l -3.93241,2.45103 -3.93242,2.45103 -0.46336,1.70944 -0.46336,1.70944 0.74254,6.29056 0.74254,6.29056 -0.48302,9.25 -0.48303,9.25 H 193.93329 17.139102 l -0.333849,-2.25 z"
       />
 
       <Land
@@ -1304,6 +529,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={2}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z m -72.58462,-414.88541 -3.33615,-3.35205 -3.16232,-0.81944 -3.16232,-0.81944 -0.34009,-1.76593 -0.34008,-1.76592 0.62976,-2.50916 0.62975,-2.50915 1.25408,1.04079 1.25408,1.04079 3.94331,-1.35564 3.94331,-1.35565 1.01141,-2.45131 1.01141,-2.4513 1.4357,-1.72181 1.4357,-1.7218 L 437,206 l -1.3714,-0.84757 1.17789,-1.41926 1.17788,-1.41926 -2.74219,-1.32681 -2.74218,-1.3268 1.75,-0.40347 1.75,-0.40348 V 197.72668 196.6 l 1.2,1.2 1.2,1.2 h 1.8 1.8 v -2 -2 h 1.63976 1.63975 l 1.26924,-1.73579 1.26924,-1.73578 -0.94418,-1.76422 L 445.92963,188 h -1.8377 -1.83769 l -4.62712,2.04679 -4.62712,2.0468 -0.0153,1.2032 -0.0153,1.20321 -0.73468,-1.10006 -0.73469,-1.10005 -1.5,-0.571 -1.5,-0.571 2.12756,-0.0789 2.12755,-0.0789 1.23432,-1.48727 1.23432,-1.48726 -0.58049,-1.51274 -0.58049,-1.51273 h -2.5904 -2.5904 l 0.5682,-0.91938 0.56821,-0.91938 -1.55696,-1.55697 -1.55697,-1.55696 9.79777,0.60439 9.79778,0.6044 0.95,0.87195 0.95,0.87195 3.55,-0.0153 3.55,-0.0153 1.5,-1.06081 1.5,-1.06082 -1.25,-0.5072 -1.25,-0.50721 v -1.39761 -1.39762 l -2.44316,-0.61319 -2.44317,-0.6132 -1.10064,0.68024 -1.10064,0.68023 -1.49028,-1.23683 -1.49029,-1.23682 -2.34091,1.25282 -2.34091,1.25281 -2.14567,-1.14832 -2.14566,-1.14833 -0.97934,0.60526 -0.97933,0.60526 v -1.05901 -1.05902 h 2 2 v -2 -2 h -3 -3 v -1.53138 -1.53139 l 1.5,-0.5756 1.5,-0.57561 v -2.39301 -2.39301 h 0.57143 0.57143 l 1.5,1.5 1.5,1.5 h 1.92857 1.92857 v -1.93261 -1.93261 l 2.12665,-0.67498 2.12665,-0.67497 2.12897,2.66998 2.12896,2.66998 1.74439,-0.66939 1.74438,-0.66938 v -1.89301 -1.89301 h -1 -1 v -1 -1 l 4.25,-0.0318 4.25,-0.0318 1.60448,-1.22203 1.60449,-1.22204 0.73152,-2.30482 0.73152,-2.30481 2.29656,1.50476 2.29657,1.50477 1.86743,-1.42711 L 475.5,150.03801 474,149 l -1.5,-1.03801 1.94113,-1.48099 1.94113,-1.481 h 1.74985 1.74986 l 0.61803,-1 0.61803,-1 h 1.4828 1.4828 l 2.20818,2.06865 2.20819,2.06865 2.875,-0.56865 L 494.25,146 h 1.875 1.875 v -1.08971 -1.0897 l 2.25,-1.87703 2.25,-1.87702 1.64301,-0.0333 1.64301,-0.0333 0.5645,-1.47106 0.5645,-1.47106 -1.52894,-1.52894 -1.52894,-1.52894 h -0.88152 -0.88151 l -2.54706,1.16052 L 497,136.32097 v 0.83949 0.83948 h -2.03138 -2.03139 l -0.5756,1.5 -0.57561,1.5 h -1.27056 -1.27057 l -1.24489,-1.5 -1.24489,-1.5 h 1.47413 1.47413 l 2.96799,-2.75 2.96799,-2.75 2.75801,-2.31093 2.75801,-2.31094 0.53895,2.06094 0.53894,2.06093 h 3.31695 3.31695 l 0.31642,-2.75 0.31642,-2.75 1.5,-0.0977 1.5,-0.0977 1.63337,-0.15232 1.63337,-0.15231 0.52363,-2.00236 0.52362,-2.00235 -1.51922,-0.8502 -1.51922,-0.8502 3.0318,-0.60636 3.03179,-0.60636 0.70298,-2.21489 0.70298,-2.21489 -1.4133,-1.07619 -1.4133,-1.0762 1.65594,-1.61519 1.65595,-1.6152 1.74034,0.97395 1.74034,0.97394 1.55856,-1.55856 1.55856,-1.55856 -1.15243,-1.3886 -1.15243,-1.3886 3.66451,-0.13776 3.6645,-0.13776 0.95661,-0.95661 0.95662,-0.95662 -0.62905,-1.63927 -0.62905,-1.63927 -2.25374,0.18275 -2.25373,0.18274 -1.5,-0.14249 -1.5,-0.142497 1.85014,-1.401662 1.85014,-1.401661 -0.65916,-1.066535 L 528.88197,95 l 1.30901,-0.110691 1.30902,-0.110691 2.25373,0.182746 2.25374,0.182746 0.64198,-1.67298 0.64198,-1.67298 -1.39571,-0.883762 -1.39572,-0.883762 1,-0.06571 1,-0.06571 6,-0.495807 6,-0.495806 1.48045,-1.469965 1.48045,-1.469964 -1.23892,-1.983835 L 548.98305,82 h 1.12505 1.12505 l -0.48121,-2.517316 -0.48122,-2.517316 3.36464,-1.596625 L 557,73.772117 v -0.802725 -0.802725 l -2.75,-1.004386 -2.75,-1.004386 4.75,-0.07895 L 561,70 v -1 -1 h 4.37756 4.37755 l 1.22175,-1.472121 1.22175,-1.472121 -1.64395,-1.643951 -1.64395,-1.64395 -2.95535,0.591072 L 563,62.95 V 61.975 61 l 3.25,-0.03327 3.25,-0.03327 2.07013,-1.731372 2.07013,-1.731372 1.09821,-3.150347 1.09822,-3.150346 -0.58501,-0.585012 L 574.66667,50 h 1.73809 1.7381 l 1.4137,1.413699 1.4137,1.413699 1.76487,-0.337188 1.76487,-0.337187 0.75,-0.07651 L 586,52 V 50.5 49 h -1 -1 v -0.833333 -0.833334 h 1.43342 1.43343 l 0.58562,2.333334 L 588.0381,52 H 589.51905 591 l -0.0153,4.25 -0.0153,4.25 -0.81463,1.283873 -0.81464,1.283873 -6.92005,0.09309 -6.92005,0.09309 -1.25,0.995483 -1.25,0.995483 v 2.270567 2.270566 l -1.51185,0.580151 -1.51185,0.580152 L 567.48818,69.81265 565,68.67897 l -2.5,1.139076 -2.5,1.139076 v 4.192699 4.192698 l -1.64815,1.821185 -1.64815,1.821186 -0.78688,4.977744 -0.78687,4.977745 -3.06498,2.996107 L 549,98.932593 V 99.966296 101 l -1.25,0.0271 -1.25,0.0271 -3.62071,3.36791 -3.6207,3.36791 -0.72799,4.85503 -0.72799,4.85503 -0.977,1.82569 -0.977,1.8257 -1.6743,1.85263 -1.67431,1.85263 -1.25431,1.53408 -1.25431,1.53409 -1.14948,2.52283 -1.14948,2.52284 -4.09621,1.95608 -4.09621,1.95609 -2.85761,0.69408 -2.8576,0.69409 -1.3924,3.33247 L 511,144.93584 v 1.94879 1.94878 l -1.00122,0.33374 -1.00122,0.33374 -1.19839,8.22216 -1.19839,8.22215 1.24148,7.38849 1.24148,7.38848 -1.19362,2.61974 -1.19363,2.61973 -1.84825,0.58661 L 503,187.13486 v 5.59956 5.59957 l -3.49403,6.35661 -3.49404,6.35662 -0.65736,5.72643 -0.65737,5.72643 -1.0986,0.73469 -1.0986,0.73468 -1.76905,0.0153 -1.76905,0.0153 0.59437,-2.36817 0.59437,-2.36817 -2.57532,-2.02575 L 485,215.21221 v -3.60608 -3.60608 h -4.05902 -4.05901 l 0.61803,1 0.61803,1 H 477.05902 476 v 2.3 2.3 l 1.02021,1.02021 1.0202,1.0202 -2.58524,1.38358 -2.58524,1.38358 -0.72075,-1.16618 -0.72074,-1.16619 -2.29094,0.59909 -2.29094,0.5991 -0.95126,2.50199 -0.95126,2.502 -0.62071,-0.62072 -0.62072,-0.62071 -3.85418,3.48202 -3.85419,3.48203 h -1.51069 -1.51069 l -2.23643,1.15613 -2.23643,1.15613 -1.73643,0.84387 -1.73643,0.84387 -4.76357,-0.14168 -4.76357,-0.14168 -3.33615,-3.35205 z m -7.66385,-21.9007 -3,-1.37368 1,-0.1923 1,-0.19231 5.24981,-0.1028 5.2498,-0.1028 2e-4,0.22432 1.9e-4,0.22432 -2.95034,1.52568 -2.95034,1.52568 -0.29966,-0.0812 -0.29966,-0.0812 -3,-1.37367 z m 83.89732,-85.96366 1.89732,-1.43616 1.03631,0.64047 1.0363,0.64047 -1.93363,0.75721 -1.93362,0.75721 -1,0.0385 -1,0.0385 1.89732,-1.43616 z M 565.91667,58.75 l -0.0833,-0.25 -0.24645,-2.207931 -0.24644,-2.207931 2.82978,-0.621524 L 571,52.841089 V 51.920545 51 h 1.5 1.5 v 0.95031 0.95031 L 572.64598,53.70031 571.29197,54.5 570.1108,56.75 568.92963,59 H 567.46482 566 Z M 607.0115,52.127071 603.02071,48.254142 599.76036,47.594669 596.5,46.935196 594.83971,48.967598 593.17941,51 H 592.58971 592 v -0.928571 -0.928572 l 1.34206,-1.342064 1.34207,-1.342064 1.19312,-2.229365 L 597.07037,42 h 1.39743 1.39742 l 0.63478,2 0.63478,2 h 1.81016 1.81017 l 1.20854,-1.456195 1.20853,-1.456195 -0.65637,-1.062037 -0.65638,-1.062036 3.41453,0.423508 3.41454,0.423509 1.29915,-0.802919 1.29915,-0.802919 -0.55502,-2.122383 -0.55501,-2.122382 2.72883,-1.411137 2.72884,-1.411138 1.31781,-3.992986 1.3178,-3.992987 1.79486,1.120906 1.79485,1.120906 -0.88136,1.646852 -0.88137,1.646852 -0.18725,3.40639 L 623.72253,37.5 623.86126,38.75 624,40 l 2.75,-0.01531 2.75,-0.01531 1.26312,-0.801812 1.26312,-0.801812 0.73688,-5.850374 0.73688,-5.850374 1.25781,-0.418439 1.25781,-0.418438 0.63438,3.171886 0.63438,3.171885 1.37054,0.525928 1.37055,0.525927 1.46681,-1.217347 1.46682,-1.217347 0.64928,-4.894528 L 644.25766,21 h 2.93019 2.93018 L 649.5,22 648.88197,23 H 647.44098 646 v 1.393011 1.393011 l 1.75,0.678409 1.75,0.678409 -1.75,1.288823 -1.75,1.288822 v 0.899211 0.89921 l 1.88477,1.17706 1.88477,1.17706 2.11523,-0.553144 L 654,32.766737 V 30.883369 29 h 1.5 1.5 v -1.416667 -1.416666 l -1.25,-0.511509 -1.25,-0.511508 5,0.596891 5,0.59689 2.85005,1.731235 2.85005,1.731236 -2.10005,2.100049 L 666,34 h -1.56574 -1.56574 l -1.86879,-1.000143 -1.86878,-1.000142 -2.67745,1.017963 -2.67744,1.017963 0.46266,1.769211 0.46266,1.769211 -5.10069,0.181248 -5.10069,0.181248 -4.71132,1.122183 -4.71133,1.122183 -0.62452,1.96768 -0.62451,1.967679 0.66874,4.862309 0.66873,4.862309 -2.01715,1.079549 L 631.13148,56 h -10.06459 -10.0646 z M 605.25,39.279762 604,38.833333 V 37.416667 36 h 1.03138 1.03139 l 0.59215,1.543128 0.59216,1.543128 -0.37354,0.319967 L 606.5,39.72619 Z m -2.25,-9.895876 -2.5,-1.354402 2,-0.0209 2,-0.0209 2.63417,-1.374443 2.63417,-1.374443 1.36583,0.865291 1.36583,0.86529 -1.83971,0.01531 -1.8397,0.01531 -1.6603,1.869144 -1.66029,1.869144 z"
       />
 
       <Land
@@ -1319,6 +545,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={3}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 305,424.5 l -1.24489,-1.5 -1.62755,-0.004 -1.62756,-0.004 -4.99903,-4.53276 -4.99902,-4.53275 1.49902,-0.92686 1.49903,-0.92685 -0.0236,-10.21061 -0.0236,-10.21061 -1.22637,-0.40879 -1.22638,-0.4088 v -4.41666 -4.41667 h 0.85534 0.85534 l 0.89466,-3.08182 0.89466,-3.08183 13.5,-0.17434 13.5,-0.17435 2.20978,-1.45926 2.20979,-1.45926 3.49696,1.26452 3.49697,1.26452 2.29325,0.49309 2.29325,0.4931 5,0.92082 5,0.92082 4.65866,1.46167 4.65865,1.46168 0.59135,-0.59135 0.59134,-0.59134 v 1.55003 1.55004 l -2,0.52301 -2,0.52301 v 1.59362 1.59362 l -1.85527,1.85527 -1.85526,1.85526 -2.39474,0.62167 -2.39473,0.62167 -3.19577,3.02307 -3.19576,3.02306 -1.30424,0.007 -1.30423,0.007 -3,1.98682 -3,1.98682 -2.30486,0.007 -2.30487,0.007 -4.44513,2.02499 -4.44514,2.025 v 1.23161 1.2316 l 0.99871,3.4823 0.99871,3.48229 -1.01275,3.06866 -1.01275,3.06866 -4.51271,2.19245 -4.51271,2.19244 h -0.85081 -0.8508 z"
       />
 
       <Land
@@ -1334,6 +561,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={4}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 352,377.40169 l -4.5,-1.46451 -4.83724,-0.46039 -4.83724,-0.46038 -4.53988,-2.00821 L 328.74576,371 H 326.57288 324.4 l -0.95,0.82612 -0.95,0.82612 -4.19483,1.31573 -4.19483,1.31573 -9.09877,-0.51879 -9.09878,-0.51878 -0.45966,-0.45967 -0.45966,-0.45966 0.63564,-4.63754 0.63565,-4.63755 7.45074,0.52502 7.45074,0.52503 -0.34198,-1.77577 -0.34198,-1.77576 -2.25885,-1.12616 -2.25885,-1.12616 -0.44364,-0.44364 -0.44365,-0.44365 3.47513,0.40571 3.47513,0.4057 1.39057,-1.15408 1.39057,-1.15407 2.52348,0.63335 2.52349,0.63336 2.07217,-0.65768 L 324,356.86522 v -1.81922 -1.81923 l 4.25,0.19853 4.25,0.19854 4.78277,1.31504 4.78276,1.31505 1.01741,1.90104 1.01741,1.90105 0.8249,-0.50982 0.8249,-0.50982 4.28299,3.23181 4.28299,3.23181 2.59194,1.76165 2.59193,1.76165 1.82426,0.6244 1.82426,0.6244 -0.65217,2.61395 -0.65217,2.61395 -1.57708,1.75 -1.57708,1.75 -1.09501,-0.0669 -1.09501,-0.0669 -4.5,-1.46452 z"
       />
 
       <Land
@@ -1349,6 +577,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={5}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 422.38486,473.77763 419.5,471.55526 l -1.38556,-1.89022 -1.38557,-1.89022 -5.24045,0.43458 -5.24046,0.43458 -5.37398,2.56629 -5.37398,2.5663 -2.69789,0.46308 -2.6979,0.46308 -3.14819,-3.24811 -3.1482,-3.24811 0.34609,-4.33564 0.34609,-4.33564 -2.9433,-0.51762 -2.94331,-0.51761 0.1537,-1 0.15369,-1 2.28961,-0.2916 2.28961,-0.2916 2.25,-1.12738 2.25,-1.12738 V 451.83102 450 h -0.90217 -0.90218 l -1.1098,-3.18358 -1.1098,-3.18358 1.26197,-0.80111 1.26198,-0.8011 6.59501,-0.0153 6.59501,-0.0153 1.80998,-2 1.80998,-2 h 2.23802 2.23802 l 0.57561,1.5 0.5756,1.5 h 1.41475 1.41476 l 0.48599,1.85845 0.486,1.85845 2.73016,0.5219 2.73016,0.52191 1.90048,-0.49699 L 422,444.76677 v -0.8221 -0.82209 l 4.75,-0.68742 4.75,-0.68742 1.13808,-0.90341 1.13807,-0.90341 2.45614,1.11909 2.45614,1.11909 -0.40489,2.66046 -0.40489,2.66047 -0.45838,2.25 -0.45837,2.25 h -1.41356 -1.41356 l -0.58661,1.84824 -0.58661,1.84825 -2.32243,1.05816 -2.32243,1.05817 -1.66548,3.50974 -1.66548,3.50974 1.00474,2.33385 1.00474,2.33385 1.1944,1.66618 1.1944,1.66617 -1.31445,1.58383 -1.31446,1.58382 h -0.7427 -0.74269 l -2.88486,-2.22237 z"
       />
 
       <Land
@@ -1364,6 +593,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={6}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 94.193051,537.07607 88.886102,536.43374 88.193051,535.36658 87.5,534.29941 l -2.313922,-1.2191 -2.313923,-1.2191 -1.460243,1.2119 -1.460244,1.21189 -0.499373,-0.49937 -0.499372,-0.49937 0.630527,-1.64313 L 80.213978,530 h 1.491801 1.491801 l 2.965738,-3.17483 2.965738,-3.17484 -0.573539,-2.28516 -0.573539,-2.28516 2.009011,-1.07519 L 92,516.92963 V 514.96482 513 h 1.440983 1.440983 l 0.645107,-1.0438 0.645107,-1.04381 L 94.963645,509.4562 93.755111,508 H 90.877555 88 v -0.91667 -0.91666 l 1.214882,-0.40496 1.214882,-0.40496 0.03512,-4.58179 0.03512,-4.5818 -0.919939,0.56747 -0.919938,0.56746 0.669938,-1.74583 L 90,493.83643 V 492.91821 492 l 2.25,-10e-4 2.25,-0.001 4.091125,-3.74861 4.091125,-3.74862 2.27641,-3.31944 2.27642,-3.31944 2.63246,-1.09676 2.63246,-1.09677 0.89101,-0.0838 0.89102,-0.0838 1.08651,-1.72248 1.08651,-1.72247 -1.24149,-1.24149 -1.24149,-1.24149 -2.98604,1.1271 -2.98603,1.1271 v -0.71313 -0.71314 l 1.2,-1.2 1.2,-1.2 h 3.30874 3.30873 l -0.55577,-5.25 -0.55577,-5.25 0.88867,-1.30278 0.88867,-1.30278 3.40837,-0.41654 3.40836,-0.41655 3.75,-0.61857 3.75,-0.61858 v 2.46546 2.46545 l 1.31586,1.09207 1.31586,1.09206 5.5542,0.65279 5.5542,0.65279 1.7672,-0.98898 1.76721,-0.98898 4.36274,4.42539 4.36273,4.42538 v 1.19138 1.19139 l -5.8703,1.87569 -5.8703,1.87569 -3.27837,6.62411 -3.27837,6.62411 -0.70162,0.5 -0.70163,0.5 -1.18489,2.25 -1.18489,2.25 h -1.10457 -1.10457 l -1.28946,1.75 -1.28947,1.75 H 127.32078 123.5 l 0.24643,2.5 0.24642,2.5 0.59754,4.66538 0.59754,4.66538 -2.59397,1.69963 L 120,514.23078 v 5.3169 5.31689 l -2.75,1.8935 -2.75,1.8935 -3.21332,1.28072 -3.21333,1.28073 -3.28667,3.38322 -3.28668,3.38322 -1,-0.13015 -1,-0.13015 -5.306949,-0.64233 z"
       />
 
       <Land
@@ -1379,6 +609,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={7}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z m 32.25816,-300.47492 -14.49336,-0.92848 -0.50664,-0.5602 -0.50663,-0.56021 1.25,-0.44643 1.25,-0.44643 V 338.91667 337 h -0.83102 -0.83102 l -1.41739,-2.75 -1.41738,-2.75 -0.76806,-0.56919 -0.76806,-0.56919 -0.41602,-4.18176 -0.41601,-4.18176 1.93248,-1.03423 L 521,319.92963 v -3.4058 -3.4058 l 1.25,-0.80831 1.25,-0.80831 4,-0.10989 4,-0.10989 5.68592,-2.64082 5.68593,-2.64081 1.31407,-0.006 1.31408,-0.006 3,-1.65552 3,-1.65552 7,-0.73861 7,-0.7386 3.69233,1.12577 3.69234,1.12576 0.46404,1.77452 0.46405,1.77452 h 3.97699 3.97699 l 0.52301,2 0.52301,2 h 2.57457 2.57457 l 0.6093,-2.42764 0.60929,-2.42764 1.40976,-0.54098 L 592,305.06309 v -2.06361 -2.06361 l -2.14772,-0.79449 -2.14772,-0.7945 3.14772,-2.24137 L 594,294.86413 v 1.46111 1.4611 l 1.58179,0.60699 1.58178,0.60699 h 3.71822 3.71821 l 1.2,-1.2 1.2,-1.2 0.0789,-5.55 0.0789,-5.55 0.54606,1.375 0.54605,1.375 1.625,1.71275 1.625,1.71275 1.08145,1.8686 1.08146,1.8686 5.41854,0.54365 5.41855,0.54365 0.33155,5.5 0.33156,5.5 -1.1086,5.05037 -1.10859,5.05036 -2.72296,1.58822 -2.72296,1.58822 -7.23991,0.71189 -7.23991,0.7119 -0.52057,-0.12074 -0.52057,-0.12074 -3.12898,1.61806 -3.12898,1.61806 -5.48024,-0.68471 -5.48024,-0.68471 -7.1303,2.26436 -7.1303,2.26437 -2.25,1.43755 -2.25,1.43756 -0.0153,2.13499 -0.0153,2.13499 -0.73468,1.12886 -0.73469,1.12886 -4.75865,3.62114 -4.75866,3.62114 -1.74134,-0.14822 -1.74135,-0.14823 -14.49337,-0.92847 z"
       />
 
       <Land
@@ -1394,6 +625,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={8}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z m 170.16757,-154.6673 -0.57008,-0.57007 -11.69788,-0.12283 -11.69788,-0.12282 -1.40967,-2.01257 -1.40966,-2.01258 -2.81544,0.71408 -2.81543,0.71408 -3,0.16501 -3,0.165 -0.31955,-2.25 -0.31955,-2.25 -0.68045,-0.0269 -0.68045,-0.0269 -3.38279,-2.80572 -3.3828,-2.80572 1.21035,-3.66738 L 630.1551,469 h 0.80582 0.80582 l 0.54242,-2.07421 0.54241,-2.07422 2.07422,-0.54241 L 637,463.76674 v -0.72508 -0.72508 l 4.08182,-1.22295 4.08182,-1.22294 7.16818,0.0584 7.16818,0.0584 11,0.0613 11,0.0613 4.70088,-3.11672 4.70088,-3.11672 -0.16756,-6.04543 -0.16756,-6.04544 -2.28332,-0.86811 L 686,440.0495 v -1.2842 -1.28421 l -1.78282,-1.11339 -1.78283,-1.11339 -3.22549,-0.70844 -3.22549,-0.70843 -1.04709,-1.95649 -1.04708,-1.9565 0.62279,-1.96222 L 675.13478,426 h 1.89781 1.89782 l 3.53479,-3.10359 3.5348,-3.10359 0.0153,-3.64641 0.0153,-3.64641 0.84137,-1.32713 0.84138,-1.32714 3.89331,1.05459 3.89331,1.05458 6.5,6.4221 6.5,6.4221 3.30933,3.40423 3.30932,3.40422 -0.073,5.44622 -0.073,5.44623 0.62722,3.25 0.62722,3.25 h 0.8865 0.8865 l 0.0153,2.25 0.0153,2.25 0.73468,1.10907 0.73469,1.10907 3.74398,1.33964 3.74399,1.33965 4.75601,-1.05037 4.75602,-1.05037 1.75,-0.75533 1.75,-0.75534 v 2.57181 2.5718 l -2.08319,1.11489 -2.08318,1.11489 -1.92088,-1.73837 -1.92087,-1.73837 -2.60695,1.18781 -2.60694,1.1878 0.50801,2.65748 0.50801,2.65748 -0.504,1.31338 L 726.78605,469 h -1.39301 -1.39301 v 6 6 h 1.5 1.5 v 3 3 h -0.92857 -0.92857 l -1.5,-1.5 -1.5,-1.5 h -0.9881 -0.98809 L 719.83336,483.04566 719.5,482.09131 705.08675,481.79566 690.6735,481.5 l -0.42009,1.25 -0.42008,1.25 h -0.98339 -0.98338 l -3.26679,2.4917 -3.26679,2.4917 -2.92344,0.58469 -2.92343,0.58469 z"
       />
 
       <Land
@@ -1409,6 +641,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={9}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 483,532.32304 l -2.5,-1.29356 -2.60398,-0.0147 -2.60397,-0.0147 -2.69755,-2.5 -2.69754,-2.5 h -0.8169 -0.8169 l -4.40264,-4.25 -4.40264,-4.25 -3.86466,-3.17513 -3.86466,-3.17514 0.60434,-1.57486 0.60433,-1.57487 h 2.55282 2.55283 l 1.13032,-2.48078 1.13031,-2.48078 1.59825,-0.44456 1.59824,-0.44457 3.04057,-0.60811 3.04058,-0.60812 2.20942,2.54107 2.20943,2.54106 v 0.90906 0.90906 l -1.25,0.50721 -1.25,0.5072 1.17072,0.83615 1.17071,0.83614 0.6511,2.59419 0.6511,2.59418 4.93499,2.23033 4.93499,2.23034 4.00731,3.73676 4.00731,3.73676 -3.76412,2.987 -3.76411,2.98701 -2.5,-1.29356 z"
       />
 
       <Land
@@ -1424,6 +657,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={10}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 390.75,389.96919 388,386.79434 v -1.31383 -1.31384 l -1.25,-0.50721 -1.25,-0.5072 1,-0.82613 1,-0.82613 2.19684,-4.04156 2.19683,-4.04157 -0.45333,-4.95843 -0.45334,-4.95844 -0.30387,-3.5 -0.30387,-3.5 0.61316,-0.5 0.61315,-0.5 2.28659,-3.76265 2.28659,-3.76265 1.84515,-0.98749 1.84515,-0.9875 2.63057,1.00015 L 405.1302,348 h 1.96335 1.96335 l 7.47155,3.54556 7.47155,3.54555 v 0.81859 0.81858 l 4.49567,1.71692 4.49567,1.71691 0.75433,1.16894 0.75433,1.16895 2,1.10899 2,1.10898 v 2.39102 2.39101 l -5,0.24761 -5,0.24761 -5.38828,1.75239 -5.38828,1.75239 -4.61172,4.5708 -4.61172,4.57079 -4.37376,4.76216 -4.37377,4.76216 -3.12623,0.48906 -3.12624,0.48906 z"
       />
 
       <Land
@@ -1439,6 +673,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={11}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 601.13159,537.83595 597,535.94188 l -0.10997,-1.22094 -0.10997,-1.22094 0.15564,-6.23041 0.15563,-6.23042 -1.15464,-2.15747 -1.15464,-2.15747 -3.14103,-2.92113 -3.14102,-2.92113 -7.32956,-7.01246 -7.32956,-7.01247 0.70816,-1.67852 0.70815,-1.67852 0.4818,-2.21765 0.4818,-2.21765 1.79722,-0.57042 1.79723,-0.57041 0.56099,-1.46194 0.561,-1.46193 -0.5756,-1.5 -0.57561,-1.5 H 578.89301 578 v -1.5 -1.5 h -1 -1 v -1.93261 -1.93261 l 2,-0.63478 2,-0.63478 v -1.45166 -1.45166 l 2.75,0.73083 2.75,0.73083 2.5,-0.1994 2.5,-0.19941 9.96716,0.0742 9.96716,0.0742 2.90856,1.50408 2.90857,1.50408 4.37427,-0.3479 4.37428,-0.3479 v 1.5298 1.5298 l 3.5,1.88488 3.5,1.88487 v 0.71363 0.71363 l -3.49317,2.3789 -3.49316,2.3789 -0.007,1.75 -0.007,1.75 h 0.93261 0.93261 l 0.6837,2.25 0.6837,2.25 3.84505,3.75 3.84506,3.75 h -2.87958 -2.87958 l -1.58178,0.60699 -1.58179,0.60699 v 2.39301 2.39301 h 1 1 v 1.5 1.5 h 0.92661 0.92661 l 3.07339,5.37173 3.07339,5.37172 v 1.00513 1.00513 l -5,2.15094 -5,2.15095 v 0.54363 0.54363 l 1.42857,1.42857 1.42857,1.42857 h 1.07143 1.07143 v 0.82579 0.82578 l -9.75,1.57427 -9.75,1.57428 -3.61841,0.96495 -3.61841,0.96495 -4.13159,-1.89407 z"
       />
 
       <Land
@@ -1454,6 +689,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={12}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z m 52.96575,-264.31571 -7.78578,-4.04507 -3.11786,1.55539 L 543.69272,379 H 543.47136 543.25 l -0.58701,-2.93506 -0.58701,-2.93505 -3.57257,-1.6953 -3.57256,-1.69529 -0.92991,-1.73755 -0.92991,-1.73754 -3.28551,-0.64307 -3.28552,-0.64306 -4.31111,-2.23904 -4.3111,-2.23904 -1.42299,1.91938 -1.42299,1.91938 -1.84465,-1.66938 L 511.34252,361 h -1.74269 -1.74269 l -1.42857,1.42857 L 505,363.85714 v 0.94133 0.94132 l -6.25,1.2241 -6.25,1.2241 -1.1263,0.92579 -1.12631,0.92579 -1.10292,-4.3801 -1.10292,-4.3801 -1.52077,-1.26213 L 485,358.75511 V 355.87756 353 h 5.09227 5.09227 l 2.54259,-2 2.54259,-2 5.61514,-0.0181 5.61514,-0.0181 5,-2.73189 5,-2.73188 13,1.10809 13,1.10809 3.74125,0.75156 3.74125,0.75156 -0.49748,0.80494 -0.49748,0.80494 0.77702,0.33541 0.77702,0.33541 2.73209,6.5 2.73208,6.5 -0.003,1.69435 -0.003,1.69435 3.25,3.40357 3.25,3.40358 3.75,1.69899 3.75,1.69899 v 1.3344 1.33439 l -3.43328,2.61869 -3.43328,2.61869 -1.31672,-0.0103 -1.31672,-0.0103 -7.78578,-4.04507 z"
       />
 
       <Land
@@ -1469,6 +705,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={13}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z m 254.77475,-35.23236 -1.97679,-0.70291 -0.54507,-2.30897 -0.54507,-2.30896 -4.90841,-1.43122 -4.90842,-1.43123 -3.56973,1.96708 -3.56973,1.96708 -2,-0.81397 -2,-0.81397 2.12756,-0.0703 L 739.75511,603 741,601.5 l 1.24489,-1.5 -1.32906,-1.60142 -1.32906,-1.60142 -4.73523,0.62815 -4.73523,0.62815 -3.52604,1.47327 L 723.06424,601 H 722.03212 721 v -0.88871 -0.88871 l 3.5,-0.6566 3.5,-0.65661 v -1.44287 -1.44286 l -3.92366,-0.62742 -3.92366,-0.62742 -2.63819,-2.75368 -2.63819,-2.75367 1.56185,-0.59934 L 718,587.06277 v -1.51797 -1.51796 l -3.5,-1.46239 -3.5,-1.4624 v -0.82852 -0.82852 l 1.5567,-2.2225 L 714.11341,575 H 713.0567 712 v -2 -2 h 1 1 v -0.93261 -0.93261 l -2.0583,-0.65328 -2.05829,-0.65328 0.30829,-2.16411 0.3083,-2.16411 5.80359,0.0277 5.80359,0.0277 0.79312,1.28329 0.79311,1.28328 9.83408,0.9304 9.83409,0.93039 1.64795,-1.49137 1.64795,-1.49138 h 4.61224 4.61225 l 0.65531,1.06032 0.65532,1.06033 7.6537,-0.6298 7.6537,-0.6298 10.5,-0.21044 10.5,-0.21044 5.90908,-2.91527 5.90909,-2.91527 2.58222,-2.39312 2.58222,-2.39312 9.0087,0.56843 9.00869,0.56843 5.2023,0.61317 5.20229,0.61317 3.40122,-1.1225 3.40121,-1.1225 2.25396,-0.43407 2.25395,-0.43408 3.32581,-2.53672 3.32582,-2.53672 h 1.01001 1.01002 l 1.30671,-1.85109 1.3067,-1.85108 3.07283,-1.58298 3.07284,-1.58298 1.29961,-1.56593 1.29961,-1.56594 h 2.00952 2.00952 l 3.61804,-2.25 3.61803,-2.25 15,-0.6379 15,-0.6379 2.85966,-0.74964 2.85967,-0.74964 -0.64516,2.9374 -0.64517,2.93741 3.5213,2.95013 3.52129,2.95014 3.01421,2.7587 3.0142,2.7587 v 2.94598 2.94599 l -3.75,0.67571 -3.75,0.6757 -1.01019,0.79303 -1.0102,0.79303 -7.9898,2.08885 -7.98981,2.08885 -6.77229,2.58367 -6.77228,2.58367 -2.31789,3.15406 -2.31789,3.15406 -1.315,3.5 -1.31499,3.5 -1.92639,3.25 -1.92639,3.25 h -4.96671 -4.96672 l -1.41258,3.25 -1.41259,3.25 -0.0695,-1 -0.0696,-1 -1.01928,1.75 -1.01928,1.75 H 861.45031 859 v -0.83948 -0.83949 l -2.54705,-1.16051 -2.54706,-1.16052 h -2.48868 -2.48868 l -1.97201,2.25 -1.97202,2.25 -2.56317,2.86637 -2.56316,2.86637 -0.14189,1.88363 -0.14189,1.88363 -3.03719,0.1508 -3.0372,0.1508 -2.65898,-0.20258 -2.65898,-0.20258 -0.59888,0.969 -0.59888,0.96901 -3.68271,-1.01685 -3.68271,-1.01685 -1.16967,1.59963 -1.16968,1.59962 h -2.3253 -2.32531 l -2.24554,-2.10958 -2.24554,-2.10958 -6.31891,-1.45842 -6.31891,-1.45843 -6.32296,-0.98352 -6.32295,-0.98352 -2.92705,1.29564 -2.92704,1.29563 -0.0985,1.50589 -0.0985,1.50589 -0.15146,2.5 -0.15146,2.5 -7.5,0.11028 -7.5,0.11028 -1.97678,-0.70292 z"
       />
 
       <Land
@@ -1484,6 +721,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={14}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z m -319.51714,-79.2678 -5.26866,-0.76829 -1.33791,-1.11036 -1.3379,-1.11037 -4.89343,-1.13773 -4.89343,-1.13773 -5,-0.006 -5,-0.006 -10,0.24398 -10,0.24398 -3.2583,1.52075 -3.25831,1.52075 -2.89647,-1.19976 -2.89648,-1.19976 -0.72577,-2.16812 -0.72577,-2.16812 -0.24288,-1.95781 -0.24288,-1.95781 -1.12657,-0.37552 L 121,551.83275 v -3.94141 -3.94142 l -2.75,-1.04996 -2.75,-1.04995 1.99513,-1.46478 1.99513,-1.46478 -1.49513,-1.00342 -1.49513,-1.00342 -6.2199,0.33838 -6.21989,0.33838 1.71989,-1.91743 1.7199,-1.91744 5.16419,-2.45448 5.16419,-2.45448 1.76009,-1.94488 1.76009,-1.94488 0.26657,-4.72868 0.26657,-4.72868 2.65697,-2.28617 2.65696,-2.28618 -0.5093,-4.21382 -0.5093,-4.21383 -0.69642,-2.70464 -0.69642,-2.70464 3.40139,0.55197 3.4014,0.55197 4.95651,-4.93525 4.95651,-4.93526 1.35528,-2.91207 1.35528,-2.91208 1.4186,-3 1.4186,-3 4.22612,-1.73471 4.22612,-1.73472 3.25,-0.64028 3.25,-0.64029 v -0.875 -0.875 h -1 -1 v -1.05625 -1.05625 l -4.82663,-4.90336 -4.82662,-4.90336 -3.60893,1.10761 -3.60894,1.10762 -4.61846,-1.29309 -4.61845,-1.29309 -0.58818,-2.94086 -0.58817,-2.94087 -1.11736,-0.42877 -1.11735,-0.42877 -4.98967,0.93217 -4.98967,0.93218 -0.16248,-0.16746 -0.16248,-0.16745 0.52827,-2.75 0.52827,-2.75 H 123.11658 125 v -1.38337 -1.38337 l 2.08697,-0.54575 2.08698,-0.54576 -0.37529,-1.82087 -0.37529,-1.82088 -1.73074,0.14206 -1.73073,0.14207 0.13753,-1.14207 0.13754,-1.14206 -0.11849,-1.18358 -0.11848,-1.18358 -2.60147,-0.31642 -2.60147,-0.31642 2.93939,-2.1601 2.93938,-2.16011 5.91209,0.83736 5.91208,0.83736 1.99952,0.32275 1.99951,0.32274 0.32004,-2.25 0.32003,-2.25 H 147.56955 153 l 0.11842,1.25 0.11842,1.25 -0.0787,0.63093 -0.0787,0.63093 1.97642,1.78863 1.97641,1.78864 5.7339,0.91886 5.73389,0.91887 3.74941,0.18822 3.74941,0.18823 1.52933,2.18342 1.52933,2.18343 3.22126,0.5559 3.22126,0.5559 2.04486,0.26421 2.04487,0.26421 3.95513,2.38418 3.95514,2.38417 3.7117,0.13067 3.7117,0.13067 0.70497,0.70497 0.70496,0.70496 h 1.42561 1.4256 l 2.54259,2 2.54259,2 h 4.33121 4.33122 l 3.78392,1.62208 3.78393,1.62209 1.73643,0.87791 1.73643,0.87792 h 1.94618 1.94618 l 0.65061,2.04989 0.65061,2.04989 3.45011,3.45011 3.45012,3.45011 0.71666,0.004 0.71667,0.004 4.91948,2.49582 4.91948,2.49581 h 1.3946 1.39459 l 5.65613,2.58717 5.65613,2.58717 1.69009,-2.08717 1.69009,-2.08717 h 0.69674 0.69674 l 6.20152,2.95971 6.20152,2.95972 1.84643,2.04028 1.84644,2.04029 h 1.24293 1.24294 l 4.35208,2.48795 4.35207,2.48796 3.75,0.012 3.75,0.012 v 0.94098 0.94099 l -1.06817,0.66016 -1.06818,0.66017 0.5723,1.49139 0.5723,1.49139 -2.00412,0.52409 -2.00413,0.52409 v 0.78439 0.7844 l -3.45371,-0.0979 -3.45372,-0.0979 -1.82479,1.65141 -1.82479,1.65141 -1.97149,-0.11932 -1.9715,-0.11932 -3.1548,0.72333 -3.1548,0.72333 -0.58934,-0.95356 -0.58933,-0.95357 -4.25587,0.99918 -4.25586,0.99917 -2.65791,-0.0346 -2.65791,-0.0347 -1.74708,1.9305 -1.74708,1.9305 h -1.23802 -1.23802 l -0.57561,1.5 -0.5756,1.5 h -2.9962 -2.9962 l -1.11088,2.07569 -1.11088,2.0757 -1.9243,1.9243 L 251,519 l -0.25,-0.24158 -0.25,-0.24157 -3.59439,2.74157 L 243.31122,524 h -1.13256 -1.13255 l -1.64576,2.51175 -1.64576,2.51174 -2.3773,0.59666 L 233,530.21682 V 532.10841 534 h 0.93261 0.93261 l 0.58661,1.84824 0.58661,1.84825 2.48078,1.13031 2.48078,1.13032 v 1.89644 1.89644 l -3.125,0.625 -3.125,0.625 h -2.22001 -2.22001 l -1.80998,2 -1.80998,2 h -1.16467 -1.16468 l -2.18033,2.50761 -2.18034,2.5076 v 0.9502 0.9502 l -7.16069,-0.12171 -7.16069,-0.12171 -3.08931,2.69134 -3.08931,2.69134 -3.79441,2.47257 L 191.91118,566 191.20559,565.87524 190.5,565.75049 Z"
       />
 
       <Land
@@ -1497,8 +735,7 @@ class LandTiles extends Component {
         russia={self.props.russia}
         ottomans={self.props.ottomans}
         latestChange={self.props.latestChange}
-        spriteSheet={2}
-        spritePosition={15}
+          path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 971.5,511.47116 l -4,-1.44105 -0.27475,-0.015 L 966.9505,510 966,507.5 l -0.9505,-2.5 -1.27475,0.0153 -1.27475,0.0153 -1.40932,0.89216 -1.40931,0.89217 -1.34069,-0.51447 L 957,505.78599 v -1.41776 -1.41776 l -2.25,-1.01819 -2.25,-1.01819 -2,-1.21919 -2,-1.21919 -2.66603,-1.79786 -2.66603,-1.79786 -0.62375,-1.62546 -0.62375,-1.62546 2.67421,-2.47967 2.67421,-2.47967 -1.68003,-1.22847 -1.68003,-1.22847 -0.59037,-3.85641 -0.59036,-3.85641 -2.61404,-2.21404 -2.61403,-2.21403 -1.02776,-0.036 -1.02776,-0.036 -1.66663,-1.94648 -1.66663,-1.94648 -4.30561,-1.16859 -4.30561,-1.16858 -2.64541,0.98872 -2.64541,0.98872 -1.35459,-0.85834 -1.35459,-0.85834 -3.18191,-0.0153 -3.1819,-0.0153 -2.01138,-2.82472 -2.01138,-2.82472 -4.30671,-1.26468 -4.30672,-1.26468 -4.94491,-3.13992 -4.94491,-3.13992 -4.55509,-0.0207 L 877.5,451.5 l -1.10046,-1.40574 -1.10046,-1.40573 -2.01673,0.52738 -2.01673,0.52739 -5.32647,-0.842 -5.32646,-0.842 -0.89524,-1.5997 -0.89523,-1.5997 -3.66111,0.16694 -3.66111,0.16694 -1.40499,-0.0969 -1.40499,-0.0969 1.78864,-1.97642 1.78863,-1.97642 0.96171,0.59437 0.96171,0.59437 2.42228,-1.29637 2.42229,-1.29637 0.78997,-3.07158 0.78997,-3.07158 3.43838,-0.3317 3.43837,-0.33171 1.25402,-1.04074 L 870,430.75509 v -1.65832 -1.65831 l 3.18406,-1.20185 3.18405,-1.20185 -0.76739,-0.76739 -0.76739,-0.76739 -0.66666,0.11558 -0.66667,0.11558 -1.2073,-1.72366 -1.2073,-1.72367 -4.2927,-1.13562 -4.2927,-1.13562 -1.5,0.15124 -1.5,0.15124 -1.75,-0.15754 L 856,418 v -0.89658 -0.89657 l 5.71922,-0.0683 5.71921,-0.0683 1.75855,-2.28511 1.75855,-2.28511 0.0222,-1.28138 0.0222,-1.28139 1.75,-0.58533 1.75,-0.58532 2.75,-1.1274 2.75,-1.1274 v -2.1489 -2.1489 l -1.58179,-0.60699 -1.58178,-0.60699 h -2.08948 -2.08947 l -2.00063,1.75 -2.00064,1.75 0.68821,-1.1809 0.6882,-1.1809 -1.02526,-0.63365 -1.02526,-0.63365 -1.89163,0.60039 -1.89164,0.60038 -0.59071,2.35357 -0.59071,2.35357 -2.7587,0.7662 -2.75871,0.7662 -1.85458,0.35408 -1.85459,0.35408 -2.53027,1.99032 -2.53028,1.99031 h -2.39652 -2.39653 l -0.5756,1.5 -0.57561,1.5 h -1.04334 -1.04334 l -5.39815,2.64107 -5.39816,2.64107 -1.90732,3.60893 -1.90732,3.60893 -0.0442,-2.25 L 826,423 h -1.96921 -1.9692 l -4.11846,2.14666 -4.11846,2.14666 -0.50888,1.32614 -0.50889,1.32614 -3.56261,0.66835 -3.56261,0.66835 -1.80777,-1.12897 -1.80777,-1.12897 -2.60241,0.98943 -2.60241,0.98943 0.31934,2.24839 0.31934,2.24839 4.75,0.30479 4.75,0.30479 v 1.74521 1.74521 l 1.2,1.2 1.2,1.2 h 2.69504 2.69504 l 2.35496,2.48272 2.35496,2.48273 3.25,0.0173 3.25,0.0173 v -2.7 -2.7 l 1.2,1.2 1.2,1.2 h 2.76607 2.76608 l 3.52137,-1.67922 3.52137,-1.67923 0.76255,0.81613 0.76256,0.81613 -1.25,0.44643 -1.25,0.44643 v 2.41666 2.41667 h -4.59362 -4.59362 l -0.49496,1.89272 -0.49495,1.89271 -3.03643,0.60729 L 823.75,453 h -2.5213 -2.52129 l -4.81086,4.5 -4.81087,4.5 h -0.85171 -0.85171 l -1.84094,-1.34613 -1.84094,-1.34613 -1.10019,-3.40387 L 801.5,452.5 l -2.5,-0.2916 -2.5,-0.2916 -2,-0.93153 -2,-0.93154 -4,-0.31457 -4,-0.31456 2.75,-1.18755 2.75,-1.18755 V 445 442.9505 l 2.2911,-0.87108 2.29109,-0.87107 1.34692,-1.62293 1.34691,-1.62294 -1.8655,-2.06135 -1.86549,-2.06135 -3.02252,0.63384 -3.02251,0.63384 -6.2142,0.19627 -6.21421,0.19627 -1.62215,-1.62207 -1.62215,-1.62207 3.08635,-1.07591 L 778,430.10404 v -0.99532 -0.99531 l -2.22194,-1.55631 -2.22193,-1.5563 -0.0281,-2.2504 -0.0281,-2.2504 -2.21465,-0.31492 -2.21466,-0.31492 -0.64375,2.56492 L 767.78311,425 h -0.83257 -0.83258 l -0.56001,-0.90612 -0.56001,-0.90612 -1.90655,0.49857 -1.90655,0.49858 -0.49884,1.90754 L 760.18717,428 h -2.05467 -2.05466 l -1.94793,-2.09085 -1.94792,-2.09086 -1.84103,0.35107 -1.84103,0.35107 -0.34907,2.46502 -0.34906,2.46503 -1.90094,1.33146 L 744,432.11341 V 434 v 1.88659 l 2.09766,1.46926 2.09765,1.46925 -2.09765,1.12264 L 744,441.07037 V 443.53518 446 h -0.63976 -0.63975 l -1.18941,-1.62661 -1.18941,-1.62661 -2.17084,1.16179 -2.17083,1.1618 v 0.89339 0.89338 l 1.5,1.5 1.5,1.5 v 1.98857 1.98856 l -4.75731,1.02026 -4.7573,1.02026 -4.17199,-0.55958 -4.17198,-0.55958 -1.03862,-2.62781 -1.03861,-2.62782 -1.15432,-4.76391 -1.15431,-4.76391 0.61359,-3.06795 0.61359,-3.06795 -1.01116,-1.88939 -1.01117,-1.88939 6.26979,-2.93194 6.2698,-2.93194 3.5,-3.91569 3.5,-3.9157 2.21816,-4.47689 2.21815,-4.47688 2.28185,-2.08582 2.28184,-2.08582 6.75566,-3.60792 6.75566,-3.60793 0.54067,0.0842 0.54066,0.0842 5.20368,-2.47176 5.20367,-2.47177 3.15331,-1.32423 3.15331,-1.32424 1.59669,-2.70297 L 779,383.19142 V 379.59571 376 h 1 1 v -7.95295 -7.95294 l 1.16052,-2.54706 L 783.32103,355 h 0.71816 0.71817 l 1.21288,-2.92814 1.21287,-2.92815 1.32195,-0.50728 1.32195,-0.50728 -0.5634,-4.31457 -0.5634,-4.31458 -0.74704,-0.5 -0.74705,-0.5 -0.35306,-2.44548 -0.35306,-2.44548 4.5,-1.35086 4.5,-1.35085 4,0.61735 4,0.61736 8.07079,0.49737 8.0708,0.49737 1.3649,-1.6446 1.36491,-1.64461 -1.4357,-0.92379 L 819.5,328 l 1.09603,-0.75 1.09603,-0.75 0.67302,-2.75 0.67302,-2.75 h 1.41356 1.41356 l 0.59597,-1.87772 0.59596,-1.87772 2.34687,-2.73122 2.34687,-2.73122 4.12456,0.69684 L 840,313.1758 v 0.69196 0.69196 l 5.06818,1.96674 5.06818,1.96674 1.52578,1.68596 1.52577,1.68596 1.45693,-0.55907 1.45692,-0.55908 2.19912,1.98292 2.19912,1.98292 6.18659,1.26678 6.18659,1.26678 3.46293,-0.64965 3.46292,-0.64964 1.13575,-1.36849 1.13574,-1.36849 8.68306,0.35707 8.68307,0.35707 3.2773,3.78788 3.27731,3.78788 1.95886,4.27423 1.95885,4.27422 3.67283,3.46393 3.67283,3.46392 3.62268,1.00627 3.62269,1.00628 2.28518,0.006 2.28519,0.006 2.46481,1.61501 2.46482,1.61501 v 2.81356 2.81356 l 1.5,1.5 1.5,1.5 v 2.94899 2.94898 l 1.61617,1.3413 1.61617,1.3413 3.63383,1.33325 3.63383,1.33324 6.79473,1.96381 6.79473,1.9638 4.20527,1.8337 4.20527,1.83371 5.5,2.09129 5.5,2.09129 4.36123,1.12759 4.36122,1.1276 2.13878,2.23921 2.13877,2.23922 3.61803,2.19229 3.61807,2.19229 h 3.6319 3.632 v 58 58 l -7.75,0.2095 -7.75,0.2095 -3,-0.15619 -3,-0.15618 -3.55559,-0.64003 -3.55559,-0.64002 -1.31686,1.58671 -1.31685,1.58671 -0.62755,-0.0439 -0.62756,-0.0439 -4,-1.44105 z M 800,461 l -1.5,-0.96937 1.75,-0.0153 L 802,460 v 1 1 l -0.25,-0.0153 -0.25,-0.0153 z m 20.76155,-20.84013 -2.73845,-1.65728 -0.47455,-1.23666 -0.47455,-1.23666 2.12858,1.23536 2.12858,1.23537 1.83442,1.75 L 825,442 l -0.75,-0.0914 -0.75,-0.0914 -2.73845,-1.65728 z M 823,428 v -1 h 1 1 v 1 1 h -1 -1 z"
       />
 
       <Land
@@ -1514,6 +751,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={16}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 694.25,257.34562 692,256.8609 691.875,255.43045 691.75,254 l -0.25,-1 -0.25,-1 -0.125,-0.79661 -0.125,-0.79661 -1.5003,-1.95339 -1.5003,-1.95339 -3.61148,-5.5 -3.61148,-5.5 -4.51729,-3.33381 -4.51728,-3.33382 -3.12093,-0.38542 -3.12094,-0.38543 -11.35526,-0.44764 -11.35525,-0.44763 -4.23252,-2.24535 -4.23252,-2.24535 1.83777,-1.83777 L 638,219 h 2.33333 2.33334 l 0.69052,-0.69052 0.69053,-0.69053 3.22614,-0.0595 3.22614,-0.0595 -0.15415,-1.84157 -0.15415,-1.84156 2.15415,0.71313 2.15415,0.71314 4.5,0.43064 4.5,0.43064 2,0.86432 2,0.86433 2.22392,0.48302 2.22393,0.48303 4.25147,-0.95524 4.25147,-0.95524 0.75178,-1.19432 0.75177,-1.19432 -0.54456,-1.75 -0.54456,-1.75 h 4.5177 4.5177 l 0.79969,-1.25163 0.79969,-1.25163 2.64433,-1.3608 2.64433,-1.36079 3.69773,1.22036 3.69774,1.22036 1.13546,-1.13546 1.13546,-1.13546 -1.04707,-1.65995 -1.04707,-1.65995 -8.11308,-1.74532 -8.11308,-1.74533 -2.56737,-1.68221 L 683,195.76993 v -0.81356 -0.81356 l 1.5,-1.5 1.5,-1.5 v -1.34404 -1.34403 l 4.08084,-3.4774 4.08084,-3.47739 2.07853,-1.75552 2.07854,-1.75552 0.85652,-4.74448 0.85653,-4.74448 0.61709,-4.27608 0.61709,-4.27608 -1.20714,-7.72392 -1.20714,-7.72392 -2.35847,-4.60274 -2.35848,-4.60274 -4.06737,-4.10823 L 686,127.07801 v -2.53903 -2.53903 h -0.86833 -0.86833 l -0.51573,-3.75 -0.51573,-3.75 -2.74334,-6 -2.74335,-6 -1.19639,-0.70108 -1.19639,-0.70108 -1.38427,-4.298921 -1.38427,-4.298919 -0.97763,-0.673785 -0.97764,-0.673784 1.10888,-1.336115 1.10888,-1.336116 0.69336,-6.128543 0.69337,-6.128544 -3.3346,-2.861557 L 667.56388,70.5 664.78194,67.826923 662,65.153846 V 63.142023 61.130199 L 662.88913,58.8151 663.77826,56.5 666.38913,53.698478 669,50.896956 v -0.831685 -0.831684 l 4.46908,-3.366794 4.46908,-3.366793 0.0309,-2.781385 0.0309,-2.781385 1.5,-0.575604 1.5,-0.575604 1.63612,0.627838 1.63612,0.627838 -1.73408,1.916138 -1.73408,1.916137 0.83265,1.313014 0.83264,1.313013 0.0198,1 0.0198,1 2.49548,0.15146 2.49548,0.151461 1.95,0.09854 1.95,0.09854 -1.2,1.2 -1.2,1.2 v 1.740983 1.740983 l 1.06489,0.658135 1.06488,0.658136 3.47051,-0.651071 3.4705,-0.651071 0.58961,-2.948047 L 699.25,46 h 4.30357 4.30357 l 1.61607,-1.616071 1.61608,-1.616072 3.13974,0.627948 3.13974,0.627948 1.63514,1.479782 1.63514,1.479781 5.2543,0.996458 5.25431,0.996459 3.67617,1.613843 3.67617,1.613843 2,0.842041 2,0.842041 5.5,0.651166 5.5,0.651165 2.21482,1.404834 L 757.92963,58 h 2.95185 2.95185 l 0.50439,-1.25 0.50439,-1.25 0.0789,1.75 L 765,59 h 0.97432 0.97432 l 1.68645,3.25 1.68645,3.25 0.35587,3.18728 0.35587,3.187279 -2.07314,3.977414 -2.07315,3.977414 -1.44349,0.553922 L 764,80.93723 V 82.468615 84 h -1.86514 -1.86514 l -2.58331,2.032026 -2.5833,2.032026 -6.30155,-0.62678 -6.30156,-0.626781 -6,-0.299295 -6,-0.299295 -9,-0.653695 -9,-0.653696 -4.38769,-1.120766 -4.38768,-1.120766 -0.46086,-1.762314 -0.46085,-1.762314 -1.3438,-0.515662 -1.34379,-0.515662 -3.64468,0.591449 -3.64467,0.59145 -0.5929,1.545067 -0.5929,1.545068 1.36564,0.455215 1.36565,0.455215 3.89347,3.854755 L 702.15841,91 h 1.54324 1.54324 l -1.23507,1.488167 -1.23507,1.488167 1.56226,0.599493 1.56225,0.599493 5.22785,-0.490753 5.22785,-0.490754 3.29502,3.392968 3.29502,3.392969 -0.53927,1.40531 -0.53927,1.40531 1.07445,3.99019 1.07445,3.99019 1.85115,0.48409 1.85115,0.48409 0.68082,2.71261 0.68082,2.7126 2.71035,2.41719 2.71035,2.41719 2.5,-0.16365 2.5,-0.16366 5.5,2.64433 5.5,2.64432 7,-0.22993 7,-0.22993 0.30735,-2.15686 0.30734,-2.15686 -2.81422,-2.87891 -2.81423,-2.87891 -6.74312,-1.82528 L 746,113.77791 v -1.30562 -1.30562 l 1.25,-0.50439 1.25,-0.50439 -1.25,-0.0789 L 746,110 v -1.5 -1.5 h 1.86043 1.86043 l 4.7202,0.64698 4.7202,0.64697 0.89462,2.35303 0.89462,2.35302 1.27475,-0.0318 1.27475,-0.0318 1.89732,-1.43616 1.89732,-1.43616 1.10268,0.69624 1.10268,0.69625 11,0.71299 11,0.71298 5.25,0.68597 5.25,0.68596 v -2.56821 -2.56822 l -1.07678,-0.66548 -1.07678,-0.66549 -4.67322,-0.4206 -4.67322,-0.42061 -1.12298,-1.49034 -1.12298,-1.49034 -4.67664,-1.5935 -4.67663,-1.59349 -1.5654,-2.389088 L 775.76998,96 H 774.38499 773 V 94.468615 92.93723 l 1.5,-0.575604 1.5,-0.575604 v -1.246988 -1.246989 l 2.48199,-2.67811 2.48199,-2.678111 1.05319,-1.967912 L 783.07037,80 h 1.39526 1.39527 l 0.31955,-2.236536 0.31955,-2.236537 3.73332,-0.603333 3.73332,-0.603334 2.01668,1.878825 L 798,78.07791 V 79.538955 81 h 1.39301 1.39301 l 0.57561,1.5 0.5756,1.5 H 802.96862 804 v -2.416667 -2.416666 l 1.25,-0.507203 1.25,-0.507202 -1.26513,-0.894498 -1.26513,-0.894497 -0.34296,-7.254008 -0.34296,-7.254008 -1.39191,-1.364584 -1.39191,-1.364585 -3,-0.313041 -3,-0.313041 -0.73469,-1 -0.73468,-1 -0.0153,-3.75 L 793,49 h -1 -1 V 46.482334 43.964667 L 787.41415,40.482334 783.8283,37 l 2.83585,-0.07414 2.83585,-0.07414 5.7787,-0.303934 5.7787,-0.303934 1.2213,1.693924 1.2213,1.693925 1.75,0.652761 1.75,0.652761 v 1.056136 1.056136 l -2.58652,0.983394 -2.58652,0.983393 0.70076,4.241856 0.70076,4.241855 0.34612,0.377025 0.34612,0.377025 4.28964,0.801102 4.28964,0.801102 2.31692,-1.49503 2.31693,-1.49503 1.18307,0.944594 1.18308,0.944594 4.82184,-0.184913 4.82184,-0.184912 0.91285,-1.442779 0.91284,-1.442778 0.0153,-0.678571 0.0153,-0.678572 -1.5,-1.5 -1.5,-1.5 V 44.571422 L 828,42 h 1.44098 1.44099 l 0.71812,-1.161952 0.71813,-1.161952 -2.15911,-1.748341 L 828,36.179415 V 35.589707 35 h 1.92742 1.92742 L 833.92742,32.365141 836,29.730283 V 27.987586 26.244889 L 837.5,25 839,23.755111 v -1.294222 -1.294222 l 1.25,-0.458574 1.25,-0.458574 2.78637,2.597181 2.78638,2.597181 1.71362,-1.074068 L 850.5,23.295745 850.81955,21.147872 851.1391,19 h -1.12857 -1.12856 l 0.55327,-0.895215 0.55327,-0.895215 -1.31455,-0.504442 -1.31455,-0.504441 0.21097,-4.350344 L 847.78136,7.5 h 1.85932 1.85932 l 0.32074,2.5 0.32074,2.5 1.62039,1.25 1.62039,1.25 H 854.19113 853 v 6.440983 6.440983 L 852,28.5 l -1,0.618034 0.0151,2.190983 0.0151,2.190983 1.2576,3.609138 1.2576,3.609138 5.12509,5.233878 5.1251,5.233878 1.84076,-0.3545 1.84077,-0.354499 0.29737,-1.544127 0.29738,-1.544128 -2.06312,-2.378797 -2.06312,-2.378796 -0.58118,-2.315593 L 862.78318,38 h -0.8564 -0.85641 l -1.10176,-2.058652 -1.10176,-2.058651 0.62868,-2.862334 0.62867,-2.862333 2.35438,-2.540412 2.35437,-2.540412 -0.53311,-2.038603 L 863.76674,19 H 866.38337 869 v -2.065741 -2.065742 l -1.13312,-2.117255 -1.13312,-2.117255 2.2439,-1.8170034 L 871.22157,7 h 1.98148 1.98149 l 2.54259,-2 2.54259,-2 H 944.13486 1008 v 71.391592 71.391588 l -2.4746,0.62109 -2.4746,0.62109 -6.2754,0.58686 -6.2754,0.58687 -5.48786,1.97541 -5.48785,1.97542 -1.26215,1.04748 L 977,154.24489 v -0.60213 -0.60213 l -3.25,1.9937 -3.25,1.9937 -1.71688,0.59395 -1.71688,0.59396 -0.52138,1.64272 -0.52138,1.64272 -2.76174,1.15653 -2.76174,1.15652 -4,1.30136 -4,1.30136 -1.10221,0.79121 -1.10221,0.79122 -12.61578,1.02443 -12.61577,1.02444 -4.70329,0.87866 -4.70328,0.87867 -1.42966,-0.54861 -1.42965,-0.5486 -0.64907,1.00318 -0.64908,1.00318 -5.5,2.67338 -5.5,2.67338 -8.5,1.04487 -8.5,1.04488 -5,1.3694 -5,1.36941 -6.6153,1.05487 L 860.26941,185 h -3.56328 -3.56327 l -1.5,1.5 -1.5,1.5 h -1.12109 -1.12109 l -3.20034,1.61697 -3.20034,1.61698 -2,1.76809 -2,1.76809 -2.5,0.76103 -2.5,0.76102 -3.73013,2.35391 -3.73013,2.35391 -15.76987,7.9e-4 -15.76987,7.9e-4 -6,2.84877 -6,2.84877 -3.35576,3.15044 L 774.78849,213 h -0.8555 -0.85551 l -1.42836,4.8098 -1.42835,4.80981 -1.2144,5.94019 -1.2144,5.9402 -1.63437,1.84216 -1.63438,1.84215 -3.27111,-0.53082 -3.27111,-0.53083 -2.7405,-1.92741 -2.7405,-1.9274 -3.5,-0.51211 -3.5,-0.51211 -2.53485,1.29261 -2.53484,1.2926 -2.46516,3.24016 -2.46515,3.24017 -2.5,3.10237 -2.5,3.10237 -1.97224,2.24304 L 726.55552,252 h -0.84448 -0.84448 l -3.59173,2.73954 -3.59172,2.73954 -10.59156,0.17564 -10.59155,0.17563 z"
       />
 
       <Land
@@ -1529,6 +767,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={17}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z m -0.88343,-357.52463 -3.63495,-1.02189 0.50366,-3.75514 0.50367,-3.75513 -2.61871,-2.27694 L 496,273.63933 v -1.15915 -1.15915 l 2.34061,-1.06645 2.34061,-1.06646 -0.45411,-3.09406 L 499.773,263 h -0.75654 -0.75654 L 497,258.5 495.74008,254 h -0.76064 -0.76063 l -0.51636,-3.25 -0.51636,-3.25 -1.02939,-3.93469 -1.02939,-3.93468 1.01335,-1.89346 1.01335,-1.89345 -0.54562,-1.42186 L 492.06277,233 H 489.53138 487 v -2 -2 h -1.00847 -1.00848 l 1.20843,-1.93501 1.20844,-1.93501 2.79756,0.55952 2.79756,0.55951 1.50248,-1.24695 1.50248,-1.24695 0.006,-3.12755 0.006,-3.12756 1.04143,-3.75 1.04143,-3.75 h 0.91285 0.91286 l 1.24725,-4.25 1.24726,-4.25 1.79289,-1.3067 1.79288,-1.30671 v -5.01312 -5.01312 l 2.83224,-4.18017 2.83224,-4.18018 -1.62365,-6.46225 -1.62366,-6.46224 0.90348,-7.03776 0.90347,-7.03775 1.13794,-0.73469 1.13794,-0.73468 -0.62089,-0.0153 -0.6209,-0.0153 0.86508,-4.63055 0.86508,-4.63055 2.30887,-2.30886 2.30886,-2.30887 2.94695,-0.47835 2.94695,-0.47836 1.09699,-0.0822 1.09699,-0.0822 1.95813,-1.75 1.95813,-1.75 1.3079,-3.22995 1.30789,-3.22996 3.38699,-3.59125 3.38698,-3.59124 v -2.9288 -2.9288 h 1 1 v -2.88131 -2.88131 l 3.75,-2.78735 3.75,-2.78735 3.83752,-4.081338 L 556.17504,94.5 557.08752,92.1849 558,89.869801 V 87.08791 84.306019 L 560,82 l 2,-2.306019 v -3.740002 -3.740001 l 1.50868,-0.578937 1.50869,-0.578936 L 567.5,72 l 2.48263,0.943895 1.75869,-0.649006 1.75868,-0.649006 0.73469,-1.072941 0.73468,-1.072942 0.0153,-2.145919 0.0153,-2.145919 8.04664,-0.712291 8.04664,-0.71229 0.57836,-2.891791 L 592.25,58 h 0.39487 0.39487 L 597,60.5 600.96026,63 h 1.37155 1.37156 l 2.98099,2.75 2.981,2.75 3.1241,1.678687 3.12411,1.678687 1.38512,3.321313 1.38511,3.321313 1.11519,6.5 1.11519,6.5 -0.20709,4.916285 -0.20709,4.916285 1.25,0.41705 1.25,0.41705 v 1.80967 1.80968 l -1.5,0.57561 -1.5,0.5756 -1.51273,-0.58049 -1.51274,-0.58049 -1.56348,1.29757 -1.56348,1.29758 -0.79361,-1.2841 -0.79361,-1.28409 -1.79165,0.3484 -1.79165,0.34839 -1.08852,3.09295 -1.08853,3.09294 -2.88188,2.64395 -2.88187,2.64394 -0.82458,4.26311 -0.82457,4.26311 -0.0435,4.25661 -0.0435,4.25662 -2.5,2.17372 -2.5,2.17372 v 1.07555 1.07556 l -2.95255,1.30692 -2.95255,1.30693 -0.61484,1.93718 L 586.86532,148 h -1.99835 -1.99835 l -1.93426,1.03518 -1.93426,1.03519 v 1.03624 1.03625 l -1.42857,1.42857 L 576.14296,155 h -2.46073 -2.46072 l -2.79054,3.5 -2.79053,3.5 h -1.78499 -1.78498 l -1.03533,1.93453 -1.03533,1.93452 1.00015,2.63057 1.00014,2.63058 v 1.81827 1.81827 l -1.86879,0.4887 -1.8688,0.4887 -0.71738,5.74175 -0.71739,5.74175 1.07253,1.07253 1.07252,1.07252 -1.57648,1.74199 -1.57648,1.74199 0.58436,1.84115 0.58436,1.84115 3.25578,1.647 3.25577,1.647 2.75,0.60256 2.75,0.60257 v 2.47248 2.47247 l 2,1.24902 2,1.24902 v 1.35509 1.35508 l -2.06809,2.90437 -2.0681,2.90437 h -1.96709 -1.96709 l -2.43192,-1.59346 -2.43192,-1.59345 -4.09536,0.69191 -4.09537,0.6919 -1.87037,-1.69265 -1.87037,-1.69266 -2.98362,0.65531 -2.98362,0.65531 -0.53361,1.39056 -0.53361,1.39056 3.10371,1.54834 3.10371,1.54833 h 1.84636 1.84636 v 0.83994 0.83994 l 4.25,1.28146 4.25,1.28147 0.73875,0.12859 0.73875,0.1286 -2.23875,2.80364 -2.23875,2.80364 -6.5,0.0281 -6.5,0.0281 -1.75,0.48565 -1.75,0.48566 v 1.93261 1.93261 l 2.75,0.1508 2.75,0.1508 2.75,-0.21477 2.75,-0.21477 v 1.00495 1.00496 l -1,0.61803 -1,0.61803 v 2.78047 2.78047 l -2.60211,1.1856 -2.60211,1.1856 0.60211,2.47492 L 545,250 l 0.57233,2.35624 0.57233,2.35625 -1.57233,1.57233 L 543,257.85714 v 2.92139 2.92139 l -3,4.14138 -3,4.14138 v 1.34199 1.342 l -0.62678,0.62678 -0.62679,0.62679 -2.82355,-1.46012 L 530.09932,273 h -1.97823 -1.97823 l -1.74107,1.74107 -1.74108,1.74107 -0.41369,-1.24107 L 521.83333,274 h -1.86013 -1.86013 l -1.77214,3 -1.77215,3 H 513.78439 513 v 2 2 h 0.99021 0.99022 l -1.71246,2 -1.71245,2 -2.02776,-0.12637 -2.02776,-0.12637 z"
       />
 
       <Land
@@ -1544,6 +783,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={18}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z m 379.13638,-3.5 -0.11516,-1.25 0.17801,-1.75 0.17802,-1.75 H 883.06286 882 v -2 -2 h 1 1 v -3.39301 -3.39301 l -1.5,-0.57561 -1.5,-0.5756 v -1.45996 -1.45995 l -1.75,-1.74994 -1.75,-1.74993 -0.23572,-4.0715 -0.23571,-4.07149 -0.60487,-4.5 -0.60486,-4.5 -1.58642,-1.23967 -1.58642,-1.23967 0.427,-0.28998 0.427,-0.28999 3.75,-1.70417 3.75,-1.70416 v -3.94475 -3.94475 l 1.34906,-1.34906 1.34906,-1.34906 1.30865,-3.97237 1.30865,-3.97237 2.09229,-3.21858 2.09229,-3.21858 3,-1.4264 3,-1.42641 8.5,-2.72465 8.5,-2.72465 3.5,-0.48369 3.5,-0.4837 5.39683,-2.53875 5.39683,-2.53876 19.60317,0.69419 19.60317,0.69419 1.5,-0.0858 1.5,-0.0859 10.93752,-0.56267 10.93751,-0.56267 6.31247,0.67601 6.3125,0.67601 V 599.07959 642 h -62 -62 z"
       />
 
       <Land
@@ -1559,6 +799,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={19}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z m 66.06995,-128.05859 -1.31842,-1.84206 -6,-2.80908 -6,-2.80908 -0.5,-0.71589 -0.5,-0.71589 -2.18426,-1.14971 L 552.13148,505 H 550.56574 549 v 2 2 h -0.91667 -0.91666 l -0.44821,-1.25 -0.4482,-1.25 0.90482,-1.75892 0.90483,-1.75892 -1.78995,-2.42796 -1.78996,-2.42795 -3.75,-1.715 -3.75,-1.715 V 493.84813 493 l -5.25,-0.0136 -5.25,-0.0137 -2.25,-0.60298 -2.25,-0.60297 v -1.32667 -1.32666 l -1.8413,-1.30671 -1.8413,-1.3067 -1.15795,-2.18285 -1.15794,-2.18285 1.94814,-0.61832 1.94814,-0.61832 -2.09957,-2.41472 -2.09958,-2.41472 -0.79915,0.4939 -0.79914,0.4939 -1.04492,-1.95245 -1.04491,-1.95244 -0.29444,-1.92934 -0.29444,-1.92934 -1.56669,-2.39623 -1.56669,-2.39622 -0.71152,-2.25 -0.71152,-2.25 -1.68261,-0.10132 -1.68261,-0.10131 -3.5,0.19049 -3.5,0.19049 -0.30251,0.81836 -0.30252,0.81837 -1.97594,2.27828 -1.97595,2.27829 -1.37347,-1.43582 -1.37347,-1.43583 -0.66294,-4.1137 -0.66294,-4.1137 1.40501,-1.40501 1.40501,-1.40501 0.565,-6.2309 0.56499,-6.2309 -0.90513,-0.55941 -0.90514,-0.5594 0.009,-2.69099 0.009,-2.69098 8.7414,-0.2357 8.7414,-0.2357 2.25,-1.18328 2.25,-1.18328 v -1.272 -1.27201 l 0.97933,-0.60526 0.97934,-0.60526 2.02066,1.08143 2.02067,1.08143 v 1.74213 1.74213 l 3.11361,2.73215 3.11361,2.73215 2.19574,0.55109 2.19573,0.55109 5.32067,-2.09721 5.32067,-2.09721 0.44502,0.44502 0.44502,0.44503 0.34845,1.84163 0.34846,1.84163 0.0765,3.69496 0.0765,3.69497 5.66279,4.05503 5.66279,4.05504 h 3.68222 3.68222 l 1.65499,1.82874 1.65499,1.82874 v 0.71307 0.71308 l 1.83558,1.97026 1.83557,1.97026 4.95899,3.73792 4.95898,3.73793 -0.99147,2.761 -0.99147,2.761 1.33784,3.739 1.33784,3.739 0.9912,0.64068 0.9912,0.64067 -2.13213,0.67671 -2.13213,0.67672 v 2.42413 2.42414 l -2,1.24902 -2,1.24902 v 1.40119 1.40119 l 3,2.86696 3,2.86697 v 0.77569 0.77569 l 3,1.77215 3,1.77214 v 0.91958 0.91957 l 3.75,1.97969 3.75,1.9797 -2.59636,0.0442 -2.59636,0.0442 -3.24623,-1.61943 -3.24622,-1.61943 -2.40742,1.28841 -2.40741,1.28841 v 1.772 1.77201 l -0.93158,0.57574 -0.93158,0.57575 -1.31842,-1.84205 z"
       />
 
       <Land
@@ -1574,6 +815,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={20}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z m -131.55281,-16 0.15003,-13.75 -0.71517,-2.17104 -0.71517,-2.17103 1.29232,-1.05054 1.29233,-1.05055 2.75,-2.39309 2.75,-2.39309 V 601.63533 600 h 4.5 4.5 l 2.11019,-2.11019 2.11019,-2.11019 3.99126,0.63823 3.99127,0.63823 3.47991,-1.25835 3.4799,-1.25835 0.96833,1.73031 0.96833,1.73031 h 1.24951 1.24951 l -0.40861,3.5 -0.4086,3.5 h 1.5265 1.5265 l 4.66581,-2 4.66581,-2 h 1.9171 H 428 l -0.007,1.25 -0.007,1.25 -3.67582,2.5 -3.67582,2.5 -1.12587,-0.24987 -1.12587,-0.24986 -2.09405,4.55183 -2.09406,4.55184 2.44353,2.44352 2.44353,2.44353 2.85664,1.47723 2.85664,1.47722 2.10241,4.34301 2.10241,4.343 v 0.96352 0.96351 l 2,1.44152 2,1.44152 V 640.22076 642 H 403.02249 373.0453 l 0.15003,-13.75 z"
       />
 
       <Land
@@ -1589,6 +831,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={21}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 443,506.5567 v -1.44329 l -1.7654,-1.30671 -1.76539,-1.3067 -1.21317,-2.75 -1.21316,-2.75 H 435.27144 433.5 l -0.10521,-2.25 -0.10522,-2.25 -0.81032,-5.98696 -0.81031,-5.98696 -1.33447,-1.33447 L 429,477.85714 v -1.36955 -1.36956 l 1.04697,-0.64706 1.04697,-0.64706 4.20303,1.9355 4.20303,1.9355 7.20766,1.83433 7.20767,1.83433 2.79233,2.33636 2.79234,2.33636 5.22357,4.73186 5.22357,4.73185 0.0264,1.13386 0.0264,1.13385 -5.46496,2.21807 -5.46496,2.21806 -0.55399,1.74547 -0.55399,1.74547 -3.84707,1.15261 L 450.2679,508 h -3.63398 -3.63398 v -1.4433 z"
       />
 
       <Land
@@ -1604,6 +847,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={22}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 446,450.5 444.75511,449 h -2.98596 -2.98597 l 0.65778,-2.6208 0.65778,-2.6208 1.31209,-1.31209 1.31209,-1.31209 0.6706,-4.1937 0.6706,-4.19371 -1.55098,-2.3671 -1.55098,-2.3671 -0.73108,0.17669 -0.73108,0.1767 -4.71005,-2.36286 -4.71005,-2.36285 -0.66721,-3.03782 -0.66722,-3.03782 -2.87273,-2.68353 L 423,412.19758 V 410.59879 409 h 1.53138 1.53139 l 0.5756,1.5 0.57561,1.5 H 429.10699 431 v 0.81586 0.81586 l 4,2.24812 4,2.24813 V 419.06398 420 h 1.83333 1.83334 l 0.75688,-0.75 0.75688,-0.75 10.65979,-0.12826 10.65978,-0.12825 4.54881,-0.2646 4.54881,-0.2646 2.20119,1.17804 L 479,420.07037 V 421.03518 422 h 2.5 2.5 v -1.92857 -1.92857 l -1.5,-1.5 -1.5,-1.5 v -1.66114 -1.66113 l 2.25,-1.87703 2.25,-1.87702 2.55,-0.0333 2.55,-0.0333 1.19802,-1.19802 1.19801,-1.19801 8.96716,-0.0368 8.96715,-0.0368 0.96348,0.98483 0.96348,0.98483 -0.97921,5 -0.97921,5 0.60379,5.10011 0.60379,5.10012 -2.40143,1.57347 -2.40143,1.57348 -9.4018,0.82641 -9.4018,0.82641 -0.32233,3.37028 -0.32233,3.37028 -4.67767,-0.56518 -4.67767,-0.56519 -4.39232,-0.70585 -4.39232,-0.70586 -3.25289,1.7518 -3.25288,1.75179 -0.53895,2.69475 -0.53895,2.69474 -2.56585,1.3732 -2.56584,1.3732 v 0.83102 0.83102 h -2.44098 -2.44099 l -0.61803,1 -0.61803,1 h -1.81854 -1.81854 z"
       />
 
       <Land
@@ -1619,6 +863,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={23}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 714.3763,427.53823 713.78602,426 H 712.39301 711 v -0.97368 -0.97369 L 706.47368,419.52632 701.94737,415 h -0.72693 -0.72693 l -2.83345,-3.00205 -2.83345,-3.00204 -3.86005,-0.61725 -3.86005,-0.61725 -0.63271,-2.8807 L 685.84109,402 h -0.75828 -0.75828 l -2.66592,-5.44452 -2.66592,-5.44452 -0.88462,-2.3267 -0.88461,-2.32671 -2.61173,-1.22877 L 672,384 l -2.75,-1.22968 -2.75,-1.22967 -3.09439,-2.27033 L 660.31122,377 h -1.77224 -1.77224 l 0.63634,-2.25 0.63635,-2.25 1.46186,-8 1.46186,-8 0.0299,-1 0.0299,-1 3.73852,-1.78126 3.73853,-1.78126 9.99767,-2.46874 L 688.49534,346 h 3.19331 3.19332 l 0.61803,-1 0.61803,-1 3.69099,-0.0197 3.69098,-0.0197 7.5,-1.36405 7.5,-1.36405 3,-1.1989 3,-1.19889 4.5,-0.35084 4.5,-0.35085 12,-2.15842 12,-2.15843 7.5,-0.0953 7.5,-0.0953 6.19898,0.8215 6.19898,0.82149 1.05102,3.01497 1.05102,3.01496 -0.016,3.60077 -0.016,3.60078 -2.98402,3.38551 -2.98403,3.38551 v 1.29306 1.29306 l -1.3336,1.33361 -1.33361,1.3336 -0.64439,11.26245 -0.64439,11.26245 -0.96728,1.80738 -0.96728,1.80739 -4.30473,2.07878 -4.30472,2.07878 -5.5,2.52479 -5.5,2.52479 -3.5,1.58526 -3.5,1.58526 -3.68883,2.26654 -3.68883,2.26654 -1.91978,2.46262 -1.91977,2.46262 -1.78007,3.5 -1.78006,3.5 -2.9356,3.36939 -2.93561,3.36939 -6.44244,3.41884 -6.44244,3.41884 -0.59027,-1.53823 z"
       />
 
       <Land
@@ -1634,6 +879,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={24}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 478.97251,515.30796 476.5,513.61593 l -0.73469,-1.05797 -0.73468,-1.05796 -0.0153,-4.00945 -0.0153,-4.00946 -2.10961,-1.31747 -2.10962,-1.31748 0.58709,-2.93543 0.58708,-2.93543 -3.11284,-2.73764 -3.11285,-2.73764 -4.28568,-4.25 -4.28568,-4.25 h -0.9253 -0.92531 l -3.32259,-1.65752 -3.32258,-1.65752 -6.53155,-1.36913 -6.53156,-1.36913 -1.83846,-1.97335 L 431.92212,471 h -0.93537 -0.93536 l -1.55603,-3.00903 -1.55603,-3.00903 1.1748,-2.24097 1.17481,-2.24097 4.91435,-4.75 4.91436,-4.75 h 2.97257 2.97258 l 0.5756,1.5 0.57561,1.5 2.64301,-0.009 2.64301,-0.009 5.25035,-3.01104 5.25035,-3.01105 2.45913,-3.89551 2.45913,-3.89551 0.96153,-0.59426 0.96152,-0.59425 9.8912,0.64821 9.89121,0.64821 -0.089,5.46482 -0.089,5.46482 -4.08913,0.30498 -4.08913,0.30498 -1.88405,1.1042 -1.88404,1.1042 -5.5,1.34671 -5.5,1.3467 -0.33466,2.25662 -0.33467,2.25661 1.08467,1.08467 L 467,463.4 v 1.3 1.3 l -1.25,-0.25 -1.25,-0.25 -0.30212,5.2459 -0.30211,5.2459 3.55211,3.6575 3.55212,3.6575 v 0.73819 0.73819 l 2.5,0.62746 2.5,0.62746 v 0.90059 0.90058 l 5,1.66073 5,1.66073 v 2.60403 2.60403 l 1.63178,5.81561 1.63177,5.8156 H 490.13178 491 l -0.039,1.25 -0.039,1.25 -4.41896,3.25 -4.41896,3.25 h -0.31953 -0.31954 z"
       />
 
       <Land
@@ -1649,6 +895,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={25}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 523.07673,434.41111 520,431.82221 v -0.85958 -0.85959 L 517.63533,427.55152 515.27066,425 h -1.11628 -1.11628 l -0.65427,-2.60683 -0.65427,-2.60684 1.20693,-5.39316 L 514.14343,409 h 0.81791 0.81791 l 1.25548,-4.25 1.25547,-4.25 4.31286,-3.25 4.31286,-3.25 h 1.48302 1.48303 l 0.61803,-1 0.61803,-1 H 532.05902 533 v 1.44098 1.44099 l 1.09535,0.67696 1.09536,0.67697 2.40464,-1.28693 2.40465,-1.28693 2.48353,1.32914 2.48353,1.32915 2.21089,-0.98653 2.2109,-0.98653 2.86793,1.43071 2.86793,1.43072 3.18764,-0.75618 3.18765,-0.75617 7,0.10858 7,0.10857 3.5,1.313 3.5,1.313 2,1.21195 2,1.21196 -1.5,0.99311 -1.5,0.99312 -3.54642,-0.13078 -3.54643,-0.13077 -5.27272,5.27272 -5.27272,5.27272 -0.92625,2.43623 -0.92625,2.43623 -5.51701,2.43988 -5.517,2.43988 -6.2376,4.86699 -6.2376,4.867 -6.25398,2.14013 L 527.99204,437 h -0.9193 -0.91929 z"
       />
 
       <Land
@@ -1664,6 +911,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={26}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 253,334 v -2 h -1.88569 -1.8857 l -2.66585,-1.38306 -2.66586,-1.38307 -3.52359,0.7947 -3.5236,0.7947 -1.27315,1.74114 -1.27315,1.74114 -1.40171,-0.87782 -1.4017,-0.87781 -2,0.28133 -2,0.28133 3.5,-2.2123 3.5,-2.2123 3.39084,-0.1314 3.39083,-0.1314 2.85938,-3.42507 2.85938,-3.42508 3.92383,0.15647 3.92382,0.15647 1.19841,-1.44398 1.1984,-1.44399 h 1.68643 1.68642 l 1.94113,1.4682 1.94113,1.46819 2.23565,0.0318 2.23565,0.0318 4.76435,-1.13648 4.76435,-1.13647 1,-0.40275 1,-0.40274 2.42835,-1.39191 2.42835,-1.39191 -3.67835,-1.75408 -3.67835,-1.75408 -3.53393,1.68521 -3.53392,1.68521 h -1.02031 -1.02031 l -3.19576,-3.02306 -3.19577,-3.02307 -2.5,-0.61482 -2.5,-0.61482 -1.02599,-0.79865 -1.02599,-0.79865 -2.72401,0.29902 L 250,307.72496 v -1.2807 -1.2807 l -0.55942,-1.45781 -0.55941,-1.45781 5.80941,0.1586 5.80942,0.1586 3,-0.92418 3,-0.92418 1.5549,-1.33682 1.5549,-1.33682 -0.10255,-4.0875 -0.10255,-4.0875 -1.45235,-0.91876 -1.45235,-0.91876 2.84227,-0.0153 2.84227,-0.0153 2.41914,-1.9029 2.41914,-1.90289 3.48859,1.07067 3.48859,1.07068 v 0.83222 0.83222 h -1.43261 -1.43261 l -0.63478,2 -0.63478,2 0.63478,2 0.63478,2 h 0.82685 0.82686 l 3.04681,2.84614 3.0468,2.84615 3.1247,0.0888 3.1247,0.0888 2.93425,0.64447 2.93425,0.64447 v 4.23345 4.23346 l -2.80472,2.68709 -2.80472,2.68709 H 294.19528 293 l -2,2 -2,2 v 2.59563 2.59563 l 2.06323,2.89755 2.06324,2.89754 -0.53164,0.86021 -0.53163,0.8602 -8.7816,0.0183 -8.7816,0.0183 -3.71016,-1.87167 -3.71016,-1.87168 -2.78984,0.0136 -2.78984,0.0137 -2.1261,0.57058 -2.1261,0.57057 -1.29288,2.41577 -1.29288,2.41577 H 253.83102 253 v -2 z"
       />
 
       <Land
@@ -1679,6 +927,7 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={27}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 589.75,377.91667 588,376 h -5.56672 -5.56672 l -3.27767,-2.5 -3.27767,-2.5 h -1.10472 -1.10472 L 565.55089,367.65561 563,364.31122 v -1.18574 -1.18574 L 560.5,356 558,350.06026 v -2.43701 -2.43701 L 563,341 l 5,-4.18624 0.0314,-2.15688 0.0314,-2.15688 2.25877,-1.63843 2.25878,-1.63843 5.9598,-1.52151 5.9598,-1.52151 6.76835,0.54832 6.76835,0.54833 1.73165,-1.55078 1.73165,-1.55078 5.93366,-1.08761 5.93366,-1.0876 h 3.81634 3.81634 l 2,-2 2,-2 h 1.32 1.32 l 3.93,3.30354 3.93,3.30353 5.59967,2.69647 5.59967,2.69646 h 1.02533 1.02533 l 0.6,3 0.6,3 1.275,0.0223 1.275,0.0223 2.25,6.83452 2.25,6.83453 v 1.67456 1.67456 l 1.5,0.5756 1.5,0.57561 v 2.30968 2.30967 l -0.97156,0.33334 -0.97157,0.33333 -0.94814,6.71557 -0.94814,6.71558 -0.58129,0.94054 -0.58129,0.94055 -1.99901,-0.52275 -1.999,-0.52275 v -1.26093 -1.26092 l -1.54803,-1.28475 -1.54803,-1.28476 -3.45197,1.64613 -3.45197,1.64613 v 0.96508 0.96508 l -5.34093,1.68358 -5.34094,1.68358 -5.81677,-3.72094 -5.81677,-3.72095 -3.26426,-0.52971 -3.26425,-0.52972 -4.45071,3.19626 -4.45071,3.19626 -4.10059,0.55 -4.1006,0.55001 -0.59412,1.87191 -0.59413,1.87192 -1.18261,-0.0833 -1.18261,-0.0833 -1.75,-1.91666 z"
       />
 
       <Land
@@ -1694,8 +943,8 @@ class LandTiles extends Component {
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={28}
+        path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z m -202.53542,-343 -1.10725,-6.75 -0.61211,-4.73624 -0.61211,-4.73625 2.80921,-2.76375 L 305.5,279.5 l 0.34371,-9.75 0.3437,-9.75 3.1563,0.0136 3.15629,0.0137 2.25,0.60298 2.25,0.60297 v 5.76093 5.76092 l 1.25,0.88514 1.25,0.88514 2.5,-0.0127 2.5,-0.0127 0.73469,1 0.73468,1 0.0153,5.75 0.0153,5.75 h -0.8 -0.8 l -1.2,-1.2 -1.2,-1.2 v 1.73138 1.73139 l -1.53241,0.58804 -1.53241,0.58804 3.28241,2.41639 3.28241,2.41639 0.6237,2.96419 0.6237,2.96418 -0.8737,0.125 -0.8737,0.125 -1.25,0.125 -1.25,0.125 -0.99615,2.27096 -0.99616,2.27097 -3.50384,0.97346 -3.50385,0.97346 -5.08985,0.006 -5.08984,0.006 -1.10726,-6.75 z"
       />
-*/}
 
     </div>
     )

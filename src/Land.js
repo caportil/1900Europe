@@ -81,19 +81,15 @@ class Land extends Component {
 	console.log('Land running render in ' + self.props.class + '... current change is: ' + self.props.latestChange)
 	return (
 
-		<img src={`${self.props.src}.png`}
-		  class={self.props.class}
-		  alt="" 
-		  useMap="#combinedMap"
-		  style=
-		  	{{position: 'absolute', 
-	    	  left: '100px', 
-	    	  top: '1200px',
-	    	  height: '645px',
-	    	  width: '1011px',
-	    	  filter: `hue-rotate(${self.toggleHue()}deg) opacity(75%) brightness(100%) saturate(100%)`
-			}} 
-		/>
+		<svg class={self.props.class} width="1011" height="645" 
+      style={{
+        position: 'absolute', 
+        left: '100px',
+        top:'200px',
+        fill: `blue`,
+      }}>
+      <path d={self.props.path}/>
+    </svg>
 
 		)
 
