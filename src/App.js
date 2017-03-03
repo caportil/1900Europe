@@ -162,12 +162,11 @@ class App extends Component {
 
 
 
-{/*
       	<OceanTiles
       		occupiedOcean={self.state.occupiedOcean}
       		latestChange={self.state.latestChange}
       	/>
-*/}
+
       	<LandTiles
 	      	england={self.state.england}
 	      	germany={self.state.germany}

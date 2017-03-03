@@ -23,20 +23,15 @@ class Ocean extends Component {
 	let self = this;
 	console.log('Running a render in ' + self.props.class + '...' + 'occupiedOcean tiles are currently: ' + self.props.occupiedOcean)
 	return (
-
-		<img src=""
-		  class={self.props.class}
-		  useMap="#combinedMap"
-		  style=
-		  	{{position: 'absolute', 
-	    	  left: '100px', 
-	    	  top: '200px', 
-	    	  width: '1011px', 
-	    	  height: '645px',
-	    	  background: `url(${self.props.src}.png) 0px ${self.props.occupiedOcean.indexOf(self.props.class) > -1 ? '0px' : '-645px'}`,
-			}} 
-		/>
-
+		<svg class={self.props.class} width="1011" height="645" 
+      style={{
+        position: 'absolute', 
+        left: '100px',
+        top:'200px',
+        fill: `blue`,
+      }}>
+      <path d={self.props.path}/>
+    </svg>
 		)
 	}
 }
