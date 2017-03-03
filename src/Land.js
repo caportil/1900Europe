@@ -83,7 +83,13 @@ class Land extends Component {
 	    <path 
 	    	d={self.props.path}
 	    	style={{fill: `${self.toggleHue()}`}}
-	    	onClick={() => console.log(`Clicked on ${self.props.class}!`)}
+	    	onClick={() => {
+	    		if (self.props.newOwner) {
+	    			self.props.assignNewOwner(self.props.class)
+	    		} else {
+	    			console.log(`Clicked on ${self.props.class}!`)
+	    		}
+	    	}}
 	    />
 		)
 	}

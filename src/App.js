@@ -173,23 +173,23 @@ class App extends Component {
       		/>
       		__
       		<img src="http://imgur.com/MUnHPm1.png" 
-      			onClick={() => self.loadNewOwner('england')}
+      			onClick={() => self.loadNewOwner('france')}
       		/>
       		__
       		<img src="http://imgur.com/g5j3CXa.png" 
-      			onClick={() => self.loadNewOwner('england')}
+      			onClick={() => self.loadNewOwner('italy')}
       		/>
       		__
       		<img src="http://imgur.com/bYFvBtv.png" 
-      			onClick={() => self.loadNewOwner('england')}
+      			onClick={() => self.loadNewOwner('austria')}
       		/>
       		__
       		<img src="http://imgur.com/fotK6eO.png" 
-      			onClick={() => self.loadNewOwner('england')}
+      			onClick={() => self.loadNewOwner('russia')}
       		/>
       		__
       		<img src="http://imgur.com/yxoLqJ7.png" 
-      			onClick={() => self.loadNewOwner('england')}
+      			onClick={() => self.loadNewOwner('ottomans')}
       		/>
       		__
       		<img src="http://www.paulnoll.com/Locations/visiting-Neutral-Zone-flag.gif" style={{height: 60, width: 100}}
@@ -221,6 +221,8 @@ class App extends Component {
 	      	ottomans={self.state.ottomans}
       		occupiedOcean={self.state.occupiedOcean}
 	      	latestChange={self.state.latestChange}
+	      	newOwner={self.state.newOwner}
+	      	assignNewOwner={self.assignNewOwner.bind(self)}
       	/>
 
 		{/* City Overlay */}

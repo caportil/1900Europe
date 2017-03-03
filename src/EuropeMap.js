@@ -37,6 +37,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 591,557.98722 v -1.08315 l -2.75,-2.42043 -2.75,-2.42044 -1.09501,-0.0316 L 583.30998,552 581.5,550 579.69002,548 H 580.84501 582 v -5.8 -5.8 l 1.09264,-1.09264 1.09264,-1.09264 -1.09616,-2.04819 -1.09616,-2.04819 2.11193,-1.47925 2.11193,-1.47926 -0.66743,-1.07991 L 584.88197,525 h -1.07369 -1.07369 l -1.63164,-1.88129 -1.63163,-1.88129 -1.98566,-0.38659 -1.98566,-0.38659 -0.0673,-2.48212 -0.0673,-2.48212 0.42425,-1.25 0.42426,-1.25 h 2.27056 2.27057 l 1.20421,1.45099 1.20422,1.45099 4.46777,0.66998 4.46778,0.66999 1.45045,1.45045 1.45046,1.45046 0.0153,7.67857 0.0153,7.67857 0.73468,1.09171 0.73469,1.0917 4.90959,1.8551 4.90958,1.8551 -1.15958,0.38653 -1.15959,0.38653 v 2.1996 2.1996 l -2.25,2.91198 -2.25,2.91197 -2.5,2.40278 -2.5,2.40278 -1.75,0.9375 -1.75,0.93749 v -1.08315 z"
       />
@@ -51,6 +53,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z m 278.16267,-80.8601 -0.0889,-0.8899 0.17599,-4.99483 0.176,-4.99484 1.11296,-0.68785 1.11296,-0.68785 -0.10486,-3.69944 -0.10487,-3.69944 -0.88716,-0.61788 -0.88717,-0.61787 -1.36813,-4.25 -1.36812,-4.25 h -0.74211 -0.74212 l -1.09782,-3.14922 -1.09783,-3.14923 V 526.85078 526 h 1.46104 1.46105 l 1.78895,-1.84649 1.78896,-1.84649 3.26174,-1.40282 3.26174,-1.40282 0.55565,-1.75069 L 791.13474,516 h 0.93261 0.93261 v -1.48658 -1.48658 l 3.46175,-1.44641 3.46175,-1.44641 4.55055,-0.6824 4.55054,-0.6824 0.54672,-0.88461 L 810.11799,507 h 9.53326 9.53325 l 2.53511,-1.99412 2.53511,-1.99412 3.12262,3.07357 3.12262,3.07357 3.5,-0.67352 3.5,-0.67351 2.75,-0.51943 2.75,-0.51944 v 1.75326 1.75325 l 1.6463,1.20381 1.6463,1.20381 4.6037,-0.87445 4.6037,-0.87445 2.5,0.64975 2.5,0.64975 12.85315,0.34884 12.85314,0.34883 4.00709,-2.04426 4.00708,-2.04426 7.32355,-0.45645 7.32354,-0.45646 0.52297,4.28302 0.52297,4.28301 0.52852,5 0.52853,5 -0.73772,1.15848 -0.73772,1.15847 -6.49755,1.71207 -6.49755,1.71206 -10.7462,-0.16182 -10.7462,-0.16182 -4.10789,1.23075 -4.1079,1.23076 -0.50289,1.31052 -0.5029,1.31053 -2.14301,0.0434 -2.14301,0.0434 -3.62702,2.20663 -3.62703,2.20663 -3.87297,3 -3.87298,3 -0.33041,0.74124 -0.33042,0.74124 -3.41958,1.50876 L 849,552 l -3.56298,1.5768 -3.56297,1.5768 -7.43703,-0.5768 L 827,554 l -7.58953,-0.58214 -7.58953,-0.58213 -5.66047,3.8019 -5.66047,3.8019 -0.5,0.11403 -0.5,0.11403 -3,1.25124 -3,1.25125 -5.25,0.55486 -5.25,0.55487 -0.0889,-0.88991 z"
       />
@@ -65,6 +69,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z m 53.13701,-90.5 -1.18489,-2.25 -1.10029,-0.73469 -1.1003,-0.73468 -3.5,-0.029 -3.5,-0.029 -2.25,-0.60298 -2.25,-0.60297 v -1.81598 -1.81598 l -2.14012,-0.67925 -2.14012,-0.67925 -3.10988,3.47029 -3.10988,3.4703 -1.47076,2.14156 -1.47076,2.14157 h -1.63969 -1.6397 l -3.88954,-2.62686 -3.88955,-2.62685 -0.64424,-1.01104 -0.64425,-1.01105 -0.63342,-3.96119 -0.63342,-3.96119 -1.4009,-1.40091 -1.40091,-1.40091 h -0.89712 -0.89711 l -2.42432,-2.61883 -2.42431,-2.61883 -6.17664,-2.97245 -6.17663,-2.97244 -3.98233,-3.40873 -3.98233,-3.40872 H 485.09104 484 v -1 -1 h 0.95455 0.95454 l 2.5,-2.5 2.5,-2.5 h 2.01978 2.01977 l 1.44789,2.7999 1.44788,2.7999 4.3278,0.24214 4.32779,0.24214 1.5,1.95047 1.5,1.95048 3.5,0.3957 3.5,0.3957 2.28518,0.11179 2.28519,0.11178 -1.06086,1.98223 -1.06086,1.98224 2.83885,2.97059 2.83886,2.97059 3.34188,0.58875 3.34188,0.58876 2.92166,2.45842 2.92167,2.45842 h 2.28842 2.28841 l 2.38486,1.86968 2.38486,1.86968 3.16646,0.69143 3.16646,0.69142 0.56948,1.48405 0.56948,1.48405 3.51406,1.46826 3.51406,1.46827 v 2.98658 2.98658 h -0.96482 -0.96481 l -1.18489,-2.25 z"
       />
@@ -79,6 +85,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={3}
@@ -95,6 +103,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={4}
@@ -111,6 +121,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={5}
@@ -127,6 +139,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={6}
@@ -143,6 +157,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={7}
@@ -159,6 +175,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={8}
@@ -175,6 +193,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={9}
@@ -191,6 +211,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={10}
@@ -208,6 +230,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={11}
@@ -225,6 +249,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={12}
@@ -242,6 +268,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={13}
@@ -258,6 +286,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={14}
@@ -274,6 +304,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={15}
@@ -291,6 +323,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={16}
@@ -307,6 +341,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={17}
@@ -324,6 +360,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={18}
@@ -341,6 +379,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={19}
@@ -358,6 +398,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={20}
@@ -376,6 +418,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={21}
@@ -392,6 +436,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={22}
@@ -408,6 +454,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={23}
@@ -424,6 +472,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={24}
@@ -441,6 +491,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={25}
@@ -457,6 +509,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={26}
@@ -473,6 +527,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={27}
@@ -489,6 +545,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={1}
         spritePosition={28}
@@ -505,6 +563,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={0}
@@ -521,6 +581,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={1}
@@ -537,6 +599,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={2}
@@ -553,6 +617,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={3}
@@ -569,6 +635,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={4}
@@ -585,6 +653,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={5}
@@ -601,6 +671,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={6}
@@ -617,6 +689,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={7}
@@ -633,6 +707,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={8}
@@ -649,6 +725,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={9}
@@ -665,6 +743,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={10}
@@ -681,6 +761,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={11}
@@ -697,6 +779,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={12}
@@ -713,6 +797,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={13}
@@ -729,6 +815,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={14}
@@ -745,6 +833,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
           path="M 504.74847,644.25 1009.9969,643.99804 1010.25,321.74902 1010.5031,-0.5 1010.7515,322.25 1011,645 505.25,644.75098 -0.5,644.50197 Z M 971.5,511.47116 l -4,-1.44105 -0.27475,-0.015 L 966.9505,510 966,507.5 l -0.9505,-2.5 -1.27475,0.0153 -1.27475,0.0153 -1.40932,0.89216 -1.40931,0.89217 -1.34069,-0.51447 L 957,505.78599 v -1.41776 -1.41776 l -2.25,-1.01819 -2.25,-1.01819 -2,-1.21919 -2,-1.21919 -2.66603,-1.79786 -2.66603,-1.79786 -0.62375,-1.62546 -0.62375,-1.62546 2.67421,-2.47967 2.67421,-2.47967 -1.68003,-1.22847 -1.68003,-1.22847 -0.59037,-3.85641 -0.59036,-3.85641 -2.61404,-2.21404 -2.61403,-2.21403 -1.02776,-0.036 -1.02776,-0.036 -1.66663,-1.94648 -1.66663,-1.94648 -4.30561,-1.16859 -4.30561,-1.16858 -2.64541,0.98872 -2.64541,0.98872 -1.35459,-0.85834 -1.35459,-0.85834 -3.18191,-0.0153 -3.1819,-0.0153 -2.01138,-2.82472 -2.01138,-2.82472 -4.30671,-1.26468 -4.30672,-1.26468 -4.94491,-3.13992 -4.94491,-3.13992 -4.55509,-0.0207 L 877.5,451.5 l -1.10046,-1.40574 -1.10046,-1.40573 -2.01673,0.52738 -2.01673,0.52739 -5.32647,-0.842 -5.32646,-0.842 -0.89524,-1.5997 -0.89523,-1.5997 -3.66111,0.16694 -3.66111,0.16694 -1.40499,-0.0969 -1.40499,-0.0969 1.78864,-1.97642 1.78863,-1.97642 0.96171,0.59437 0.96171,0.59437 2.42228,-1.29637 2.42229,-1.29637 0.78997,-3.07158 0.78997,-3.07158 3.43838,-0.3317 3.43837,-0.33171 1.25402,-1.04074 L 870,430.75509 v -1.65832 -1.65831 l 3.18406,-1.20185 3.18405,-1.20185 -0.76739,-0.76739 -0.76739,-0.76739 -0.66666,0.11558 -0.66667,0.11558 -1.2073,-1.72366 -1.2073,-1.72367 -4.2927,-1.13562 -4.2927,-1.13562 -1.5,0.15124 -1.5,0.15124 -1.75,-0.15754 L 856,418 v -0.89658 -0.89657 l 5.71922,-0.0683 5.71921,-0.0683 1.75855,-2.28511 1.75855,-2.28511 0.0222,-1.28138 0.0222,-1.28139 1.75,-0.58533 1.75,-0.58532 2.75,-1.1274 2.75,-1.1274 v -2.1489 -2.1489 l -1.58179,-0.60699 -1.58178,-0.60699 h -2.08948 -2.08947 l -2.00063,1.75 -2.00064,1.75 0.68821,-1.1809 0.6882,-1.1809 -1.02526,-0.63365 -1.02526,-0.63365 -1.89163,0.60039 -1.89164,0.60038 -0.59071,2.35357 -0.59071,2.35357 -2.7587,0.7662 -2.75871,0.7662 -1.85458,0.35408 -1.85459,0.35408 -2.53027,1.99032 -2.53028,1.99031 h -2.39652 -2.39653 l -0.5756,1.5 -0.57561,1.5 h -1.04334 -1.04334 l -5.39815,2.64107 -5.39816,2.64107 -1.90732,3.60893 -1.90732,3.60893 -0.0442,-2.25 L 826,423 h -1.96921 -1.9692 l -4.11846,2.14666 -4.11846,2.14666 -0.50888,1.32614 -0.50889,1.32614 -3.56261,0.66835 -3.56261,0.66835 -1.80777,-1.12897 -1.80777,-1.12897 -2.60241,0.98943 -2.60241,0.98943 0.31934,2.24839 0.31934,2.24839 4.75,0.30479 4.75,0.30479 v 1.74521 1.74521 l 1.2,1.2 1.2,1.2 h 2.69504 2.69504 l 2.35496,2.48272 2.35496,2.48273 3.25,0.0173 3.25,0.0173 v -2.7 -2.7 l 1.2,1.2 1.2,1.2 h 2.76607 2.76608 l 3.52137,-1.67922 3.52137,-1.67923 0.76255,0.81613 0.76256,0.81613 -1.25,0.44643 -1.25,0.44643 v 2.41666 2.41667 h -4.59362 -4.59362 l -0.49496,1.89272 -0.49495,1.89271 -3.03643,0.60729 L 823.75,453 h -2.5213 -2.52129 l -4.81086,4.5 -4.81087,4.5 h -0.85171 -0.85171 l -1.84094,-1.34613 -1.84094,-1.34613 -1.10019,-3.40387 L 801.5,452.5 l -2.5,-0.2916 -2.5,-0.2916 -2,-0.93153 -2,-0.93154 -4,-0.31457 -4,-0.31456 2.75,-1.18755 2.75,-1.18755 V 445 442.9505 l 2.2911,-0.87108 2.29109,-0.87107 1.34692,-1.62293 1.34691,-1.62294 -1.8655,-2.06135 -1.86549,-2.06135 -3.02252,0.63384 -3.02251,0.63384 -6.2142,0.19627 -6.21421,0.19627 -1.62215,-1.62207 -1.62215,-1.62207 3.08635,-1.07591 L 778,430.10404 v -0.99532 -0.99531 l -2.22194,-1.55631 -2.22193,-1.5563 -0.0281,-2.2504 -0.0281,-2.2504 -2.21465,-0.31492 -2.21466,-0.31492 -0.64375,2.56492 L 767.78311,425 h -0.83257 -0.83258 l -0.56001,-0.90612 -0.56001,-0.90612 -1.90655,0.49857 -1.90655,0.49858 -0.49884,1.90754 L 760.18717,428 h -2.05467 -2.05466 l -1.94793,-2.09085 -1.94792,-2.09086 -1.84103,0.35107 -1.84103,0.35107 -0.34907,2.46502 -0.34906,2.46503 -1.90094,1.33146 L 744,432.11341 V 434 v 1.88659 l 2.09766,1.46926 2.09765,1.46925 -2.09765,1.12264 L 744,441.07037 V 443.53518 446 h -0.63976 -0.63975 l -1.18941,-1.62661 -1.18941,-1.62661 -2.17084,1.16179 -2.17083,1.1618 v 0.89339 0.89338 l 1.5,1.5 1.5,1.5 v 1.98857 1.98856 l -4.75731,1.02026 -4.7573,1.02026 -4.17199,-0.55958 -4.17198,-0.55958 -1.03862,-2.62781 -1.03861,-2.62782 -1.15432,-4.76391 -1.15431,-4.76391 0.61359,-3.06795 0.61359,-3.06795 -1.01116,-1.88939 -1.01117,-1.88939 6.26979,-2.93194 6.2698,-2.93194 3.5,-3.91569 3.5,-3.9157 2.21816,-4.47689 2.21815,-4.47688 2.28185,-2.08582 2.28184,-2.08582 6.75566,-3.60792 6.75566,-3.60793 0.54067,0.0842 0.54066,0.0842 5.20368,-2.47176 5.20367,-2.47177 3.15331,-1.32423 3.15331,-1.32424 1.59669,-2.70297 L 779,383.19142 V 379.59571 376 h 1 1 v -7.95295 -7.95294 l 1.16052,-2.54706 L 783.32103,355 h 0.71816 0.71817 l 1.21288,-2.92814 1.21287,-2.92815 1.32195,-0.50728 1.32195,-0.50728 -0.5634,-4.31457 -0.5634,-4.31458 -0.74704,-0.5 -0.74705,-0.5 -0.35306,-2.44548 -0.35306,-2.44548 4.5,-1.35086 4.5,-1.35085 4,0.61735 4,0.61736 8.07079,0.49737 8.0708,0.49737 1.3649,-1.6446 1.36491,-1.64461 -1.4357,-0.92379 L 819.5,328 l 1.09603,-0.75 1.09603,-0.75 0.67302,-2.75 0.67302,-2.75 h 1.41356 1.41356 l 0.59597,-1.87772 0.59596,-1.87772 2.34687,-2.73122 2.34687,-2.73122 4.12456,0.69684 L 840,313.1758 v 0.69196 0.69196 l 5.06818,1.96674 5.06818,1.96674 1.52578,1.68596 1.52577,1.68596 1.45693,-0.55907 1.45692,-0.55908 2.19912,1.98292 2.19912,1.98292 6.18659,1.26678 6.18659,1.26678 3.46293,-0.64965 3.46292,-0.64964 1.13575,-1.36849 1.13574,-1.36849 8.68306,0.35707 8.68307,0.35707 3.2773,3.78788 3.27731,3.78788 1.95886,4.27423 1.95885,4.27422 3.67283,3.46393 3.67283,3.46392 3.62268,1.00627 3.62269,1.00628 2.28518,0.006 2.28519,0.006 2.46481,1.61501 2.46482,1.61501 v 2.81356 2.81356 l 1.5,1.5 1.5,1.5 v 2.94899 2.94898 l 1.61617,1.3413 1.61617,1.3413 3.63383,1.33325 3.63383,1.33324 6.79473,1.96381 6.79473,1.9638 4.20527,1.8337 4.20527,1.83371 5.5,2.09129 5.5,2.09129 4.36123,1.12759 4.36122,1.1276 2.13878,2.23921 2.13877,2.23922 3.61803,2.19229 3.61807,2.19229 h 3.6319 3.632 v 58 58 l -7.75,0.2095 -7.75,0.2095 -3,-0.15619 -3,-0.15618 -3.55559,-0.64003 -3.55559,-0.64002 -1.31686,1.58671 -1.31685,1.58671 -0.62755,-0.0439 -0.62756,-0.0439 -4,-1.44105 z M 800,461 l -1.5,-0.96937 1.75,-0.0153 L 802,460 v 1 1 l -0.25,-0.0153 -0.25,-0.0153 z m 20.76155,-20.84013 -2.73845,-1.65728 -0.47455,-1.23666 -0.47455,-1.23666 2.12858,1.23536 2.12858,1.23537 1.83442,1.75 L 825,442 l -0.75,-0.0914 -0.75,-0.0914 -2.73845,-1.65728 z M 823,428 v -1 h 1 1 v 1 1 h -1 -1 z"
       />
@@ -759,6 +849,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={16}
@@ -775,6 +867,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={17}
@@ -791,6 +885,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={18}
@@ -807,6 +903,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={19}
@@ -823,6 +921,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={20}
@@ -839,6 +939,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={21}
@@ -855,6 +957,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={22}
@@ -871,6 +975,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={23}
@@ -887,6 +993,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={24}
@@ -903,6 +1011,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={25}
@@ -919,6 +1029,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={26}
@@ -935,6 +1047,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={27}
@@ -951,6 +1065,8 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        newOwner={self.props.newOwner}
+        assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
         spriteSheet={2}
         spritePosition={28}
