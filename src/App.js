@@ -147,9 +147,25 @@ class App extends Component {
       	</form>
       	<br />
 
+      	<span>
+      		<img src="http://imgur.com/DbVHtZT.png" />
+      		__
+      		<img src="http://imgur.com/3W5OZye.png" />
+      		__
+      		<img src="http://imgur.com/MUnHPm1.png" />
+      		__
+      		<img src="http://imgur.com/g5j3CXa.png" />
+      		__
+      		<img src="http://imgur.com/bYFvBtv.png" />
+      		__
+      		<img src="http://imgur.com/fotK6eO.png" />
+      		__
+      		<img src="http://imgur.com/yxoLqJ7.png" />
+      		</span>
+
         {/* Europe Map Background*/}
       	<img 
-	      	src="http://imgur.com/svedjkg.png" 
+	      	src="http://imgur.com/2fEgXab.png" 
 	      	style={{position: 'absolute', 
       			left: '100px', 
       			top: '200px',
