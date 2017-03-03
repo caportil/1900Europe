@@ -86,7 +86,7 @@ class Land extends Component {
         position: 'absolute', 
         left: '100px',
         top:'200px',
-        fill: `blue`,
+        fill: `red`,
       }}>
       <path d={self.props.path}/>
     </svg>
