@@ -169,8 +169,8 @@ class App extends Component {
 	      	style={{position: 'absolute', 
       			left: '100px', 
       			top: '200px',
-      			height: '645px',
-      			width: '1011px',
+      			height: '1290px',
+      			width: '2022px',
 		    	  // height: '968px',
 		    	  // width: '1517px',
     			}}
@@ -201,8 +201,8 @@ class App extends Component {
 	    		style={{position: 'absolute', 
 		    	  left: '100px', 
 		    	  top: '200px', 
-		    	  height: '645px',
-		    	  width: '1011px',
+      			height: '1290px',
+      			width: '2022px',
 		    	  // height: '968px',
 		    	  // width: '1517px',
 		    	}}

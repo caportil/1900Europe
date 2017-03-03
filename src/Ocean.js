@@ -23,7 +23,7 @@ class Ocean extends Component {
 	let self = this;
 	console.log('Running a render in ' + self.props.class + '...' + 'occupiedOcean tiles are currently: ' + self.props.occupiedOcean)
 	return (
-		<svg class={self.props.class} width="1011" height="645" 
+		<svg class={self.props.class} width="2022" height="1290" viewBox="0 0 1011 645"
       style={{
         position: 'absolute', 
         left: '100px',
