@@ -80,13 +80,11 @@ class Land extends Component {
 		let self = this;
 		console.log('Land running render in ' + self.props.class + '... current change is: ' + self.props.latestChange)
 		return (
-
 	    <path 
 	    	d={self.props.path}
 	    	style={{fill: `${self.toggleHue()}`}}
 	    	onClick={() => console.log(`Clicked on ${self.props.class}!`)}
 	    />
-
 		)
 	}
 }

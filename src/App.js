@@ -211,18 +211,6 @@ class App extends Component {
     			}}
       	/>
 
-      	<svg
-      		style={{
-		        position: 'absolute', 
-		        left: '100px',
-		        top:'2000px',
-		        fill: 'black'
-		      }}
-		      onClick={() => console.log('SVG in App.js clicked!')}
-      	>
-      		<path d="M 200 100 l 0 -50 l -50 0 l 0 -50 l -50 0 l 0 50 l -50 0 l 0 50 z" />
-      	</svg>
-
       	<EuropeMap
 	      	england={self.state.england}
 	      	germany={self.state.germany}
@@ -237,6 +225,11 @@ class App extends Component {
 
 		{/* City Overlay */}
 
+
+
+	    	<map name="overlayMap" id="olMap">
+    	    <area alt="" title="" href="#" shape="poly" coords="4,4,14,58,73,57,71,20,77,3" onClick={() => console.log('Bzz')}/>
+	    	</map>
 
 {/*
 	    	<CombinedMap 
