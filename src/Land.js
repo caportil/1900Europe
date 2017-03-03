@@ -77,22 +77,17 @@ class Land extends Component {
 	}
 
 	render() {
-	let self = this;
-	console.log('Land running render in ' + self.props.class + '... current change is: ' + self.props.latestChange)
-	return (
+		let self = this;
+		console.log('Land running render in ' + self.props.class + '... current change is: ' + self.props.latestChange)
+		return (
 
-		<svg class={self.props.class} width="2022" height="1290" viewBox="0 0 1011 645"
-      style={{
-        position: 'absolute', 
-        left: '100px',
-        top:'200px',
-        fill: `${self.toggleHue()}`,
-      }}>
-      <path d={self.props.path}/>
-    </svg>
+	    <path 
+	    	d={self.props.path}
+	    	style={{fill: `${self.toggleHue()}`}}
+	    	onClick={() => console.log(`Clicked on ${self.props.class}!`)}
+	    />
 
 		)
-
 	}
 }
 

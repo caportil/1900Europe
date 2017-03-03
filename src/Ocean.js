@@ -20,18 +20,14 @@ class Ocean extends Component {
 	}
 
 	render() {
-	let self = this;
-	console.log('Running a render in ' + self.props.class + '...' + 'occupiedOcean tiles are currently: ' + self.props.occupiedOcean)
-	return (
-		<svg class={self.props.class} width="2022" height="1290" viewBox="0 0 1011 645"
-      style={{
-        position: 'absolute', 
-        left: '100px',
-        top:'200px',
-        fill: `blue`,
-      }}>
-      <path d={self.props.path}/>
-    </svg>
+		let self = this;
+		console.log('Running a render in ' + self.props.class + '...' + 'occupiedOcean tiles are currently: ' + self.props.occupiedOcean)
+		return (
+			<path 
+				d={self.props.path}
+				style={{fill: `#80ccff`}}
+				onClick={() => console.log(`Clicked on ${self.props.class}!`)}
+			/>
 		)
 	}
 }

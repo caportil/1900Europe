@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Ocean from './Ocean.js';
 import OceanTiles from './OceanTiles.js';
 import LandTiles from './LandTiles.js';
-import CombinedMap from './CombinedMap.js';
+import EuropeMap from './EuropeMap.js';
 
 class App extends Component {
 	constructor(props) {
@@ -18,9 +18,11 @@ class App extends Component {
 			austria: ['Vienna', 'Budapest', 'Bohemia', 'Galicia', 'Trieste', 'Tyrolia'],
 			russia: ['Moscow', 'Finland', 'Livonia', 'Ukraine', 'Warsaw', 'StPetersburg', 'Sevastopol'],
 			ottomans: ['Constantinople', 'Syria', 'Smyrna', 'Armenia', 'Ankara'],
+			neutral: [],
 			hue: 240,
 			englandHue: 200,
-			latestChange: "",
+			latestChange: '',
+			newOwner: false,
 		}
 	}
 
@@ -89,6 +91,7 @@ class App extends Component {
   		return 'ottomans';
   	} else {
   		console.log('Nobody owns this tile!')
+  		return 'neutral';
   	}
   }
 
@@ -111,6 +114,19 @@ class App extends Component {
   componentDidUpdate() {
   	let self = this;
   	console.log('Finished rendering...')
+  }
+
+  loadNewOwner(country) {
+  	let self = this;
+  	console.log('self.state.newOwner:', self.state.newOwner)
+  	self.state.newOwner ? self.setState({newOwner: false}) : self.setState({newOwner: country});
+  }
+
+  assignNewOwner(tile) {
+  	let self = this;
+  	let oldOwner = self.findOwnership(tile);
+  	let newOwner = self.state.newOwner;
+  	self.transferOwnership(tile, oldOwner, newOwner);
   }
 
   render() {
@@ -143,25 +159,44 @@ class App extends Component {
     	}}>
       	<h1>Diplomacy 1900 Map</h1>
       	<form>Enter move orders: <input name="CommentText" />
-      	<button>Submit</button>
+      	<button>Submit</button>{`Currently selected: ${self.state.newOwner}`}
       	</form>
       	<br />
 
       	<span>
-      		<img src="http://imgur.com/DbVHtZT.png" />
+      		<img src="http://imgur.com/DbVHtZT.png" 
+      			onClick={() => self.loadNewOwner('england')}
+      		/>
       		__
-      		<img src="http://imgur.com/3W5OZye.png" />
+      		<img src="http://imgur.com/3W5OZye.png" 
+      			onClick={() => self.loadNewOwner('germany')}
+      		/>
       		__
-      		<img src="http://imgur.com/MUnHPm1.png" />
+      		<img src="http://imgur.com/MUnHPm1.png" 
+      			onClick={() => self.loadNewOwner('england')}
+      		/>
       		__
-      		<img src="http://imgur.com/g5j3CXa.png" />
+      		<img src="http://imgur.com/g5j3CXa.png" 
+      			onClick={() => self.loadNewOwner('england')}
+      		/>
       		__
-      		<img src="http://imgur.com/bYFvBtv.png" />
+      		<img src="http://imgur.com/bYFvBtv.png" 
+      			onClick={() => self.loadNewOwner('england')}
+      		/>
       		__
-      		<img src="http://imgur.com/fotK6eO.png" />
+      		<img src="http://imgur.com/fotK6eO.png" 
+      			onClick={() => self.loadNewOwner('england')}
+      		/>
       		__
-      		<img src="http://imgur.com/yxoLqJ7.png" />
-      		</span>
+      		<img src="http://imgur.com/yxoLqJ7.png" 
+      			onClick={() => self.loadNewOwner('england')}
+      		/>
+      		__
+      		<img src="http://www.paulnoll.com/Locations/visiting-Neutral-Zone-flag.gif" style={{height: 60, width: 100}}
+      			onClick={() => self.loadNewOwner('neutral')}
+      		/>
+      	</span>
+
 
         {/* Europe Map Background*/}
       	<img 
@@ -176,14 +211,19 @@ class App extends Component {
     			}}
       	/>
 
+      	<svg
+      		style={{
+		        position: 'absolute', 
+		        left: '100px',
+		        top:'2000px',
+		        fill: 'black'
+		      }}
+		      onClick={() => console.log('SVG in App.js clicked!')}
+      	>
+      		<path d="M 200 100 l 0 -50 l -50 0 l 0 -50 l -50 0 l 0 50 l -50 0 l 0 50 z" />
+      	</svg>
 
-
-      	<OceanTiles
-      		occupiedOcean={self.state.occupiedOcean}
-      		latestChange={self.state.latestChange}
-      	/>
-
-      	<LandTiles
+      	<EuropeMap
 	      	england={self.state.england}
 	      	germany={self.state.germany}
 	      	france={self.state.france}
@@ -191,28 +231,19 @@ class App extends Component {
 	      	austria={self.state.austria}
 	      	russia={self.state.russia}
 	      	ottomans={self.state.ottomans}
+      		occupiedOcean={self.state.occupiedOcean}
 	      	latestChange={self.state.latestChange}
       	/>
 
-
 		{/* City Overlay */}
-				<img src="http://imgur.com/QvxmqYi.png"
-					useMap="#combinedMap"
-	    		style={{position: 'absolute', 
-		    	  left: '100px', 
-		    	  top: '200px', 
-      			height: '1290px',
-      			width: '2022px',
-		    	  // height: '968px',
-		    	  // width: '1517px',
-		    	}}
-	    	/>
 
+
+{/*
 	    	<CombinedMap 
 	    		toggleOccupiedOcean={self.toggleOccupiedOcean.bind(self)}
 	    		cycleOwnership={self.cycleOwnership.bind(self)}
 	    	/>
-
+*/}
       </div>
     );
   }
