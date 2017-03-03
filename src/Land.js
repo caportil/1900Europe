@@ -58,21 +58,21 @@ class Land extends Component {
 	toggleHue() {
 		let self = this;
 		if (currentOwner === 'england') {
-			return 80;
+			return '#ff9999';
 		} else if (currentOwner === 'germany') {
-			return 190;
+			return '#4d4d4d';
 		} else if (currentOwner === 'france') {
-				return 10;
+				return '#3366ff';
 		} else if (currentOwner === 'italy') {
-				return 300;
+				return '#006600';
 		} else if (currentOwner === 'austria') {
-				return 120;
+				return '#b30000';
 		} else if (currentOwner === 'russia') {
-				return 340;
+				return 'white';
 		} else if (currentOwner === 'ottomans') {
-				return 220;
+				return '#ffd11a';
 		} else {
-			return 40;
+			return '#ffcc80';
 		}
 	}
 
@@ -86,7 +86,7 @@ class Land extends Component {
         position: 'absolute', 
         left: '100px',
         top:'200px',
-        fill: `red`,
+        fill: `${self.toggleHue()}`,
       }}>
       <path d={self.props.path}/>
     </svg>
