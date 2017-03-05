@@ -119,7 +119,7 @@ class App extends Component {
   loadNewOwner(country) {
   	let self = this;
   	console.log('self.state.newOwner:', self.state.newOwner)
-  	self.state.newOwner ? self.setState({newOwner: false}) : self.setState({newOwner: country});
+  	self.state.newOwner === 'neutral' ? self.setState({newOwner: false}) : self.setState({newOwner: country});
   }
 
   assignNewOwner(tile) {
