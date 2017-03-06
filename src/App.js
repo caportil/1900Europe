@@ -26,20 +26,6 @@ class App extends Component {
 		}
 	}
 
-
-  toggleOccupiedOcean(tile) {
-    let self = this;
-    let index = self.state.occupiedOcean.indexOf(tile);
-    let newOccupied = self.state.occupiedOcean; 
-    if (index > -1) {
-      newOccupied = newOccupied.slice(0, index).concat(newOccupied.slice(index + 1));
-    } else {
-      newOccupied.push(tile);
-    }
-    // console.log('occupiedOcean is:', self.state.occupiedOcean)
-    self.setState({occupiedOcean: newOccupied, latestChange: tile})
-  }
-
   transferOwnership(tile, fromm, to) {
   	let self = this;
   	// console.log('self.state is:', self.state, 'and self.state[from] is:', self.state[from])
@@ -98,13 +84,11 @@ class App extends Component {
   cycleOwnership(tile) {
   	let self = this;
   	let owner = self.findOwnership(tile);
-  	// console.log('cycleOwnership invoked and owner is currently:', owner);
   	owner === 'england' ? self.transferOwnership(tile, 'england', 'germany') : self.transferOwnership(tile, 'germany', 'england')
   }
 
   componentWillMount() {
   	console.log('Running componentWillMount');
-  	// imageMapResize();
   }
 
   componentDidMount() {
@@ -131,25 +115,6 @@ class App extends Component {
 
   render() {
 	let self = this;
-	// let circle = paper.circle(100, 100, 100);
-	// let tetronimo = paper.path("M 250 250 l 0 -50 l -50 0 l 0 -50 l -50 0 l 0 50 l -50 0 l 0 50 z");
-	// // tetronimo.attr({fill: '#8cf', stroke: '#ddd', 'stroke-width': 5});
-	// tetronimo.attr(
-	//     {
-	//         stroke: '#3b4449',
-	//         'stroke-width': 10,
-	//         'stroke-linejoin': 'round',
-	//         fill: 'blue'
-	//     }
-	// );
-	// tetronimo.click(() => tetronimo.attr({fill: 'red'}));
-	// tetronimo.mouseover(() => console.log('Hovered!'));
-	// tetronimo.mouseout(() => console.log('Unhovered!'));
-	// tetronimo.click(() => tetronimo.attr({fill: 'red'}));
-
-	const stylesheet = {
-	}
-
 	console.log('Rendering in App.js... Countries currently are:', self.state, 'and self.state.altSprite is:', self.state.altSprite)
     return (
 
@@ -227,18 +192,10 @@ class App extends Component {
 
 		{/* City Overlay */}
 
-
-
 	    	<map name="overlayMap" id="olMap">
     	    <area alt="" title="" href="#" shape="poly" coords="4,4,14,58,73,57,71,20,77,3" onClick={() => console.log('Bzz')}/>
 	    	</map>
 
-{/*
-	    	<CombinedMap 
-	    		toggleOccupiedOcean={self.toggleOccupiedOcean.bind(self)}
-	    		cycleOwnership={self.cycleOwnership.bind(self)}
-	    	/>
-*/}
       </div>
     );
   }
