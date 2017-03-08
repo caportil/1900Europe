@@ -8,11 +8,11 @@ class Ocean extends Component {
 		}
 	}
 
-	shouldComponentUpdate(nextProps) {
-		let self = this;
-		// console.log('running shouldComponentUpdate... self.props.class is:', self.props.class, 'and nextProps is:', nextProps)
-		return self.props.class === nextProps.latestChange;
-	}
+	// shouldComponentUpdate(nextProps) {
+	// 	let self = this;
+	// 	// console.log('running shouldComponentUpdate... self.props.class is:', self.props.class, 'and nextProps is:', nextProps)
+	// 	return self.props.class === nextProps.latestChange;
+	// }
 
 	toggleHue() {
 		let self = this;
