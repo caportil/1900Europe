@@ -18,9 +18,7 @@ class App extends Component {
 			austria: ['Vienna', 'Budapest', 'Bohemia', 'Galicia', 'Trieste', 'Tyrolia'],
 			russia: ['Moscow', 'Finland', 'Livonia', 'Ukraine', 'Warsaw', 'StPetersburg', 'Sevastopol'],
 			ottomans: ['Constantinople', 'Syria', 'Smyrna', 'Armenia', 'Ankara'],
-			neutral: [],
-			hue: 240,
-			englandHue: 200,
+			neutral: ['Iceland', 'Ireland', 'Spain', 'Portugal', 'North Africa', 'Tunisia', 'Norway', 'Sweden', 'Holland', 'Denmark', 'Albania', 'Serbia', 'Greece', 'Bulgaria', 'Romania'],
 			latestChange: '',
 			newOwner: false,
 		}
