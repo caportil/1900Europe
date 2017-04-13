@@ -18,7 +18,6 @@ class Land extends Component {
 	componentWillUpdate(nextProps) {
 		let self = this;
 		self.determineOwner(nextProps);
-		// console.log('After running componentWillUpdate, currentOwner is:', currentOwner)
 	}
 
 	determineOwner(nextProps) {

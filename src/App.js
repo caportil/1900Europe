@@ -38,7 +38,6 @@ class App extends Component {
   	newStateObject[fromm] = fromCountry;
   	newStateObject[to] = toCountry;
   	newStateObject['latestChange'] = tile;
-  	// console.log('after running transferOwnership, newStateObject is:', newStateObject)
   	self.setState(newStateObject);
   }
 
@@ -56,7 +55,6 @@ class App extends Component {
 
   findOwnership(tile) {
   	let self = this;
-  	// console.log('running findOwnership with tile', tile, '...')
   	if (self.state.england.indexOf(tile) > -1) {
   		console.log('england found!')
   		return 'england';
