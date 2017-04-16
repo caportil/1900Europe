@@ -19,6 +19,12 @@ class App extends Component {
 			russia: ['Moscow', 'Finland', 'Livonia', 'Ukraine', 'Warsaw', 'StPetersburg', 'Sevastopol'],
 			ottomans: ['Constantinople', 'Syria', 'Smyrna', 'Armenia', 'Ankara'],
 			neutral: ['Iceland', 'Ireland', 'Spain', 'Portugal', 'North Africa', 'Tunisia', 'Norway', 'Sweden', 'Holland', 'Denmark', 'Albania', 'Serbia', 'Greece', 'Bulgaria', 'Romania'],
+			units: {
+				england: {
+					infantry: ['Liverpool'],
+					navy: ['Edinburgh', 'London']
+				}
+			},
 			latestChange: '',
 			newOwner: false,
 		}
