@@ -1,4 +1,9 @@
-
+import React, { Component } from 'react';
+import Ocean from './Ocean.js';
+import OceanTiles from './OceanTiles.js';
+import LandTiles from './LandTiles.js';
+import EuropeMap from './EuropeMap.js';
+import Territories from './Territories.js';
 
 class Home extends Component {
   constructor(props) {

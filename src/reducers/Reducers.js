@@ -1,10 +1,13 @@
 import { combineReducers } from 'redux';
-import startingTerritories from './Territories.js';
-import startingUnits from './Units.js';
+import startingTerritories from './../components/Territories.js';
+import startingUnits from './../components/Units.js';
 
 const territoriesReducer = (state = startingTerritories, action) => {
   if (action.type === 'ADD_LIST') {
     state = state.concat([action.payload])
+  }
+  if (action.type === 'CHANGE_OWNER') {
+
   }
   return state;
 };
