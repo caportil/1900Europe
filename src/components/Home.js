@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { connect, Provider } from 'react-redux';
 import Ocean from './Ocean.js';
 import OceanTiles from './OceanTiles.js';
 import LandTiles from './LandTiles.js';
@@ -143,7 +144,7 @@ class Home extends Component {
 
   render() {
   let self = this;
-  console.log('Rendering in App.js... Countries currently are:', self.state, 'and self.state.altSprite is:', self.state.altSprite)
+  console.log('Rendering in App.js... Countries currently are:', self.state, 'and self.state.altSprite is:', self.state.altSprite, 'and props is currently', this.props);
     return (
 
       <div onSubmit={(event) => {
@@ -229,4 +230,8 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default connect(store => {
+  return {
+    territories: store.territories
+  }
+})(Home);
