@@ -94,11 +94,6 @@ class Home extends Component {
     }
   }
 
-  // cycleOwnership(tile) {
-  //   let self = this;
-  //   let owner = self.findOwnership(tile);
-  //   owner === 'england' ? self.transferOwnership(tile, 'england', 'germany') : self.transferOwnership(tile, 'germany', 'england')
-  // }
 
   componentWillMount() {
     console.log('Running componentWillMount');
