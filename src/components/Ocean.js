@@ -15,7 +15,7 @@ class Ocean extends Component {
 
 	render() {
 		let self = this;
-		console.log('Running a render in ' + self.props.class + '...' + 'occupiedOcean tiles are currently: ' + self.props.occupiedOcean)
+		// console.log('Running a render in ' + self.props.class + '...' + 'occupiedOcean tiles are currently: ' + self.props.occupiedOcean)
 		return (
 			<path 
 				d={self.props.path}

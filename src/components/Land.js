@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import TerritoriesActions from './../actions/TerritoriesActions.js';
 
 let currentOwner = 'none';
 
@@ -22,25 +24,26 @@ class Land extends Component {
 
 	determineOwner(nextProps) {
 		let self = this;
-		if (nextProps.england.indexOf(self.props.class) > -1) {
+		// console.log('Running determineOwner... nextProps:', nextProps);
+		if (nextProps.territories.england.indexOf(self.props.class) > -1) {
 			// console.log('currentOwner will now be:', 'england')
 			currentOwner = 'england'
-		} else if (nextProps.germany.indexOf(self.props.class) > -1) {
+		} else if (nextProps.territories.germany.indexOf(self.props.class) > -1) {
 			// console.log('currentOwner will now be:', 'germany')
 			currentOwner = 'germany'
-		} else if (nextProps.france.indexOf(self.props.class) > -1) {
+		} else if (nextProps.territories.france.indexOf(self.props.class) > -1) {
 			// console.log('currentOwner will now be:', 'france')
 			currentOwner = 'france'
-		} else if (nextProps.italy.indexOf(self.props.class) > -1) {
+		} else if (nextProps.territories.italy.indexOf(self.props.class) > -1) {
 			// console.log('currentOwner will now be:', 'italy')
 			currentOwner = 'italy'
-		} else if (nextProps.austria.indexOf(self.props.class) > -1) {
+		} else if (nextProps.territories.austria.indexOf(self.props.class) > -1) {
 			// console.log('currentOwner will now be:', 'austria')
 			currentOwner = 'austria'
-		} else if (nextProps.russia.indexOf(self.props.class) > -1) {
+		} else if (nextProps.territories.russia.indexOf(self.props.class) > -1) {
 			// console.log('currentOwner will now be:', 'russia')
 			currentOwner = 'russia'
-		} else if (nextProps.ottomans.indexOf(self.props.class) > -1) {
+		} else if (nextProps.territories.ottomans.indexOf(self.props.class) > -1) {
 			// console.log('currentOwner will now be:', 'ottomans')
 			currentOwner = 'ottomans'
 		} else {
@@ -72,14 +75,18 @@ class Land extends Component {
 
 	render() {
 		let self = this;
-		console.log('Land running render in ' + self.props.class + '... current change is: ' + self.props.latestChange)
+		let territories = self.props.territories;
+		// console.log('Land running render in ' + self.props.class + '... current change is: ' + self.props.latestChange, 'and store.territories is:', territories);
 		return (
 	    <path 
 	    	d={self.props.path}
 	    	style={{fill: `${self.toggleHue()}`}}
 	    	onClick={() => {
-	    		if (self.props.newOwner) {
-	    			self.props.assignNewOwner(self.props.class)
+	    		console.log('Onclick in Land.js, territories.newOwner is:', territories.newOwner);
+	    		if (territories.newOwner) {
+	    			// self.props.assignNewOwner(self.props.class)
+	    			console.log('Inside Land.js... territories.newOwner is:', territories.newOwner);
+	    			self.props.dispatch(TerritoriesActions.transferOwnership(self.props.class));
 	    		} else {
 	    			console.log(`Clicked on ${self.props.class}!`)
 	    		}
@@ -89,4 +96,8 @@ class Land extends Component {
 	}
 }
 
-export default Land;
+export default connect(store => {
+	return {
+		territories: store.territories
+	}
+})(Land);

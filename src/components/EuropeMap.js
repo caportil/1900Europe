@@ -37,6 +37,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -53,6 +54,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -69,6 +71,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -85,6 +88,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -103,6 +107,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -121,6 +126,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -139,6 +145,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -157,6 +164,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -175,6 +183,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -193,6 +202,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -211,6 +221,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -230,6 +241,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -249,6 +261,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -268,6 +281,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -286,6 +300,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -304,6 +319,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -323,6 +339,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -341,6 +358,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -360,6 +378,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -379,6 +398,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -398,6 +418,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -418,6 +439,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -436,6 +458,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -454,6 +477,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -472,6 +496,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -491,6 +516,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -509,6 +535,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -527,6 +554,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -545,6 +573,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -563,6 +592,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -581,6 +611,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -599,6 +630,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -617,6 +649,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -635,6 +668,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -653,6 +687,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -671,6 +706,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -689,6 +725,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -707,6 +744,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -725,6 +763,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -743,6 +782,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -761,6 +801,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -779,6 +820,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -797,6 +839,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -815,6 +858,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -833,6 +877,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -849,6 +894,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -867,6 +913,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -885,6 +932,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -903,6 +951,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -921,6 +970,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -939,6 +989,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -957,6 +1008,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -975,6 +1027,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -993,6 +1046,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -1011,6 +1065,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -1029,6 +1084,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -1047,6 +1103,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}
@@ -1065,6 +1122,7 @@ class LandTiles extends Component {
         austria={self.props.austria}
         russia={self.props.russia}
         ottomans={self.props.ottomans}
+        territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
         latestChange={self.props.latestChange}

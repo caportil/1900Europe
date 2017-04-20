@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { connect, Provider } from 'react-redux';
+import { connect } from 'react-redux';
 import Ocean from './Ocean.js';
 import OceanTiles from './OceanTiles.js';
 import LandTiles from './LandTiles.js';
 import EuropeMap from './EuropeMap.js';
 import Territories from './Territories.js';
+import TerritoriesActions from './../actions/TerritoriesActions.js';
 
 class Home extends Component {
   constructor(props) {
@@ -56,22 +57,6 @@ class Home extends Component {
     }
   }
 
-  transferOwnership(tile, fromm, to) {
-    let self = this;
-    // console.log('self.state is:', self.state, 'and self.state[from] is:', self.state[from])
-    let fromCountry = self.state[fromm];
-    let toCountry = self.state[to];
-    // console.log('transferOwnership invoked! fromCountry is:', fromCountry)
-    let fromIndex = fromCountry.indexOf(tile);
-    let toIndex = toCountry.indexOf(tile);
-    let newStateObject = {};
-    fromCountry = fromCountry.slice(0, fromIndex).concat(fromCountry.slice(fromIndex + 1));
-    toCountry.push(tile);
-    newStateObject[fromm] = fromCountry;
-    newStateObject[to] = toCountry;
-    newStateObject['latestChange'] = tile;
-    self.setState(newStateObject);
-  }
 
   toggleOccupiedLand(tile) {
     let self = this;
@@ -109,11 +94,11 @@ class Home extends Component {
     }
   }
 
-  cycleOwnership(tile) {
-    let self = this;
-    let owner = self.findOwnership(tile);
-    owner === 'england' ? self.transferOwnership(tile, 'england', 'germany') : self.transferOwnership(tile, 'germany', 'england')
-  }
+  // cycleOwnership(tile) {
+  //   let self = this;
+  //   let owner = self.findOwnership(tile);
+  //   owner === 'england' ? self.transferOwnership(tile, 'england', 'germany') : self.transferOwnership(tile, 'germany', 'england')
+  // }
 
   componentWillMount() {
     console.log('Running componentWillMount');
@@ -144,7 +129,7 @@ class Home extends Component {
 
   render() {
   let self = this;
-  console.log('Rendering in App.js... Countries currently are:', self.state, 'and self.state.altSprite is:', self.state.altSprite, 'and props is currently', this.props);
+  console.log('Rendering in App.js... Countries currently are:', self.state, 'and self.state.altSprite is:', self.state.altSprite, 'and this.props.territories is currently', this.props.territories);
     return (
 
       <div onSubmit={(event) => {
@@ -159,35 +144,35 @@ class Home extends Component {
 
         <span>
           <img src="http://imgur.com/DbVHtZT.png" 
-            onClick={() => self.loadNewOwner('england')}
+            onClick={() => self.props.dispatch(TerritoriesActions.loadNewOwner('england'))}
           />
           __
           <img src="http://imgur.com/3W5OZye.png" 
-            onClick={() => self.loadNewOwner('germany')}
+            onClick={() => self.props.dispatch(TerritoriesActions.loadNewOwner('germany'))}
           />
           __
           <img src="http://imgur.com/MUnHPm1.png" 
-            onClick={() => self.loadNewOwner('france')}
+            onClick={() => self.props.dispatch(TerritoriesActions.loadNewOwner('france'))}
           />
           __
           <img src="http://imgur.com/g5j3CXa.png" 
-            onClick={() => self.loadNewOwner('italy')}
+            onClick={() => self.props.dispatch(TerritoriesActions.loadNewOwner('italy'))}
           />
           __
           <img src="http://imgur.com/bYFvBtv.png" 
-            onClick={() => self.loadNewOwner('austria')}
+            onClick={() => self.props.dispatch(TerritoriesActions.loadNewOwner('austria'))}
           />
           __
           <img src="http://imgur.com/fotK6eO.png" 
-            onClick={() => self.loadNewOwner('russia')}
+            onClick={() => self.props.dispatch(TerritoriesActions.loadNewOwner('russia'))}
           />
           __
           <img src="http://imgur.com/yxoLqJ7.png" 
-            onClick={() => self.loadNewOwner('ottomans')}
+            onClick={() => self.props.dispatch(TerritoriesActions.loadNewOwner('ottomans'))}
           />
           __
           <img src="http://www.paulnoll.com/Locations/visiting-Neutral-Zone-flag.gif" style={{height: 60, width: 100}}
-            onClick={() => self.loadNewOwner('neutral')}
+            onClick={() => self.props.dispatch(TerritoriesActions.loadNewOwner('neutral'))}
           />
         </span>
 
@@ -213,6 +198,9 @@ class Home extends Component {
           austria={self.state.austria}
           russia={self.state.russia}
           ottomans={self.state.ottomans}
+
+          territories={self.props.territories}
+
           occupiedOcean={self.state.occupiedOcean}
           latestChange={self.state.latestChange}
           newOwner={self.state.newOwner}

@@ -7,6 +7,8 @@ const startingTerritories = {
   russia: ['Moscow', 'Finland', 'Livonia', 'Ukraine', 'Warsaw', 'StPetersburg', 'Sevastopol'],
   ottomans: ['Constantinople', 'Syria', 'Smyrna', 'Armenia', 'Ankara'],
   neutral: ['Iceland', 'Ireland', 'Spain', 'Portugal', 'North Africa', 'Tunisia', 'Norway', 'Sweden', 'Holland', 'Denmark', 'Albania', 'Serbia', 'Greece', 'Bulgaria', 'Romania'],
+  newOwner: false,
+  latestChange: '',
 };
 
 export default startingTerritories;
