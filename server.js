@@ -16,10 +16,10 @@ app.get('*', function(req, res) {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-app.listen(8000, function(err) {
+app.listen(8080, function(err) {
   if (err) {
     return console.error(err);
   }
 
-  console.log('Listening at http://localhost:8000/');
+  console.log('Listening at http://localhost:8080/');
 })
