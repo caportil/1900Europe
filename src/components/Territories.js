@@ -1,4 +1,4 @@
-const startingTerritories = {
+export default {
   england: ['London', 'Wales', 'York', 'Liverpool', 'Edinburgh', 'Clyde'],
   germany: ['Berlin', 'Kiel', 'Ruhr', 'Silesia', 'Munich', 'Prussia'],
   france: ['Paris', 'Brest', 'Burgundy', 'Picardy', 'Marseilles', 'Gascony'],
@@ -10,5 +10,3 @@ const startingTerritories = {
   newOwner: false,
   latestChange: '',
 };
-
-export default startingTerritories;
