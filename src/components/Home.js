@@ -14,46 +14,6 @@ class Home extends Component {
     this.state = {
       occupiedOcean: [],
       occupiedLand: [],
-      england: ['London', 'Wales', 'York', 'Liverpool', 'Edinburgh', 'Clyde'],
-      germany: ['Berlin', 'Kiel', 'Ruhr', 'Silesia', 'Munich', 'Prussia'],
-      france: ['Paris', 'Brest', 'Burgundy', 'Picardy', 'Marseilles', 'Gascony'],
-      italy: ['Rome', 'Venice', 'Tuscany', 'Piemonte', 'Naples', 'Apulia'],
-      austria: ['Vienna', 'Budapest', 'Bohemia', 'Galicia', 'Trieste', 'Tyrolia'],
-      russia: ['Moscow', 'Finland', 'Livonia', 'Ukraine', 'Warsaw', 'StPetersburg', 'Sevastopol'],
-      ottomans: ['Constantinople', 'Syria', 'Smyrna', 'Armenia', 'Ankara'],
-      neutral: ['Iceland', 'Ireland', 'Spain', 'Portugal', 'North Africa', 'Tunisia', 'Norway', 'Sweden', 'Holland', 'Denmark', 'Albania', 'Serbia', 'Greece', 'Bulgaria', 'Romania'],
-      units: {
-        england: {
-          infantry: ['Liverpool'],
-          navy: ['Edinburgh', 'London']
-        },
-        germany: {
-          infantry: ['Berlin', 'Munich'],
-          navy: ['Kiel']
-        },
-        france: {
-          infantry: ['Paris', 'Marseilles'],
-          navy: ['Brest']
-        },
-        italy: {
-          infantry: ['Venice', 'Rome'],
-          navy: ['Naples']
-        },
-        austria: {
-          infantry: ['Vienna', 'Budapest'],
-          navy: ['Trieste']
-        },
-        russia: {
-          infantry: ['Moscow', 'Warsaw'],
-          navy: ['StPetersburg']
-        },
-        ottomans: {
-          infantry: ['Constantinople', 'Smyrna'],
-          navy: ['Ankara']
-        },
-      },
-      latestChange: '',
-      newOwner: false,
     }
   }
 
@@ -186,16 +146,7 @@ class Home extends Component {
         />
 
         <EuropeMap
-          england={self.state.england}
-          germany={self.state.germany}
-          france={self.state.france}
-          italy={self.state.italy}
-          austria={self.state.austria}
-          russia={self.state.russia}
-          ottomans={self.state.ottomans}
-
           territories={self.props.territories}
-
           occupiedOcean={self.state.occupiedOcean}
           latestChange={self.state.latestChange}
           newOwner={self.state.newOwner}

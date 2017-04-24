@@ -30,13 +30,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/UD2uk7t"
         class="Albania"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -47,13 +40,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/PhYYycc"
         class="Ankara"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -64,13 +50,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/82Jx00C"
         class="Apulia"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -81,13 +60,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/O6QSZSp"
         class="Armenia"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -100,13 +72,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/N4tVFt7"
         class="Belgium"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -119,13 +84,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/3fVNa5x"
         class="Berlin"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -138,13 +96,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/Z21VnQv"
         class="Bohemia"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -157,13 +108,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/stQHfGR"
         class="Brest"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -176,13 +120,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/yKHFBz3"
         class="Budapest"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -195,13 +132,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/uiWBbB1"
         class="Bulgaria"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -214,13 +144,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/2v3Gxan"
         class="Burgundy"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -234,13 +157,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/xDXflF0"
         class="Clyde"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -254,13 +170,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/Sp7FvbL"
         class="Constantinople"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -274,13 +183,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/jQ9CPbS"
         class="Denmark"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -293,13 +195,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/QI38Xvv"
         class="Edinburgh"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -312,13 +207,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/Olq31Ea"
         class="Finland"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -332,13 +220,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/YwGIydO"
         class="Galicia"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -351,13 +232,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/eWcglBh"
         class="Gascony"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -371,13 +245,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/shoFfVl"
         class="Greece"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -391,13 +258,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/drUHzO0"
         class="Holland"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -411,13 +271,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/mixad5l"
         class="Iceland"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -432,13 +285,6 @@ class LandTiles extends Component {
         src="http://imgur.com/X1GD7xn"
         src2="http://imgur.com/8T9Xetf"
         class="Ireland"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -451,13 +297,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/dPGH421"
         class="Kiel"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -470,13 +309,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/mfWVmK7"
         class="Liverpool"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -489,13 +321,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/2o3JRdK"
         class="Livonia"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -509,13 +334,6 @@ class LandTiles extends Component {
         src="http://imgur.com/MxgSNJJ"
         src2=""
         class="London"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -528,13 +346,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/zBKWCiB"
         class="Marseilles"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -547,13 +358,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/QCVzYjn"
         class="Moscow"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -566,13 +370,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/y4kAnDj"
         class="Munich"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -585,13 +382,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/X0tHOAH"
         class="Naples"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -604,13 +394,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/eGEXqYD"
         class="NorthAfrica"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -623,13 +406,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/bXcSIjR"
         class="Norway"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -642,13 +418,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/9Zy7fez"
         class="Paris"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -661,13 +430,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/pgwLtCE"
         class="Picardy"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -680,13 +442,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/7SY9rqt"
         class="Piemonte"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -699,13 +454,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/nBngNdr"
         class="Portugal"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -718,13 +466,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/anq2Uht"
         class="Prussia"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -737,13 +478,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/VN5YFgk"
         class="Romania"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -756,13 +490,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/K8gkoAp"
         class="Rome"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -775,13 +502,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/JgyYUZZ"
         class="Ruhr"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -794,13 +514,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/FSzuJ4g"
         class="Serbia"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -813,13 +526,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/McgL8CK"
         class="Silesia"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -832,13 +538,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/Nl9M0xU"
         class="Smyrna"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -851,13 +550,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/BzXmdpw"
         class="Spain"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -870,13 +562,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/lXrhaez"
         class="Sevastopol"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -887,13 +572,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/dcBQ6tk"
         class="StPetersburg"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -906,13 +584,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/6JajKTB"
         class="Sweden"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -925,13 +596,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/4RQ8B1z"
         class="Syria"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -944,13 +608,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/q6i9yXJ"
         class="Trieste"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -963,13 +620,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/Shmmiv8"
         class="Tunisia"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -982,13 +632,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/mBRxIBj"
         class="Tuscany"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -1001,13 +644,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/RJVzxFu"
         class="Tyrolia"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -1020,13 +656,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/ElSapqD"
         class="Ukraine"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -1039,13 +668,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/xQP0ch3"
         class="Venice"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -1058,13 +680,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/C5GKfXY"
         class="Vienna"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -1077,13 +692,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/4Xwt3bH"
         class="Wales"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -1096,13 +704,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/r81lB9Y"
         class="Warsaw"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
@@ -1115,13 +716,6 @@ class LandTiles extends Component {
       <Land
         src="http://imgur.com/7scBlPF"
         class="York"
-        england={self.props.england}
-        germany={self.props.germany}
-        france={self.props.france}
-        italy={self.props.italy}
-        austria={self.props.austria}
-        russia={self.props.russia}
-        ottomans={self.props.ottomans}
         territories={self.props.territories}
         newOwner={self.props.newOwner}
         assignNewOwner={self.props.assignNewOwner}
