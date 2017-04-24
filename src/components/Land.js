@@ -74,21 +74,16 @@ class Land extends Component {
 	}
 
 	render() {
-		let self = this;
-		let territories = self.props.territories;
-		// console.log('Land running render in ' + self.props.class + '... current change is: ' + self.props.latestChange, 'and store.territories is:', territories);
+		let territories = this.props.territories;
 		return (
 	    <path 
-	    	d={self.props.path}
-	    	style={{fill: `${self.toggleHue()}`}}
+	    	d={this.props.path}
+	    	style={{fill: `${this.toggleHue()}`}}
 	    	onClick={() => {
-	    		console.log('Onclick in Land.js, territories.newOwner is:', territories.newOwner);
 	    		if (territories.newOwner) {
-	    			// self.props.assignNewOwner(self.props.class)
-	    			console.log('Inside Land.js... territories.newOwner is:', territories.newOwner);
-	    			self.props.dispatch(TerritoriesActions.transferOwnership(self.props.class));
+	    			this.props.dispatch(TerritoriesActions.transferOwnership(this.props.class));
 	    		} else {
-	    			console.log(`Clicked on ${self.props.class}!`)
+	    			console.log(`Clicked on ${this.props.class}!`)
 	    		}
 	    	}}
 	    />

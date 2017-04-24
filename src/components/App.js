@@ -12,19 +12,6 @@ class App extends Component {
 		}
 	}
 
-  // componentWillMount() {
-  // 	console.log('Running componentWillMount');
-  // }
-
-  // componentDidMount() {
-  // 	console.log('Finished mounting')
-  // }
-
-  // componentDidUpdate() {
-  // 	let self = this;
-  // 	console.log('Finished rendering...')
-  // }
-
   render() {
     return (
       <Provider store={store}>
