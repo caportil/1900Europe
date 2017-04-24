@@ -1,4 +1,4 @@
-const startingUnits = {
+export default {
   england: {
     infantry: ['Liverpool'],
     navy: ['Edinburgh', 'London']
@@ -28,5 +28,3 @@ const startingUnits = {
     navy: ['Ankara']
   },
 };
-
-export default startingUnits;
