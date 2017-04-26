@@ -19,7 +19,7 @@ class Ocean extends Component {
 			<path 
 				d={self.props.path}
 				// style={{fill: self.toggleHighlight()}}
-				style={{fill: `#80ccff`}}
+				style={{fill: `#b3e0ff`}}
 				onClick={() => console.log(`Clicked on ${self.props.class}!`)}
 			/>
 		)
